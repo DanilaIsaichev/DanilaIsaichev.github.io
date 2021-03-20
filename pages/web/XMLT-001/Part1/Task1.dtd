@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT таблица (студент)+>
+<!ELEMENT студент (отметка)+>
+<!ELEMENT отметка (#PCDATA)>
+<!ATTLIST студент имя CDATA #REQUIRED>
+<!ATTLIST отметка дисциплина (Мультимедиа|Веб-дизайн|Графика|Логика) #REQUIRED>
