@@ -5,16 +5,15 @@
   <body>
     <?php if ($_SERVER['REQUEST_METHOD'] === "GET"){ ?>
     <form action="index.php" method="POST" >
-        Name <input id="name" name="name" value="Anonimous" />
-        <br>
-        E-mail: <input id="email" name="email" />
-        <br>
-        Password <input id="pass" name="pass" type="password" />
-        <br> 
-        <!-- Retype password <input id="pass_check" name="pass_check" type="password" />
-        <br> -->
-        <input type="submit">
-
+      Name <input id="name" name="name" value="Anonimous" />
+      <br>
+      E-mail: <input id="email" name="email" />
+      <br>
+      Password <input id="pass" name="pass" type="password" />
+      <br> 
+      <!-- Retype password <input id="pass_check" name="pass_check" type="password" />
+      <br> -->
+      <input type="submit">
     </form>
     <?php
     }
@@ -38,6 +37,6 @@
         echo '<p>' . "Поля не были заполнены", $pass . '</p>';
       }
     }
-?> 
+    ?> 
   </body>
 </html>
