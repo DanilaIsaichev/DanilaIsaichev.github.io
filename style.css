@@ -20,6 +20,10 @@ a:hover {color: rgb(80,77,107);}
   background-color: rgb(255,255,255);
 }
 
+.content img {
+  max-width: 100%;
+}
+
 .button{
     display: inline-block;
     background-color: rgb(255,255,255);
@@ -27,8 +31,6 @@ a:hover {color: rgb(80,77,107);}
     text-decoration: none;
     height: 100%
 }
-
-
 
 .menu {
     position: fixed;
