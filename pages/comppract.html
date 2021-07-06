@@ -222,7 +222,73 @@
     <div id="vsr" class="content">
       <h2>Вариативные самостоятельные работы</h2>
       <br>
-      <h3>Тема 1. Языковые средства веб-технологий на основе XML и CSS и развёртывание среды разработки компонентов аппаратно-программных комплексов</h3>
+      <h3>Тема 1. Сборка проекта с помощью бандлера Webpack</h3>
+      <ol>
+        <li>Добавление webpack и webpack-cli</li>
+        <pre><code>yarn add -D webpack webpack-cli</pre></code>
+        <li>Добавление библиотеки moment</li>
+        <pre><code>yarn add moment</pre></code>
+        <li>Сборка проекта</li>
+        <pre><code>yarn webpack . -o ./bundle.js</pre></code>
+        <img src="comppract/cp/vsr/t1/task-1.png">
+      </ol>
+      <br>
+      <h3>Тема 2. Разработка серверной компоненты приложения удалённого доступа к базам данных и экспериментальная проверка корректности её работы</h3>
+      <p>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.</p>
+      <p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p>
+
+<p>Реализованы следующие операции:</p>
+
+<p><code>GET /products</code> - получение списка продуктов</p>
+<p><code>POST /products/new</code> - добавление нового продукта</p>
+<p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p>
+<p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p>
+<p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p>
+<p>Сервер возвращает ответ - статус выполнения операции в формате JSON.</p>
+    <h4>Проверка работы</h4>
+<p>Добавление данных:</p>
+	    <pre><code>curl -X 'POST' -d 'name=NewProduct' https://task2.danilaisaichev.repl.co/products/new</pre></code>
+	    <p><Ответ сервера при добавлении данных:/p>
+	    <pre><code>{
+	"status": "success"
+}</pre></code>
+	    <p>Получение данных:</p>
+	    <pre><code>curl https://task2.danilaisaichev.repl.co/products</pre></code>
+	    <p>Ответ сервера:</p>
+	    <pre><code>[
+  {
+    "amount": {
+      "number": 32,
+      "unit": "kg"
+    },
+    "_id": "60e4268f46a5bd73485414f0",
+    "name": "Apples",
+    "type": "Fruits"
+  },
+  {
+    "amount": {
+      "number": 16.25,
+      "unit": "kg"
+    },
+    "_id": "60e42ad546a5bd73485414f1",
+    "name": "Bananas",
+    "type": "Fruits"
+  },
+  {
+    "amount": {
+      "number": 24.5,
+      "unit": "kg"
+    },
+    "_id": "60e42b1046a5bd73485414f2",
+    "name": "Strawberries",
+    "type": "Berries"
+  }
+]</pre></code>	    
+      <br>
+      <h3>Тема 1. Сборка проекта с помощью бандлера Webpack</h3>
+      <br>
+      <h3>Тема 1. Сборка проекта с помощью бандлера Webpack</h3>
+	    
     </div>
   </body>
 </html>
