@@ -121,7 +121,24 @@ git config --global user.name “username”</code></pre>
     });
 }</code></pre>
         <br>
-        <h3></h3>
+        <h3>Тема 4. Настройка линтера и иных средств мониторинга корректности программного год</h3>
+        <op>Настройка линтера eslint для Visual Studio Code:
+          <li>Установка eslint</li>
+          <pre><code>npm install -D eslint</code></pre>
+          <li>Установка плагинов eslint</li>
+          <pre><code>npm install -D eslint-config-airbnb-base eslint-plugin-import</code></pre>
+          <li>Создание конфигурационного файла .eslintrc.yml</li>
+          <pre><code>extends:
+  - 'airbnb-base'
+env:
+  node: true
+  browser: true</code></pre>
+          <li>Установка плагина ESLint</li>
+          <img src="web/webp/isr/images/task-4-1.png">
+          <p>Исправление кода с учётом рекомендаций линтера:</p>
+          <img src="web/webp/isr/images/task-4-2.png">
+          <img src="web/webp/isr/images/task-4-3.png">
+        </op>
         <hr>
     
         <h2>Вариативные самостоятельные работы</h2>
