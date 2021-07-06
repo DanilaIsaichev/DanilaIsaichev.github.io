@@ -70,14 +70,16 @@
         </ol>
         <p>Валидация документа:</p>
         <img src="web/webp/t1/images/task1.png">
-        </br>
+        <hr>
         
         <h2>Инвариантные самостоятельные работы</h2>
+        <br>
         <h3>Тема 1. Создание рабочего пространства, регистрация репозитория Git в качество портфолио, анализ, обоснование выбора и настройка выбранных для работы аппаратно-программных комплексов, современных инструментальных средств удалённого доступа и веб-технологий</h3>
         <ui>Рабочее пространство разработчика может состоять из следующих компонентов:
           <li>Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков (
             <a href="https://www.google.com/intl/ru_ru/chrome/" target="_blank">https://www.google.com/intl/ru_ru/chrome/</a>,
-            <a href="https://www.chromium.org/" target="_blank">https://www.chromium.org/</a>)</li>
+            <a href="https://www.chromium.org/" target="_blank">https://www.chromium.org/</a>
+            )</li>
           <li>Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков</li>
           <li>Node.js (LTS и Current версии)</li>
           <li>Локальный веб-сервер XAMMP или аналогичный</li>
@@ -93,7 +95,35 @@
 git config --global user.name “username”</code></pre>
         Node.js: версия выбирается с помощью nvm use или n.
         </p>
-        </br>
+        <br>
+        <h3>Тема 2. Настройка программного обеспечения для управления зависимостями в веб-проекте</h3>
+        <p>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.</p>
+        <p>Менеджер пакетов npm входит в состав Node.js.</p>
+        <p>Для установки Yarn необходимо выполнить команду:</p>
+        <pre><code>npm install yarn -g</code></pre>
+        <p>После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:</p>
+        <pre><code>yarn -v</code></pre>
+        <br>
+        <h3>Тема 3. Разработка приложения для асинхронного считывания данных из JSON и вывода в веб-документ путём нативной модификации дерева DOM</h3>
+        <p>Данные JSON получены по адресу <a href="https://kodaktor.ru/j/users" target="_blank">https://kodaktor.ru/j/users</a>.</p>
+        <p>Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.</p>
+        <p>Скриншот приложения:</p>
+        <img src="web/webp/isr/images/task-3.png">
+        <p>Код приложения (фрагмент script):</p>
+        <pre><code>document.querySelector('#btn').onclick = async () => {
+    let response = await fetch('https://kodaktor.ru/j/users');
+    data = await response.json();
+    data.users.forEach(user => {
+        let ul = document.querySelector('#users');
+        let li = document.createElement('li');
+        li.appendChild(document.createTextNode(user.login));
+        ul.appendChild(li);
+    });
+}</code></pre>
+        <br>
+        <h3></h3>
+        <hr>
+    
         <h2>Вариативные самостоятельные работы</h2>
     </div>
     
