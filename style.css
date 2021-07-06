@@ -6,7 +6,11 @@ a:active {color: rgb(66,64,89);}
 
 a:hover {color: rgb(80,77,107);}
 
-code {backgroung:#F0F0F0; margin:10px; font-size:10px;}
+code {
+  background:#F0F0F0;
+  margin:10px;
+  font-size:10px;
+}
 
 .content {
   font-family: Arial, sans-serif;
