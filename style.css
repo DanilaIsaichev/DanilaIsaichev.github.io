@@ -7,11 +7,13 @@ a:active {color: rgb(66,64,89);}
 a:hover {color: rgb(80,77,107);}
 
 code {
-  border:3px #777777 solid;
-  border-radius:5px;
-  background:#F0F0F0;
-  margin:10px;
-  font-size:10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #777777;
+  border-radius: 5px;
+  background-color: #F0F0F0;
+  margin: 10px;
+  font-size: 10px;
 }
 
 .content {
