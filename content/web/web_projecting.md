@@ -87,15 +87,15 @@ yarn -v
 Код приложения (фрагмент script):
 ```
 document.querySelector('#btn').onclick = async () => {
-      let response = await fetch('https://kodaktor.ru/j/users');
-      data = await response.json();
-      data.users.forEach(user => {
-          let ul = document.querySelector('#users');
-          let li = document.createElement('li');
-          li.appendChild(document.createTextNode(user.login));
-          ul.appendChild(li);
-      });
-  }
+    let response = await fetch('https://kodaktor.ru/j/users');
+    data = await response.json();
+    data.users.forEach(user => {
+        let ul = document.querySelector('#users');
+        let li = document.createElement('li');
+        li.appendChild(document.createTextNode(user.login));
+        ul.appendChild(li);
+    });
+}
 ```
 
 ### Тема 4. Настройка линтера и иных средств мониторинга корректности программного год
@@ -151,19 +151,19 @@ extends:
 Пример чистой функции:
 ```
 function multuply(a, b) {
-      return a * b;
-  }
+    return a * b;
+}
 ```
 Иммутабельность - невозможность изменения сущности.
 
 Пример функции:
 ```
 function slugify(str) {
-      return str.toLowerCase().trim().split(' ').join('-');
-  }
-  
-  let str = 'some url text';
-  slugify(str);
+    return str.toLowerCase().trim().split(' ').join('-');
+}
+
+let str = 'some url text';
+slugify(str);
 ```
 Приведённые в коде функции позволяют создать функцию для преобразования строки, не меняющую исходную строку.
 
