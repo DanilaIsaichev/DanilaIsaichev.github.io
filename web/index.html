@@ -15,15 +15,15 @@ git config --global user.name “username”
 </code></pre><p>Node.js: версия выбирается с помощью nvm use или n.</p><h3 id=тема-2-настройка-программного-обеспечения-для-управления-зависимостями-в-веб-проекте>Тема 2. Настройка программного обеспечения для управления зависимостями в веб-проекте</h3><p>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.</p><p>Менеджер пакетов npm входит в состав Node.js.</p><p>Для установки Yarn необходимо выполнить команду:</p><pre tabindex=0><code>npm install yarn -g
 </code></pre><p>После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:</p><pre tabindex=0><code>yarn -v
 </code></pre><h3 id=тема-3-разработка-приложения-для-асинхронного-считывания-данных-из-json-и-вывода-в-веб-документ-путём-нативной-модификации-дерева-dom>Тема 3. Разработка приложения для асинхронного считывания данных из JSON и вывода в веб-документ путём нативной модификации дерева DOM</h3><p>Данные JSON получены по адресу <a href=https://kodaktor.ru/j/users>https://kodaktor.ru/j/users</a>.</p><p>Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.</p><p>Скриншот приложения:<br><img src=/web/webp/isr/images/task-3.png alt="Скриншот приложения"></p><p>Код приложения (фрагмент script):</p><pre tabindex=0><code>document.querySelector(&#39;#btn&#39;).onclick = async () =&gt; {
-      let response = await fetch(&#39;https://kodaktor.ru/j/users&#39;);
-      data = await response.json();
-      data.users.forEach(user =&gt; {
-          let ul = document.querySelector(&#39;#users&#39;);
-          let li = document.createElement(&#39;li&#39;);
-          li.appendChild(document.createTextNode(user.login));
-          ul.appendChild(li);
-      });
-  }
+    let response = await fetch(&#39;https://kodaktor.ru/j/users&#39;);
+    data = await response.json();
+    data.users.forEach(user =&gt; {
+        let ul = document.querySelector(&#39;#users&#39;);
+        let li = document.createElement(&#39;li&#39;);
+        li.appendChild(document.createTextNode(user.login));
+        ul.appendChild(li);
+    });
+}
 </code></pre><h3 id=тема-4-настройка-линтера-и-иных-средств-мониторинга-корректности-программного-год>Тема 4. Настройка линтера и иных средств мониторинга корректности программного год</h3><p>Настройка линтера eslint для Visual Studio Code:</p><ol><li>Установка eslint</li></ol><pre tabindex=0><code>npm install -D eslint
 </code></pre><ol start=2><li>Установка плагинов <code>eslint</code></li></ol><pre tabindex=0><code>npm install -D eslint-config-airbnb-base eslint-plugin-import
 </code></pre><ol start=3><li>Создание конфигурационного файла <code>.eslintrc.yml</code></li></ol><pre tabindex=0><code>extends:
@@ -32,14 +32,14 @@ git config --global user.name “username”
     node: true
     browser: true
 </code></pre><ol start=4><li>Установка плагина ESLint<br><img src=/web/webp/isr/images/task-4-1.png alt="Установка плагина ESLint"><br>Исправление кода с учётом рекомендаций линтера:<br><img src=/web/webp/isr/images/task-4-2.png alt="Исправление кода с учётом рекомендаций линтера"><br><img src=/web/webp/isr/images/task-4-3.png alt="Исправление кода с учётом рекомендаций линтера"></li></ol><hr><h2 id=вариативные-самостоятельные-работы>Вариативные самостоятельные работы</h2><h3 id=тема-1-экспериментальная-проверка-корректности-документов-валидация-на-языках-разметки>Тема 1. Экспериментальная проверка корректности документов (валидация) на языках разметки</h3><p>Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).</p><p>Схема документа - DTD (Document Type Definition).</p><p>Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: <a href=https://validator.w3.org/>https://validator.w3.org/</a>.<br><img src=/web/webp/vsr/images/task-1.png alt="Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C"></p><h3 id=тема-2-подготовка-материалов-для-выступления-по-функциональному-программированию-на-языке-javascript>Тема 2. Подготовка материалов для выступления по функциональному программированию на языке JavaScript</h3><p>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).</p><p>Принципы функционального программирования:</p><ul><li>чистые функции;</li><li>иммутабельность;</li><li>ссылочная прозрачность;</li><li>функции как объекты первого класса;</li><li>функции высшего порядка;</li><li>рекурсия.</li></ul><p>Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.</p><p>Пример чистой функции:</p><pre tabindex=0><code>function multuply(a, b) {
-      return a * b;
-  }
+    return a * b;
+}
 </code></pre><p>Иммутабельность - невозможность изменения сущности.</p><p>Пример функции:</p><pre tabindex=0><code>function slugify(str) {
-      return str.toLowerCase().trim().split(&#39; &#39;).join(&#39;-&#39;);
-  }
-  
-  let str = &#39;some url text&#39;;
-  slugify(str);
+    return str.toLowerCase().trim().split(&#39; &#39;).join(&#39;-&#39;);
+}
+
+let str = &#39;some url text&#39;;
+slugify(str);
 </code></pre><p>Приведённые в коде функции позволяют создать функцию для преобразования строки, не меняющую исходную строку.</p><p>Если функция неизменно возвращает один и тот же результат для одних и тех же передаваемых ей входных значений, она обладает ссылочной прозрачностью.</p><p>Идея восприятия функций как объектов первого класса заключается в том, что такие функции можно рассматривать как значения и работать с ними как с данными. При этом можно выделить следующие возможности функций:</p><ul><li>cсылки на функции можно хранить в константах и переменных и через них обращаться к функциям;</li><li>функции можно передавать другим функциям в качестве параметров;</li><li>функции можно возвращать из других функций.</li></ul><p>Функции высших порядков — это такие функции, которые могут принимать в качестве аргументов и возвращать другие функции. В JavaScript стандартные методы массивов <code>filter</code>, <code>map</code> и <code>reduce</code> принимают в качестве аргументов функции.</p><h3 id=тема-3-проектирование-сценария-для-подбора-цветового-оформления-веб-документа>Тема 3. Проектирование сценария для подбора цветового оформления веб-документа</h3><p><img src=/web/webp/vsr/images/task-3.png alt="Подбор палитры"></p><p>Сценарий реализован с использованием библиотеки <code>chroma.js</code>.
 Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода <code>chroma.random()</code>. Для создания шкалы используется метод <code>chroma.scale(colors)</code>.</p><h3 id=тема-4-подготовка-материалов-для-выступления-по-настройке-линтера-кода>Тема 4. Подготовка материалов для выступления по настройке линтера кода</h3><p>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.</p><p>Для работы ESLint необходимо установить Node.js и npm.</p><p>Настройка линтера eslint для Visual Studio Code:</p><ol><li>Установка <code>eslint</code></li></ol><pre tabindex=0><code>npm install -D eslint
 </code></pre><ol start=2><li>Установка плагинов <code>eslint</code></li></ol><pre tabindex=0><code>npm install -D eslint-config-airbnb-base eslint-plugin-import
@@ -48,53 +48,53 @@ git config --global user.name “username”
   env:
     node: true
     browser: true
-</code></pre><ol start=4><li>Установка плагина ESLint<br><img src=/web/webp/vsr/images/task-4-1.png alt="Установка плагина ESLint"><br>Исправление кода с учётом рекомендаций линтера:<br><img src=/web/webp/vsr/images/task-4-2.png alt="Исправление кода с учётом рекомендаций линтера"><br><img src=/web/webp/vsr/images/task-4-3.png alt="Исправление кода с учётом рекомендаций линтера"></li></ol></div></div><div id=serv_web_tech class=block-wrapper><div class=content><h1>Серверные веб-техологии</h1><div class=flex-column><a href=https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/master/pages/web/swt class=button target=_blank>Ссылка на папку в репозиторие</a></div><h2 id=лабораторные-работы>Лабораторные работы</h2><h3 id=тема-1-протоколы-веба-и-серверные-веб-технологии-на-платформе-nodejs>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js</h3><h4 id=моделирование-взаимодействия-клиент-сервер-с-помощью-программы-telnet-и-программы-curl>Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl</h4><p>Подготовка данных для отправки запроса:</p><p>Данила: %D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0</p><p>Исайчев: %D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2</p><h4 id=отправка-запроса-с-помощью-telnet>Отправка запроса с помощью telnet</h4><p>GET запрос<br><img src=/web/swt/lab/t1/images/telnet/GET1.png alt="GET запрос"><br>Ответ на GET запрос<br><img src=/web/swt/lab/t1/images/telnet/GET2.png alt="Ответ на GET запрос"><br>POST запрос<br><img src=/web/swt/lab/t1/images/telnet/POST1.png alt="POST запрос"><br>Ответ на POST запрос<br><img src=/web/swt/lab/t1/images/telnet/POST2.png alt="Ответ на POST запрос"></p><h4 id=отправка-запроса-с-помощью-curl>Отправка запроса с помощью cURL</h4><p>GET запрос<br><img src=/web/swt/lab/t1/images/curl/GET1.png alt="GET запрос"><br>Ответ на GET запрос<br><img src=/web/swt/lab/t1/images/curl/GET2.png alt="Ответ на GET запрос"><br>POST запрос<br><img src=/web/swt/lab/t1/images/curl/POST1.png alt="POST запрос"><br>Ответ на POST запрос<br><img src=/web/swt/lab/t1/images/curl/POST2.png alt="Ответ на POST запрос"></p><h4 id=создание-простого-веб-сервера-на-основе-nodejs>Создание простого веб-сервера на основе Node.js</h4><p>Пример ответа сервера:</p><pre tabindex=0><code>	{
-              &#34;date&#34;: &#34;16.06.2021 18:07:23&#34;
-            }
+</code></pre><ol start=4><li>Установка плагина ESLint<br><img src=/web/webp/vsr/images/task-4-1.png alt="Установка плагина ESLint"><br>Исправление кода с учётом рекомендаций линтера:<br><img src=/web/webp/vsr/images/task-4-2.png alt="Исправление кода с учётом рекомендаций линтера"><br><img src=/web/webp/vsr/images/task-4-3.png alt="Исправление кода с учётом рекомендаций линтера"></li></ol></div></div><div id=serv_web_tech class=block-wrapper><div class=content><h1>Серверные веб-техологии</h1><div class=flex-column><a href=https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/master/pages/web/swt class=button target=_blank>Ссылка на папку в репозиторие</a></div><h2 id=лабораторные-работы>Лабораторные работы</h2><h3 id=тема-1-протоколы-веба-и-серверные-веб-технологии-на-платформе-nodejs>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js</h3><h4 id=моделирование-взаимодействия-клиент-сервер-с-помощью-программы-telnet-и-программы-curl>Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl</h4><p>Подготовка данных для отправки запроса:</p><p>Данила: %D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0</p><p>Исайчев: %D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2</p><h4 id=отправка-запроса-с-помощью-telnet>Отправка запроса с помощью telnet</h4><p>GET запрос<br><img src=/web/swt/lab/t1/images/telnet/GET1.png alt="GET запрос"><br>Ответ на GET запрос<br><img src=/web/swt/lab/t1/images/telnet/GET2.png alt="Ответ на GET запрос"><br>POST запрос<br><img src=/web/swt/lab/t1/images/telnet/POST1.png alt="POST запрос"><br>Ответ на POST запрос<br><img src=/web/swt/lab/t1/images/telnet/POST2.png alt="Ответ на POST запрос"></p><h4 id=отправка-запроса-с-помощью-curl>Отправка запроса с помощью cURL</h4><p>GET запрос<br><img src=/web/swt/lab/t1/images/curl/GET1.png alt="GET запрос"><br>Ответ на GET запрос<br><img src=/web/swt/lab/t1/images/curl/GET2.png alt="Ответ на GET запрос"><br>POST запрос<br><img src=/web/swt/lab/t1/images/curl/POST1.png alt="POST запрос"><br>Ответ на POST запрос<br><img src=/web/swt/lab/t1/images/curl/POST2.png alt="Ответ на POST запрос"></p><h4 id=создание-простого-веб-сервера-на-основе-nodejs>Создание простого веб-сервера на основе Node.js</h4><p>Пример ответа сервера:</p><pre tabindex=0><code>{
+  &#34;date&#34;: &#34;16.06.2021 18:07:23&#34;
+}
 </code></pre><h3 id=тема-2-использование-серверных-веб-технологий-на-платформе-php>Тема 2. Использование серверных веб-технологий на платформе PHP</h3><h4 id=развёртывание-стека-lamp>Развёртывание стека LAMP</h4><p>Часть I. Развёртывание PHP/FPM + NGINX<br><img src=/web/swt/lab/t2/images/task-1-2.png alt="Развёртывание PHP/FPM"><br><img src=/web/swt/lab/t2/images/task-1-3.png alt="Развёртывание NGINX"><br>Часть II<br><img src=/web/swt/lab/t2/images/task-1-4.png alt="Развёртывание PHP/FPM + NGINX"></p><h4 id=разработка-на-php-с-помощью-gd2-графического-интерфейса-визуализации-данных-полученных-с-помощью-сетевого-интерфейса>Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</h4><h2 id=разработка-на-php-с-помощью-gd2-графического-интерфейса-визуализации-данных-полученных-с-помощью-сетевого-интерфейсаwebswtlabt2imagestask-2png><img src=/web/swt/lab/t2/images/task-2.png alt="Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса"></h2><h2 id=инвариантные-самостоятельные-работы>Инвариантные самостоятельные работы</h2><h3 id=тема-1-проектирование-crud-для-серверного-веб-приложения>Тема 1. Проектирование CRUD для серверного веб-приложения</h3><p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.</p><p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p><p>Реализованы следующие операции:</p><p><code>GET /products</code> - получение списка продуктов</p><p><code>POST /products/new</code> - добавление нового продукта</p><p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p><p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p><p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p><p>Сервер возвращает ответ - статус выполнения операции в формате JSON. Пример ответа сервера (добавление данных):</p><pre tabindex=0><code>{
-    &#34;status&#34;: &#34;success&#34;
-  }
+  &#34;status&#34;: &#34;success&#34;
+}
 </code></pre><p>Пример ответа сервера на GET-запрос:</p><pre tabindex=0><code>[
-    {
-      &#34;amount&#34;: {
-        &#34;number&#34;: 32,
-        &#34;unit&#34;: &#34;kg&#34;
-      },
-      &#34;_id&#34;: &#34;60e4268f46a5bd73485414f0&#34;,
-      &#34;name&#34;: &#34;Apples&#34;,
-      &#34;type&#34;: &#34;Fruits&#34;
+  {
+    &#34;amount&#34;: {
+      &#34;number&#34;: 32,
+      &#34;unit&#34;: &#34;kg&#34;
     },
-    {
-      &#34;amount&#34;: {
-        &#34;number&#34;: 16.25,
-        &#34;unit&#34;: &#34;kg&#34;
-      },
-      &#34;_id&#34;: &#34;60e42ad546a5bd73485414f1&#34;,
-      &#34;name&#34;: &#34;Bananas&#34;,
-      &#34;type&#34;: &#34;Fruits&#34;
+    &#34;_id&#34;: &#34;60e4268f46a5bd73485414f0&#34;,
+    &#34;name&#34;: &#34;Apples&#34;,
+    &#34;type&#34;: &#34;Fruits&#34;
+  },
+  {
+    &#34;amount&#34;: {
+      &#34;number&#34;: 16.25,
+      &#34;unit&#34;: &#34;kg&#34;
     },
-    {
-      &#34;amount&#34;: {
-        &#34;number&#34;: 24.5,
-        &#34;unit&#34;: &#34;kg&#34;
-      },
-      &#34;_id&#34;: &#34;60e42b1046a5bd73485414f2&#34;,
-      &#34;name&#34;: &#34;Strawberries&#34;,
-      &#34;type&#34;: &#34;Berries&#34;
-    }
-  ]
+    &#34;_id&#34;: &#34;60e42ad546a5bd73485414f1&#34;,
+    &#34;name&#34;: &#34;Bananas&#34;,
+    &#34;type&#34;: &#34;Fruits&#34;
+  },
+  {
+    &#34;amount&#34;: {
+      &#34;number&#34;: 24.5,
+      &#34;unit&#34;: &#34;kg&#34;
+    },
+    &#34;_id&#34;: &#34;60e42b1046a5bd73485414f2&#34;,
+    &#34;name&#34;: &#34;Strawberries&#34;,
+    &#34;type&#34;: &#34;Berries&#34;
+  }
+]
 </code></pre><h3 id=тема-2-проектирование-приложения-на-основе-фреймворка-symphony>Тема 2. Проектирование приложения на основе фреймворка Symphony</h3><p>Приложение реализует API для выполнения арифметических операций.</p><p>Маршруты описаны в файле <code>routes.yaml</code>.</p><p>Контроллер реализован в файле <code>CalcController.php</code>.</p><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/add/2/3</code>:</p><pre tabindex=0><code>{
-    &#34;result&#34;: 5
-  }
+  &#34;result&#34;: 5
+}
 </code></pre><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/substract/5/7</code>:</p><pre tabindex=0><code>{
-    &#34;result&#34;: -2
-  }
+  &#34;result&#34;: -2
+}
 </code></pre><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/multiply/7/5</code>:</p><pre tabindex=0><code>{
-    &#34;result&#34;: 35
-  }
+  &#34;result&#34;: 35
+}
 </code></pre><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/divide/5/7</code>:</p><pre tabindex=0><code>{
-    &#34;result&#34;: 0.7142857142857143
-  }
+  &#34;result&#34;: 0.7142857142857143
+}
 </code></pre><h4 id=тема-3-разработка-базы-данных-на-mongodb>Тема 3. Разработка базы данных на MongoDB</h4><p>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.</p><p>Этапы разработки базы данных:</p><ul><li>создание базы данных;</li><li>создание коллекций;</li><li>добавление данных.
 MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.</li></ul><p>Этапы создания базы данных в MongoDB Cloud:</p><ul><li>создание организации (organization);</li><li>создание проекта (project);</li><li>создание кластера (cluster) и базы данных с помощью MongoDB Atlas;</li><li>добавление данных с помощью MongoDB Atlas, MongoDB Compass или веб-приложения.<br><img src=/web/swt/isr/t3/task-3.png alt="ИСР тема 3 задание 3"></li></ul><h3 id=тема-4-подготовка-виртуального-сервера-или-деплой-платформы-для-публикации-веб-ресурса-на-основе-ghostjs>Тема 4. Подготовка виртуального сервера или деплой-платформы для публикации веб-ресурса на основе Ghost.js</h3><p>Ghost.js можно установить с помощью Docker-контейнера.</p><p>Для установки контейнера необходимо выполнить команду:</p><pre tabindex=0><code>docker pull ghost
 </code></pre><p>Для запуска Ghost необходимо выполнить команду:</p><pre tabindex=0><code>docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
