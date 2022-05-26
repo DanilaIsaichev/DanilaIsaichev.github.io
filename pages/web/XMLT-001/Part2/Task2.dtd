@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!ELEMENT Портфолио (Блок)+>
-<!ELEMENT Блок (Заголовок*,Подзаголовок*,Список_заданий*)>
-<!ELEMENT Список_заданий (Задание)+>
-<!ELEMENT Заголовок (#PCDATA)>
-<!ELEMENT Подзаголовок (#PCDATA)>
-<!ELEMENT Задание (#PCDATA)>
