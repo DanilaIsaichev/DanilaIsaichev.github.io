@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Danila Isaichev&#39;s Portfolio</title>
+    <link>https://danilaisaichev.github.io/web/</link>
+    <description>Recent content in web on Danila Isaichev&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+	<atom:link href="https://danilaisaichev.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>openedu</title>
+      <link>https://danilaisaichev.github.io/web/openedu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danilaisaichev.github.io/web/openedu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubles_to_dollars</title>
+      <link>https://danilaisaichev.github.io/web/rubles_to_dollars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danilaisaichev.github.io/web/rubles_to_dollars/</guid>
+      <description>Курс доллара к рублю Ссылка на борд  </description>
+    </item>
+    
+    <item>
+      <title>web_projecting</title>
+      <link>https://danilaisaichev.github.io/web/web_projecting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danilaisaichev.github.io/web/web_projecting/</guid>
+      <description>Ссылка на папку в репозиторие  Лабораторные работы Тема 1. Языковые средства веб-технологий на основе XML и CSS и развёртывание среды разработки компонентов аппаратно-программных комплексов   Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа)
+  Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций  XML-документ DTD 
+  Рассмотрите документ Статистика посещений страницы (https://kodaktor.ru/g/08092017_stats). Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.</description>
+    </item>
+    
+    <item>
+      <title>serv_web_tech</title>
+      <link>https://danilaisaichev.github.io/web/serv_web_tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danilaisaichev.github.io/web/serv_web_tech/</guid>
+      <description>Ссылка на папку в репозиторие  Лабораторные работы Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса:
+Данила: %D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0
+Исайчев: %D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2
+Отправка запроса с помощью telnet GET запрос
+Ответ на GET запрос
+POST запрос
+Ответ на POST запрос
+Отправка запроса с помощью cURL GET запрос
+Ответ на GET запрос
+POST запрос
+Ответ на POST запрос</description>
+    </item>
+    
+  </channel>
+</rss>

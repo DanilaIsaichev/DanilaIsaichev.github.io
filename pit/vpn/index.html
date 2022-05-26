@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    
+
+    <link rel="shortcut icon" href=https://danilaisaichev.github.io/images/logo.png type="image/png">
+    <link href=https://danilaisaichev.github.io/css/style.css type="text/css"rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+</head>
+
+<body>
+  <script type="text/javascript" src=https://danilaisaichev.github.io/js/fonts.js></script>
+  <wrapper>
+    <header>
+        <nav>
+        <a href=https://danilaisaichev.github.io/ class="button">Главная</a>
+        <a href=https://danilaisaichev.github.io/prog class="button">Программирование</a>
+        <a href=https://danilaisaichev.github.io/comppract class="button">Компьютерный практикум</a>
+        <a href=https://danilaisaichev.github.io/web class="button">Веб проектирование</a>
+        <a href=https://danilaisaichev.github.io/pit class="button">ПИТ</a>
+        </nav>
+    </header>
+    <main>
+        
+    
+        Настройка подключения к виртуальной частной сети
+        <h2 id="команды-для-настройки-сервера">Команды для настройки сервера:</h2>
+<pre><code>sudo apt update &amp;&amp; sudo apt upgrade -y
+ 
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+ 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
+--dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 
+echo \
+  &quot;deb [arch=$(dpkg
+--print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable&quot;
+| sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+ 
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+docker-compose-plugin
+ 
+docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
+serveconfig
+</code></pre><hr>
+<h2 id="результат">Результат:</h2>
+<p><img src="/pit/vpn/VPN1.png" alt="VPN1"><br>
+<img src="/pit/vpn/VPN2.png" alt="VPN2"><br>
+<img src="/pit/vpn/VPN3.png" alt="VPN3"><br>
+<img src="/pit/vpn/VPN4.png" alt="VPN4"></p>
+
+    
+
+    </main>
+</body>
+</html>
