@@ -1,0 +1,34 @@
+<!doctype html><html lang=ru><head><title>Портфолио по прикладным информационным технологиям</title><link rel="shortcut icon" href=https://danilaisaichev.github.io/images/logo.png type=image/png><link href=https://danilaisaichev.github.io/css/style.css type=text/css rel=stylesheet><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Прикладным Информационным Технологиям"></head><body><script type=text/javascript src=https://danilaisaichev.github.io/js/fonts.js></script>
+<wrapper><header><nav><a href=https://danilaisaichev.github.io/ class=button>Главная</a>
+<a href=https://danilaisaichev.github.io/prog class=button>Программирование</a>
+<a href=https://danilaisaichev.github.io/comppract class=button>Компьютерный практикум</a>
+<a href=https://danilaisaichev.github.io/web class=button>Веб проектирование</a>
+<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main><div class=block-wrapper><div class=content><h1>Прикладные Информационные Технологии</h1></div></div><div class=block-wrapper><div class="content flex-column"><h1>Список заданий</h1><a href=#letsencrypt class=button>Получение сертификата Let's encrypt для Nginx (без Docker)</a>
+<a href=#dockerbpr class=button>Docker BPR (Build & Push & Run)</a>
+<a href=#vpn class=button>Настройка подключения к виртуальной частной сети</a>
+<a href=#oauth class=button>Список провайдеров oAuth</a>
+<a href=#passportjs class=button>Реализация дополнительной стратегии oAuth 2.0</a></div></div><div id=letsencrypt class=block-wrapper><div class=content><h1>Получение сертификата Let's encrypt для Nginx (без Docker)</h1><h3 id=скринкаст>Скринкаст:</h3><div><iframe src=https://drive.google.com/file/d/1ePjnelykiTtIgfJk3pPqim4C8Xd6Gm88/preview width=640 height=480 allow=autoplay></iframe></div></div></div><div id=dockerbpr class=block-wrapper><div class=content><h1>Docker BPR (Build & Push & Run)</h1><div class=flex-column><a href=https://hub.docker.com/r/danilaisaichev/weather class=button target=_blank>Ссылка на образ в Docker Hub</a></div></div></div><div id=vpn class=block-wrapper><div class=content><h1>Настройка подключения к виртуальной частной сети</h1><h2 id=команды-для-настройки-сервера>Команды для настройки сервера:</h2><pre tabindex=0><code>sudo apt update &amp;&amp; sudo apt upgrade -y
+ 
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+ 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
+--dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 
+echo \
+  &#34;deb [arch=$(dpkg
+--print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable&#34;
+| sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+ 
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+docker-compose-plugin
+ 
+docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
+serveconfig
+</code></pre><hr><h2 id=результат>Результат:</h2><p><img src=/pit/vpn/VPN1.png alt=VPN1><br><img src=/pit/vpn/VPN2.png alt=VPN2><br><img src=/pit/vpn/VPN3.png alt=VPN3><br><img src=/pit/vpn/VPN4.png alt=VPN4></p></div></div><div id=oauth class=block-wrapper><div class=content><h1>Список провайдеров oAuth</h1><table><thead><tr><th>Название</th><th>Ссылки на документацию и playground (если есть)</th><th>Ссылки на модули и библиотеки</th></tr></thead><tbody><tr><td>Yandex</td><td><a href=https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html>https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html</a></td><td><a href=https://pkg.go.dev/golang.org/x/oauth2/yandex>https://pkg.go.dev/golang.org/x/oauth2/yandex</a></td></tr><tr><td>VK</td><td><a href=https://dev.vk.com/api/oauth-parameters>https://dev.vk.com/api/oauth-parameters</a></td><td><a href=https://pkg.go.dev/golang.org/x/oauth2/vk>https://pkg.go.dev/golang.org/x/oauth2/vk</a></td></tr><tr><td>Mail.ru</td><td><a href=https://help.mail.ru/developers/oauth>https://help.mail.ru/developers/oauth</a></td><td><a href=https://pkg.go.dev/golang.org/x/oauth2/mailru>https://pkg.go.dev/golang.org/x/oauth2/mailru</a></td></tr><tr><td>Google</td><td><a href=https://developers.google.cn/identity/protocols/oauth2>https://developers.google.cn/identity/protocols/oauth2</a> <a href=https://developers.google.com/oauthplayground/>https://developers.google.com/oauthplayground/</a></td><td><a href=https://github.com/googleapis/google-api-go-client>https://github.com/googleapis/google-api-go-client</a> <a href=https://pkg.go.dev/golang.org/x/oauth2/google>https://pkg.go.dev/golang.org/x/oauth2/google</a></td></tr><tr><td>Github</td><td><a href=https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps>https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps</a></td><td><a href=https://pkg.go.dev/golang.org/x/oauth2/github>https://pkg.go.dev/golang.org/x/oauth2/github</a></td></tr><tr><td>Odnoklassniki</td><td><a href=https://apiok.ru/ext/oauth/>https://apiok.ru/ext/oauth/</a></td><td><a href=https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik>https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik</a></td></tr></tbody></table></div></div><div id=passportjs class=block-wrapper><div class=content><h1>Реализация дополнительной стратегии oAuth 2.0</h1><div class=flex-column><a href=https://github.com/DanilaIsaichev/PassportJS class=button target=_blank>Ссылка на репозиторий</a></div><h3 id=скринкаст>Скринкаст:</h3><div><iframe width=560 height=315 src=https://www.youtube.com/embed/idl5v9bidTU title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></main></body></html>

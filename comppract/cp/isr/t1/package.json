@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "trans": "babel-node ./src/index.js",
+    "build": "babel ./src -d ./lib"
+  },
+  "name": "20210220_123215",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
