@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <div class="block-wrapper">
+        <div class="content">
+            <h1 id="top">Портфолио</h1>
+            <h2><i>{{.Params.position}} <abbr title={{.Params.specialization}}>{{.Params.specializationAbbr}}</abbr> <abbr title={{.Params.institute}}>{{.Params.instituteAbbr}}</abbr> <abbr title={{.Params.university}}>{{.Params.universityAbbr}}</abbr></i></h2>
+            <h2><i>{{.Params.student_name}}</i></h2>
+        </div>
+    </div>
+{{ end }}

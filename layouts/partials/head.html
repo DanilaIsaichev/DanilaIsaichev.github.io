@@ -1,0 +1,34 @@
+{{ with .Page }}
+<head>
+
+    {{ if eq .Title "main" }}
+        <title>Портфолио</title>
+    {{ else if eq .Title "web" }}
+        <title>Портфолио по веб-проектированию</title>
+    {{ else if eq .Title "prog" }}
+        <title>Портфолио по программированию</title>
+    {{ else if eq .Title "comppract" }}
+        <title>Портфолио по компьютерному практикуму</title>
+    {{ else if eq .Title "pit" }}
+        <title>Портфолио по прикладным информационным технологиям</title>
+    {{ end }}
+
+    <link rel="shortcut icon" href={{"/images/logo.png" | absURL }} type="image/png">
+    <link href={{"/css/style.css" | absURL }} type="text/css"rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{ if eq .Title "main" }}
+        <meta name="description" content="Главная страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича"> 
+    {{ else if eq .Title "web" }}
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Веб проектированию"> 
+    {{ else if eq .Title "prog" }}
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Программированию"> 
+    {{ else if eq .Title "comppract" }}
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Компьютерному практикуму"> 
+    {{ else if eq .Title "pit" }}
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Прикладным Информационным Технологиям"> 
+    {{ end }}
+
+</head>
+{{ end }}

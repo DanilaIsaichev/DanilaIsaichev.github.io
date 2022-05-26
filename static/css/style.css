@@ -1,0 +1,73 @@
+a:link {color: rgb(61,59,53);}
+
+a:visited {color: rgb(57,54,77);}
+
+a:active {color: rgb(66,64,89);}
+
+a:hover {color: rgb(80,77,107);}
+
+.block-wrapper{
+  min-width: 500px;
+  border: 2px none rgba(61,59,53);
+  padding: 5% 10% 5% 10%;
+  margin: 15% auto 15% auto;
+  box-shadow: 5px 5px 5px 5px #777777;
+  background-color: rgb(255,255,255);
+}
+.content {
+  margin: auto;
+  width: 75%;
+  font-family: Arial, sans-serif;
+  color: rgb(61,59,53);
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  font-family: Arial, sans-serif;
+  color: rgb(61,59,53);
+  line-height: 1.5em;
+  text-align: justify;
+  min-width: 500px;
+  border: 2px none rgba(61,59,53);
+  padding: 15px 25px 15px 25px;
+  margin: 0;
+  box-shadow: 5px 5px 5px 5px #777777;
+  background-color: rgb(255,255,255);
+}
+
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.button{
+    display: inline-block;
+    background-color: rgb(255,255,255);
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    height: 100%
+}
+
+.button:hover{
+  background:lightgray; 
+}
+
+.list-name{
+  margin: 0;
+}

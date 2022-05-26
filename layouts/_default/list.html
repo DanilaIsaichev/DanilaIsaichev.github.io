@@ -1,0 +1,28 @@
+{{ define "main" }}
+    {{ with .Page }}
+        <!-- Название предмета -->
+        <div class="block-wrapper">
+          <div class="content">
+            <h1>{{ .Params.subject }}</h1>
+          </div>
+        </div>
+  
+        <!-- Список заданий -->
+      <div class="block-wrapper">
+          <div class="content flex-column">
+            <h1>Список заданий</h1>
+            {{ range .Pages.ByWeight }}
+                <a href="#{{ .Params.task_code }}" class="button">{{ .Params.task_title }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ range .Pages.ByWeight }}
+            <div id={{ string .Params.task_code }} class="block-wrapper">
+                <div class="content">
+                    <h1>{{ .Params.task_title }}</h1>
+                    {{ .Content }}
+                </div>
+            </div>
+        {{ end }}
+    {{ end }}
+{{ end }}
