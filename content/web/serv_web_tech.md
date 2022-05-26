@@ -8,7 +8,7 @@ subject: "Веб проектирование"
 ---
 
 {{<buttons_column>}}
-    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/master/pages/web/swt">}}
+    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/gh-pages/web/swt">}}
 {{</buttons_column>}}
 
 ## Лабораторные работы

@@ -8,7 +8,7 @@ subject: "Компьютерный практикум"
 ---
 
 {{<buttons_column>}}
-    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/master/comppract/cp/vsr">}}
+    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/gh-pages/comppract/cp/vsr">}}
 {{</buttons_column>}}
 
 ### Тема 1. Сборка проекта с помощью бандлера Webpack

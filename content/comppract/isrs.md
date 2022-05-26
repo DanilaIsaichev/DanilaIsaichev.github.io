@@ -8,7 +8,7 @@ subject: "Компьютерный практикум"
 ---
 
 {{<buttons_column>}}
-    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/master/comppract/cp/isr">}}
+    {{<button text="Ссылка на папку в репозиторие" link="https://github.com/DanilaIsaichev/DanilaIsaichev.github.io/tree/gh-pages/comppract/cp/isr">}}
 {{</buttons_column>}}
 
 ### Тема 1. Транспиляция и сборка проекта с использованием директив импорта и экспорта в код с модульностью CommonJS
