@@ -71,3 +71,13 @@ nav {
 .list-name{
   margin: 0;
 }
+
+.grid-container{
+  display: grid;
+  gap: 5vw;
+  grid-template-columns: 3fr 2fr;
+}
+
+.avatar{
+  border-radius: 10px;
+}
