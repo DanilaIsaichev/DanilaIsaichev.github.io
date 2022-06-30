@@ -14,5 +14,6 @@ subject: "Программирование"
     {{<button text="Лабораторная работа 5" link="https://colab.research.google.com/drive/1jmtqsppMho0Ry0p2F72CFB5hwhdbj-hI?usp=sharing">}}
     {{<button text="Лабораторная работа 6" link="https://replit.com/@DanilaIsaichev/PROG5Lab6singleton">}}
     {{<button text="Лабораторная работа 7" link="https://replit.com/@DanilaIsaichev/PROG5Lab7">}}
+    {{<button text="Лабораторная работа 8" link="https://replit.com/@DanilaIsaichev/PROG5Lab7">}}
     {{<button text="Лабораторная работа 9" link="https://colab.research.google.com/drive/1g9NzjkHp7PDWwVZnW_kmnFIMoSH8VPHi?usp=sharing">}}
 {{</buttons_column>}}
