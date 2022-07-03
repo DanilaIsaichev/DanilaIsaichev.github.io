@@ -11,4 +11,5 @@ subject: "Программирование"
     {{<button text="Лабораторные работы 3-4" link="https://replit.com/@DanilaIsaichev/PROG6lab3-4">}}
     {{<button text="Лабораторная работа 5" link="https://colab.research.google.com/drive/1PrTSS7FU81U6FPtt0tV8QSUqpwRViJRY?usp=sharing">}}
     {{<button text="Лабораторная работа 6" link="https://colab.research.google.com/drive/1NAcpXVVil0RX_VqL1syjjlY9OuPNg0Af#scrollTo=yrLGxUzz7MK_">}}
+    {{<button text="Самостоятельные работы за семестр" link="https://github.com/DanilaIsaichev/PROG6-ISR-VSR">}}
 {{</buttons_column>}}
