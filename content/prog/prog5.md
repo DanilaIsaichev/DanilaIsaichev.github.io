@@ -16,4 +16,5 @@ subject: "Программирование"
     {{<button text="Лабораторная работа 7" link="https://replit.com/@DanilaIsaichev/PROG5Lab7">}}
     {{<button text="Лабораторная работа 8" link="https://github.com/python-basic/sem5-lr8-DanilaIsaichev">}}
     {{<button text="Лабораторная работа 9" link="https://colab.research.google.com/drive/1g9NzjkHp7PDWwVZnW_kmnFIMoSH8VPHi?usp=sharing">}}
+    {{<button text="Самостоятельные работы за семестр" link="https://github.com/DanilaIsaichev/PROG5-ISR-VSR">}}
 {{</buttons_column>}}
