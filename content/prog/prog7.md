@@ -14,5 +14,6 @@ subject: "Программирование"
     {{<button text="Лабораторная работа 5" link="https://github.com/DanilaIsaichev/PROG7-Lab-5-01.10.2022">}}
     {{<button text="Лабораторная работа 6" link="https://github.com/DanilaIsaichev/PROG7-Lab-6">}}
     {{<button text="Лабораторная работа 7" link="https://github.com/DanilaIsaichev/PROG7-Lab-7">}}
+    {{<button text="Лабораторная работа 8" link="https://github.com/DanilaIsaichev/PROG7-Lab-8">}}
     {{<button text="Итоговая лабораторная работа" link="https://github.com/DanilaIsaichev/PROG7-Lab-Final">}}
 {{</buttons_column>}}
