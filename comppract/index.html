@@ -57,8 +57,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $name = $_POST[&#39;name&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $email = $_POST[&#39;email&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $pass = $_POST[&#39;pass&#39;];
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      if ($name != Null &amp;&amp; $email != Null &amp;&amp; $pass != Null)
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      {
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      if ($name != Null &amp;&amp; $email != Null &amp;&amp; $pass != Null) {
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        $password_md5 = md5($_POST[&#39;password&#39;]);
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        $password_sh1 = sha1($_POST[&#39;password&#39;]);
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        echo &#39;&lt;h3&gt;&#39; . date(&#39;r&#39;) . &#39;&lt;/h3&gt;&#39;;
@@ -66,9 +65,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        echo &#39;&lt;p&gt;&#39; . &#34;Пароль: &#34;, $pass . &#39;&lt;/p&gt;&#39;;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        echo &#39;&lt;p&gt;&#39; . &#34;md5: &#34;, $password_md5 . &#39;&lt;/p&gt;&#39;;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        echo &#39;&lt;p&gt;&#39; . &#34;sh1: &#34;, $password_sh1 . &#39;&lt;/p&gt;&#39;;
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      }
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      else
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      {
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      } else {
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>        echo &#39;&lt;p&gt;&#39; . &#34;Поля не были заполнены&#34;, $pass . &#39;&lt;/p&gt;&#39;;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      }
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    }
@@ -151,10 +148,7 @@
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>body</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> 
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>)
-</span></span><span style=display:flex><span>    {
-</span></span><span style=display:flex><span>    <span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {<span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;form id=&#34;calcform&#34; name=&#34;calcform&#34; action=&#34;index.php&#34; method=&#34;POST&#34;&gt; 
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;input name=&#34;n1&#34; type=&#34;number&#34; placeholder=&#34;3&#34; required pattern=&#34;1?[0-9]&#34;&gt;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      &lt;select name=&#34;op&#34; id=&#34;operator&#34;&gt;
@@ -170,7 +164,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;/form&gt; 
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;?php 
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    }
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    if ($_SERVER[&#39;REQUEST_METHOD&#39;] === &#34;POST&#34;){
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    if ($_SERVER[&#39;REQUEST_METHOD&#39;] === &#34;POST&#34;) {
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $a = $_POST[&#39;n1&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $o = $_POST[&#39;op&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $b = $_POST[&#39;n2&#39;];
