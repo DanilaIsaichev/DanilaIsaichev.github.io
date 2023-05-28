@@ -121,7 +121,7 @@ subject: "Компьютерный практикум"
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
-  <div id="lab78-background" style="height: 200px;"></div>
+  <div id="lab78-background" style="height: 500px;"></div>
   <script>{
         function makeCanvas(x, y) {
           const canvas = document.createElement('canvas'),
