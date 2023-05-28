@@ -21,7 +21,15 @@ subject: "Компьютерный практикум"
 
 ## Функция, отвечающая за создание Canvas'а:
 
-![Canvas creation](./lab7-8-screenshots/canvas-creation-function.png)
+```js
+function makeCanvas(x, y) {
+  const canvas = document.createElement('canvas'),
+        ctx = canvas.getContext('2d');
+  canvas.setAttribute('width', x);
+  canvas.setAttribute('height', y);
+  return { canvas, ctx };
+}
+```
 
 ## Фрагмент кода, отвечающий за:
 
@@ -35,7 +43,12 @@ subject: "Компьютерный практикум"
 
 Для страницы с логотипом.
 
-![code for logo page](./lab7-8-screenshots/canvas-body-color-turn-logo.png)
+```js
+const { canvas, ctx } = makeCanvas(200, 200);
+document.body.appendChild(canvas);
+ctx.strokeStyle = 'blue';
+ctx.setTransform(0, -1, 1, 0, 20, 188);
+```
 
 ## Фрагмент кода, отвечающий за:
 
@@ -46,27 +59,62 @@ subject: "Компьютерный практикум"
 
 Для страницы, на которой логотип – фоновый узор.
 
-![code for background page](./lab7-8-screenshots/canvas-body-color-turn-background.png)
+```js
+const { canvas, ctx } = makeCanvas(200, 200);
+document.body.appendChild(canvas);
+ctx.strokeStyle = 'blue';
+ctx.setTransform(0, -1, 1, 0, 20, 188);
+```
 
 ## Фрагмент кода, отвечающий за написание буквы I:
 
-![main.js after Babel](./lab7-8-screenshots/letter-I.png)
+```js
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.lineTo(70, 20);
+ctx.moveTo(45, 20);
+ctx.lineTo(45, 100);
+ctx.moveTo(20, 100);
+ctx.lineTo(70, 100);
+ctx.stroke();
+```
 
 ## Фрагмент кода, отвечающий за написание буквы D:
 
-![code for D](./lab7-8-screenshots/letter-D.png)
+```js
+ctx.beginPath();
+ctx.moveTo(100, 20);
+ctx.lineTo(100, 100);
+ctx.moveTo(100, 90);
+ctx.lineTo(150, 100);
+ctx.lineTo(150, 20);
+ctx.lineTo(100, 20);
+ctx.stroke();
+```
 
 ## Фрагмент кода, отвечающий за написание точек около инициалов:
 
-![code for dots](./lab7-8-screenshots/dots.png)
+```js
+ctx.beginPath();
+ctx.strokeRect(85, 100, 2, 2);
+ctx.strokeRect(165, 100, 2, 2);
+```
 
 ## Фрагмент кода, отвечающий за рисование кривой Безье:
 
-![code for curve](lab7-8-screenshots/curve.png)
+```js
+ctx.beginPath();
+ctx.strokeStyle = 'red';
+ctx.moveTo(20, 105);
+ctx.quadraticCurveTo(85, 150, 168, 105);
+ctx.stroke();
+```
 
 ## Фрагмент кода, отвечающий за установку логотипа в качестве фонового узора:
 
-![code for background image](./lab7-8-screenshots/background-code.png)
+```js
+document.body.style.backgroundImage = `url(${canvas.toDataURL()}`;
+```
 
 ## Результаты:
 
@@ -186,7 +234,6 @@ subject: "Компьютерный практикум"
 
 ## Ссылки на репозитории:
 {{<buttons_column>}}
-    {{<button text="Отчёт о выполнении лабораторных работ 7-8" link="/comppract/Lab7/Labs7-8.pdf">}}
-    {{<button text="Лабораторная работа 7А (Поворот логотипа но 90 градусов)" link="/comppract/Lab7/Lab7A1">}}
-    {{<button text="Лабораторная работа 7А (Логотип, как фон)" link="/comppract/Lab7/Lab7A2">}}
+    {{<button text="Лабораторная работа 7А (Поворот логотипа но 90 градусов)" link="https://github.com/DanilaIsaichev/CPLab7-8/blob/main/Lab7A1.html">}}
+    {{<button text="Лабораторная работа 7А (Логотип, как фон)" link="https://github.com/DanilaIsaichev/CPLab7-8/blob/main/Lab7A2.html">}}
 {{</buttons_column>}}
