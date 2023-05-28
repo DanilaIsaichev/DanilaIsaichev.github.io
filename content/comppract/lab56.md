@@ -41,7 +41,7 @@ subject: "Компьютерный практикум"
 
 ## Результат:
 
-<script src="https://github.com/DanilaIsaichev/CPLab5-6/blob/main/bundle/main.js"></script>
+<script src="./lab5-6/main.js"></script>
 
 ## Вывод:
 
