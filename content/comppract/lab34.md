@@ -15,27 +15,27 @@ subject: "Компьютерный практикум"
 
 ## Файл index.js до выполнения транспиляции:
 
-![index.js before Babel](./screenshots/index-before.png)
+![index.js before Babel](./lab3-4-screenshots/index-before.png)
 
 ## Файл index.js после выполнения транспиляции:
 
-![index.js after Babel](./screenshots/index-after.png)
+![index.js after Babel](./lab3-4-screenshots/index-after.png)
 
 ## Файл main.js до выполнения транспиляции:
 
-![main.js before Babel](./screenshots/main-before.png)
+![main.js before Babel](./lab3-4-screenshots/main-before.png)
 
 ## Файл main.js после выполнения транспиляции:
 
-![main.js after Babel](./screenshots/main-after.png)
+![main.js after Babel](./lab3-4-screenshots/main-after.png)
 
 ## Файл name.js до выполнения транспиляции:
 
-![name.js before Babel](./screenshots/name-before.png)
+![name.js before Babel](./lab3-4-screenshots/name-before.png)
 
 ## Файл name.js после выполнения транспиляции:
 
-![name.js before Babel](./screenshots/name-after.png)
+![name.js before Babel](./lab3-4-screenshots/name-after.png)
 
 ## Вывод:
 
