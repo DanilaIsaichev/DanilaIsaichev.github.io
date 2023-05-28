@@ -3,93 +3,117 @@
 <a href=https://danilaisaichev.github.io/prog class=button>Программирование</a>
 <a href=https://danilaisaichev.github.io/comppract class=button>Компьютерный практикум</a>
 <a href=https://danilaisaichev.github.io/web class=button>Веб проектирование</a>
-<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>lab1112<h2 id=цель>Цель:</h2><ol><li><p>Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.</p></li><li><p>Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.</p></li></ol><h2 id=1-создание-приложения-получающего-данные-через-форму-и-кодирующего-их-в-md5-и-sha-1>1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1.</h2><h3 id=код-формы-собирающей-данные-для-кодирования-фрагмент-indexphp>Код формы, собирающей данные для кодирования (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>form</span> <span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;index.php&#34;</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;POST&#34;</span> &gt;
-</span></span><span style=display:flex><span>  Name &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;name&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;name&#34;</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Anonimous&#34;</span> /&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>br</span>&gt;
-</span></span><span style=display:flex><span>  E-mail: &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> /&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>br</span>&gt;
-</span></span><span style=display:flex><span>  Password &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pass&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pass&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;password&#34;</span> /&gt;
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>br</span>&gt; 
-</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;submit&#34;</span>&gt;
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>form</span>&gt;
-</span></span></code></pre></div><h3 id=код-отвечающий-за-кодирование-и-вывод-данных-фрагмент-indexphp>Код, отвечающий за кодирование и вывод данных (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span>$password_md5 <span style=color:#f92672>=</span> <span style=color:#a6e22e>md5</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
-</span></span><span style=display:flex><span>$password_sh1 <span style=color:#f92672>=</span> <span style=color:#a6e22e>sha1</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
-</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;h3&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#a6e22e>date</span>(<span style=color:#e6db74>&#39;r&#39;</span>) <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/h3&gt;&#39;</span>;
-</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;Приветствую, </span><span style=color:#e6db74>$name</span><span style=color:#e6db74>, с почтой (</span><span style=color:#e6db74>$email</span><span style=color:#e6db74>)! &lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Пароль: &#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;md5: &#34;</span>, $password_md5 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span><span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;sh1: &#34;</span>, $password_sh1 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span></code></pre></div><h3 id=код-приложения-indexphp>Код приложения (index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>html</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>PHP</span> <span style=color:#a6e22e>Test</span><span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>body</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;form action=&#34;index.php&#34; method=&#34;POST&#34; &gt;
+<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>lab1112<h2 id=цель>Цель:</h2><ol><li><p>Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.</p></li><li><p>Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.</p></li></ol><h2 id=1-создание-приложения-получающего-данные-через-форму-и-кодирующего-их-в-md5-и-sha-1>1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1.</h2><h3 id=код-формы-собирающей-данные-для-кодирования-фрагмент-indexphp>Код формы, собирающей данные для кодирования (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>html</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>head</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>title</span>&gt;Lab 11&lt;/<span style=color:#f92672>title</span>&gt;
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>head</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>body</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>form</span> <span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;index.php&#34;</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;POST&#34;</span> &gt;
+</span></span><span style=display:flex><span>      Name &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;name&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;name&#34;</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Anonimous&#34;</span> /&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>br</span>&gt;
+</span></span><span style=display:flex><span>      E-mail: &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span>/&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>br</span>&gt;
+</span></span><span style=display:flex><span>      Password &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pass&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pass&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;password&#34;</span> /&gt;
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>br</span>&gt; 
+</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;submit&#34;</span>&gt;
+</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>form</span>&gt;
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>body</span>&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>html</span>&gt;
+</span></span></code></pre></div><h3 id=код-отвечающий-за-кодирование-и-вывод-данных-фрагмент-indexphp>Код, отвечающий за кодирование и вывод данных (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span>      $password_md5 <span style=color:#f92672>=</span> <span style=color:#a6e22e>md5</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
+</span></span><span style=display:flex><span>      $password_sh1 <span style=color:#f92672>=</span> <span style=color:#a6e22e>sha1</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;html&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;title&gt;Lab 11&lt;/title&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;body&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;h3&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#a6e22e>date</span>(<span style=color:#e6db74>&#39;r&#39;</span>) <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/h3&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;Приветствую, </span><span style=color:#e6db74>$name</span><span style=color:#e6db74>, с почтой (</span><span style=color:#e6db74>$email</span><span style=color:#e6db74>)! &lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Пароль: &#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;md5: &#34;</span>, $password_md5 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;sh1: &#34;</span>, $password_sh1 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/html&gt;&#39;</span>;
+</span></span></code></pre></div><h3 id=код-приложения-indexphp>Код приложения (index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;html&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;title&gt;Lab 11&lt;/title&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;form action=&#34;index.php&#34; method=&#34;POST&#34; &gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      Name &lt;input id=&#34;name&#34; name=&#34;name&#34; value=&#34;Anonimous&#34; /&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      &lt;br&gt;
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>      E-mail: &lt;input id=&#34;email&#34; name=&#34;email&#34; /&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>      E-mail: &lt;input id=&#34;email&#34; name=&#34;email&#34; type=&#34;email&#34;/&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      &lt;br&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      Password &lt;input id=&#34;pass&#34; name=&#34;pass&#34; type=&#34;password&#34; /&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      &lt;br&gt; 
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      &lt;input type=&#34;submit&#34;&gt;
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/form&gt;&#39;</span>;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/form&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/html&gt;&#39;</span>;
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#34;REQUEST_METHOD&#34;</span>] <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;POST&#34;</span>) {
-</span></span><span style=display:flex><span>      $name <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;name&#39;</span>];
-</span></span><span style=display:flex><span>      $email <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;email&#39;</span>];
-</span></span><span style=display:flex><span>      $pass <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;pass&#39;</span>];
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>if</span> ($name <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span> <span style=color:#f92672>&amp;&amp;</span> $email <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span> <span style=color:#f92672>&amp;&amp;</span> $pass <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span>)
-</span></span><span style=display:flex><span>      {
-</span></span><span style=display:flex><span>        $password_md5 <span style=color:#f92672>=</span> <span style=color:#a6e22e>md5</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
-</span></span><span style=display:flex><span>        $password_sh1 <span style=color:#f92672>=</span> <span style=color:#a6e22e>sha1</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;h3&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#a6e22e>date</span>(<span style=color:#e6db74>&#39;r&#39;</span>) <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/h3&gt;&#39;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;Приветствую, </span><span style=color:#e6db74>$name</span><span style=color:#e6db74>, с почтой (</span><span style=color:#e6db74>$email</span><span style=color:#e6db74>)! &lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Пароль: &#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;md5: &#34;</span>, $password_md5 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;sh1: &#34;</span>, $password_sh1 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span>      }
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>else</span>
-</span></span><span style=display:flex><span>      {
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Поля не были заполнены&#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
-</span></span><span style=display:flex><span>      }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#34;REQUEST_METHOD&#34;</span>] <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;POST&#34;</span>) {
+</span></span><span style=display:flex><span>    $name <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;name&#39;</span>];
+</span></span><span style=display:flex><span>    $email <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;email&#39;</span>];
+</span></span><span style=display:flex><span>    $pass <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;pass&#39;</span>];
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($name <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span> <span style=color:#f92672>&amp;&amp;</span> $email <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span> <span style=color:#f92672>&amp;&amp;</span> $pass <span style=color:#f92672>!=</span> <span style=color:#66d9ef>Null</span>)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      $password_md5 <span style=color:#f92672>=</span> <span style=color:#a6e22e>md5</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
+</span></span><span style=display:flex><span>      $password_sh1 <span style=color:#f92672>=</span> <span style=color:#a6e22e>sha1</span>($_POST[<span style=color:#e6db74>&#39;password&#39;</span>]);
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;html&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;title&gt;Lab 11&lt;/title&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;body&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;h3&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#a6e22e>date</span>(<span style=color:#e6db74>&#39;r&#39;</span>) <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/h3&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;Приветствую, </span><span style=color:#e6db74>$name</span><span style=color:#e6db74>, с почтой (</span><span style=color:#e6db74>$email</span><span style=color:#e6db74>)! &lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Пароль: &#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;md5: &#34;</span>, $password_md5 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;sh1: &#34;</span>, $password_sh1 <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/html&gt;&#39;</span>;
 </span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>  <span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>  &lt;/body&gt;
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>&lt;/html&gt;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;p&gt;&#39;</span> <span style=color:#f92672>.</span> <span style=color:#e6db74>&#34;Поля не были заполнены&#34;</span>, $pass <span style=color:#f92672>.</span> <span style=color:#e6db74>&#39;&lt;/p&gt;&#39;</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span><span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
 </span></span></span></code></pre></div><h3 id=результаты-md5-sh1>Результаты md5 sh1:</h3><div class=flex-column><a href=https://github.com/DanilaIsaichev/CPLab11/ class=button target=_blank>Репозиторий с результатами выполнения работы</a>
 <a href=https://replit.com/@DanilaIsaichev/CPLab11 class=button target=_blank>Ссылка на Repl</a></div><h2 id=2-создание-приложения-калькулятора-получающего-данные-через-форму-и-выводящего-результаты-вычислений-на-той-же-странице>2. Создание приложения-калькулятора, получающего данные через форму, и выводящего результаты вычислений на той же странице.</h2><h3 id=код-для-асинхронной-отправки-данных-фрагмент-indexphp>Код для асинхронной отправки данных (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>script</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;https://code.jquery.com/jquery-3.6.0.min.js&#34;</span>&gt;&lt;/<span style=color:#f92672>script</span>&gt;
 </span></span><span style=display:flex><span>&lt;<span style=color:#f92672>script</span>&gt;
 </span></span><span style=display:flex><span><span style=color:#a6e22e>$</span>(document).<span style=color:#a6e22e>ready</span>(<span style=color:#66d9ef>function</span>() {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>&#39;#calcform&#39;</span>).<span style=color:#a6e22e>on</span>(<span style=color:#e6db74>&#39;submit&#39;</span>, <span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>e</span>) {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>`#calcform`</span>).<span style=color:#a6e22e>on</span>(<span style=color:#e6db74>`submit`</span>, <span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>e</span>) {
 </span></span><span style=display:flex><span>        <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>preventDefault</span>();
 </span></span><span style=display:flex><span>        <span style=color:#a6e22e>$</span>.<span style=color:#a6e22e>ajax</span>({
-</span></span><span style=display:flex><span>            <span style=color:#a6e22e>url</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;/index.php&#39;</span>,
-</span></span><span style=display:flex><span>            <span style=color:#a6e22e>method</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;POST&#39;</span>,
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>url</span><span style=color:#f92672>:</span> <span style=color:#e6db74>`/index.php`</span>,
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>method</span><span style=color:#f92672>:</span> <span style=color:#e6db74>`POST`</span>,
 </span></span><span style=display:flex><span>            <span style=color:#a6e22e>data</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>$</span>(<span style=color:#66d9ef>this</span>).<span style=color:#a6e22e>serialize</span>(),
 </span></span><span style=display:flex><span>            <span style=color:#a6e22e>success</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>data</span>) {
-</span></span><span style=display:flex><span>                <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>&#39;#result&#39;</span>).<span style=color:#a6e22e>html</span>(<span style=color:#a6e22e>data</span>);
+</span></span><span style=display:flex><span>                <span style=color:#a6e22e>$</span>(<span style=color:#e6db74>`#result`</span>).<span style=color:#a6e22e>html</span>(<span style=color:#a6e22e>data</span>);
 </span></span><span style=display:flex><span>            }
 </span></span><span style=display:flex><span>        });
 </span></span><span style=display:flex><span>    });
 </span></span><span style=display:flex><span>});
 </span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>script</span>&gt;
-</span></span></code></pre></div><h3 id=код-формы-получающей-данные-для-вычисления>Код формы, получающей данные для вычисления:</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>form</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;calcform&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;calcform&#34;</span> <span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;index.php&#34;</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;POST&#34;</span>&gt;
+</span></span></code></pre></div><h3 id=код-формы-получающей-данные-для-вычисления-фрагмент-indexphp>Код формы, получающей данные для вычисления (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>form</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;calcform&#34;</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;calcform&#34;</span> <span style=color:#a6e22e>action</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;index.php&#34;</span> <span style=color:#a6e22e>method</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;POST&#34;</span>&gt; 
 </span></span><span style=display:flex><span>&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;n1&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;number&#34;</span> <span style=color:#a6e22e>placeholder</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;3&#34;</span> <span style=color:#a6e22e>required</span> <span style=color:#a6e22e>pattern</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;1?[0-9]&#34;</span>&gt;
 </span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>select</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;op&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;operator&#34;</span>&gt;
 </span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;add&#34;</span>&gt;+&lt;/<span style=color:#f92672>option</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;substract&#34;</span>&gt;-&lt;/<span style=color:#f92672>option</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;multiply&#34;</span>&gt;*&lt;/<span style=color:#f92672>option</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;divide&#34;</span>&gt;/&lt;/<span style=color:#f92672>option</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;exponentiate&#34;</span>&gt;^&lt;/<span style=color:#f92672>option</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;substract&#34;</span>&gt;-&lt;/<span style=color:#f92672>option</span>&gt;  
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;multiply&#34;</span>&gt;*&lt;/<span style=color:#f92672>option</span>&gt; 
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;divide&#34;</span>&gt;/&lt;/<span style=color:#f92672>option</span>&gt;  
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>option</span> <span style=color:#a6e22e>value</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;exponentiate&#34;</span>&gt;^&lt;/<span style=color:#f92672>option</span>&gt;         
 </span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>select</span>&gt;
 </span></span><span style=display:flex><span>&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;n2&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;number&#34;</span>  <span style=color:#a6e22e>placeholder</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;4&#34;</span> <span style=color:#a6e22e>required</span> <span style=color:#a6e22e>pattern</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;1?[0-9]&#34;</span>&gt;
 </span></span><span style=display:flex><span>&lt;<span style=color:#f92672>input</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;submit&#34;</span>&gt;
 </span></span><span style=display:flex><span>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;result&#34;</span>&gt;&lt;/<span style=color:#f92672>div</span>&gt;
 </span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>form</span>&gt;
-</span></span></code></pre></div><h3 id=код-отвечающий-за-вычисления-и-вывод-данных>Код, отвечающий за вычисления и вывод данных:</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span>$a <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n1&#39;</span>];
+</span></span></code></pre></div><h3 id=код-отвечающий-за-вычисления-и-вывод-данных-фрагмент-indexphp>Код, отвечающий за вычисления и вывод данных (фрагмент index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span>$a <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n1&#39;</span>];
 </span></span><span style=display:flex><span>$o <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;op&#39;</span>];
 </span></span><span style=display:flex><span>$b <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n2&#39;</span>];
 </span></span><span style=display:flex><span><span style=color:#66d9ef>switch</span> ($o) {
@@ -114,30 +138,31 @@
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> ^ </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
 </span></span><span style=display:flex><span>  <span style=color:#66d9ef>break</span>;
 </span></span><span style=display:flex><span>}
-</span></span></code></pre></div><h3 id=код-приложения-indexphp-1>Код приложения (index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;</span><span style=color:#a6e22e>html</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>PHP</span> <span style=color:#a6e22e>Test</span><span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;https://code.jquery.com/jquery-3.6.0.min.js&#34;</span><span style=color:#f92672>&gt;&lt;/</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#960050;background-color:#1e0010>$</span>(<span style=color:#a6e22e>document</span>)<span style=color:#f92672>.</span><span style=color:#a6e22e>ready</span>(<span style=color:#66d9ef>function</span>() {
-</span></span><span style=display:flex><span>        <span style=color:#960050;background-color:#1e0010>$</span>(<span style=color:#e6db74>&#39;#calcform&#39;</span>)<span style=color:#f92672>.</span><span style=color:#a6e22e>on</span>(<span style=color:#e6db74>&#39;submit&#39;</span>, <span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>e</span>) {
-</span></span><span style=display:flex><span>            <span style=color:#a6e22e>e</span><span style=color:#f92672>.</span><span style=color:#a6e22e>preventDefault</span>();
-</span></span><span style=display:flex><span>            <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#f92672>.</span><span style=color:#a6e22e>ajax</span>({
-</span></span><span style=display:flex><span>                <span style=color:#a6e22e>url</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;/index.php&#39;</span>,
-</span></span><span style=display:flex><span>                <span style=color:#a6e22e>method</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;POST&#39;</span>,
-</span></span><span style=display:flex><span>                <span style=color:#a6e22e>data</span><span style=color:#f92672>:</span> <span style=color:#960050;background-color:#1e0010>$</span>(<span style=color:#66d9ef>this</span>)<span style=color:#f92672>.</span><span style=color:#a6e22e>serialize</span>(),
-</span></span><span style=display:flex><span>                <span style=color:#a6e22e>success</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>data</span>) {
-</span></span><span style=display:flex><span>                    <span style=color:#960050;background-color:#1e0010>$</span>(<span style=color:#e6db74>&#39;#result&#39;</span>)<span style=color:#f92672>.</span><span style=color:#a6e22e>html</span>(<span style=color:#a6e22e>data</span>);
-</span></span><span style=display:flex><span>                }
-</span></span><span style=display:flex><span>            });
-</span></span><span style=display:flex><span>        });
-</span></span><span style=display:flex><span>    });
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>script</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>body</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> 
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;&lt;form id=&#34;calcform&#34; name=&#34;calcform&#34; action=&#34;index.php&#34; method=&#34;POST&#34;&gt; 
+</span></span></code></pre></div><h3 id=код-приложения-indexphp-1>Код приложения (index.php):</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;html&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;title&gt;Lab 12&lt;/title&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;script src=&#34;https://code.jquery.com/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;script&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    $(document).ready(function() {
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        $(`#calcform`).on(`submit`, function(e) {
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>            e.preventDefault();
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>            $.ajax({
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                url: `/index.php`,
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                method: `POST`,
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                data: $(this).serialize(),
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                success: function(data) {
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                    $(`#result`).html(data);
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>                }
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>            });
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        });
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    });
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/script&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/head&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;form id=&#34;calcform&#34; name=&#34;calcform&#34; action=&#34;index.php&#34; method=&#34;POST&#34;&gt; 
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;input name=&#34;n1&#34; type=&#34;number&#34; placeholder=&#34;3&#34; required pattern=&#34;1?[0-9]&#34;&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>      &lt;select name=&#34;op&#34; id=&#34;operator&#34;&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>        &lt;option value=&#34;add&#34;&gt;+&lt;/option&gt;
@@ -149,39 +174,39 @@
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;input name=&#34;n2&#34; type=&#34;number&#34;  placeholder=&#34;4&#34; required pattern=&#34;1?[0-9]&#34;&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;input type=&#34;submit&#34;&gt;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;div id=&#34;result&#34;&gt;&lt;/div&gt;
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/form&gt;&#39;</span>;
-</span></span><span style=display:flex><span>    }
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/form&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/body&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/html&gt;&#39;</span>;
+</span></span><span style=display:flex><span>  }
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;POST&#34;</span>) {
-</span></span><span style=display:flex><span>      $a <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n1&#39;</span>];
-</span></span><span style=display:flex><span>      $o <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;op&#39;</span>];
-</span></span><span style=display:flex><span>      $b <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n2&#39;</span>];
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>switch</span> ($o) {
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;add&#34;</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span>        $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>+</span> $b;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> + </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;substract&#34;</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span>        $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>-</span> $b;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> - </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;multiply&#34;</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span>        $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>*</span> $b;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> * </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;divide&#34;</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span>        $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>/</span> $b;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> / </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;exponentiate&#34;</span><span style=color:#f92672>:</span>
-</span></span><span style=display:flex><span>        $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>**</span> $b;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> ^ </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>break</span>;
-</span></span><span style=display:flex><span>      }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;POST&#34;</span>) {
+</span></span><span style=display:flex><span>    $a <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n1&#39;</span>];
+</span></span><span style=display:flex><span>    $o <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;op&#39;</span>];
+</span></span><span style=display:flex><span>    $b <span style=color:#f92672>=</span> $_POST[<span style=color:#e6db74>&#39;n2&#39;</span>];
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>switch</span> ($o) {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;add&#34;</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>+</span> $b;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> + </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>break</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;substract&#34;</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>-</span> $b;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> - </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>break</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;multiply&#34;</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>*</span> $b;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> * </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>break</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;divide&#34;</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>/</span> $b;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> / </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>break</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>case</span> <span style=color:#e6db74>&#34;exponentiate&#34;</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      $res <span style=color:#f92672>=</span> $a <span style=color:#f92672>**</span> $b;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#34;&lt;p&gt;</span><span style=color:#e6db74>{</span>$a<span style=color:#e6db74>}</span><span style=color:#e6db74> ^ </span><span style=color:#e6db74>{</span>$b<span style=color:#e6db74>}</span><span style=color:#e6db74> = </span><span style=color:#e6db74>{</span>$res<span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/p&gt;&#34;</span>;
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>break</span>;
 </span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>  <span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>  &lt;/body&gt;
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>&lt;/html&gt;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span><span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
 </span></span></span></code></pre></div><h3 id=калькулятор>Калькулятор:</h3><div class=flex-column><a href=https://github.com/DanilaIsaichev/CPLab12/ class=button target=_blank>Репозиторий с результатами выполнения работы</a>
 <a href=https://replit.com/@DanilaIsaichev/CPLab12 class=button target=_blank>Ссылка на Repl</a></div><h2 id=вывод>Вывод:</h2><p>В ходе выполнения лабораторной работы были получены навыки работы с языком программирования php и ajax.
 Были созданы два приложения:</p><ol><li>Приложение для кодирования данных.</li><li>Приложение калькулятор.</li></ol></main></body></html>
