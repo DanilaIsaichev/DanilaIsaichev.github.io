@@ -70,8 +70,6 @@ subject: "Компьютерный практикум"
 
 ## Результаты:
 
-![Logo](./lab7-8-screenshots/logo.png)
-
 {{< rawhtml >}}
   <div id="lab78-logo"></div>
   <script>{
@@ -122,10 +120,8 @@ subject: "Компьютерный практикум"
     }</script>
 {{< /rawhtml >}}
 
-![Background](./lab7-8-screenshots/background.png)
-
 {{< rawhtml >}}
-  <div id="lab78-background"></div>
+  <div id="lab78-background" style="height: 200px;"></div>
   <script>{
         function makeCanvas(x, y) {
           const canvas = document.createElement('canvas'),
