@@ -40,8 +40,9 @@ subject: "Компьютерный практикум"
 ![README](./lab5-6-screenshots/readme.png)
 
 ## Результат:
-
-<script src="./lab5-6/main.js"></script>
+{{< rawhtml >}}
+  <script src="./lab5-6/main.js"></script>
+{{< /rawhtml >}}
 
 ## Вывод:
 
