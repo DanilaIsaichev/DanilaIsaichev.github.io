@@ -49,5 +49,5 @@ subject: "Компьютерный практикум"
 
 ## Ссылка на репозиторий:
 {{<buttons_column>}}
-    {{<button text="Репозиторий с результатами выполнения лабораторной работы 6" link="https://github.com/DanilaIsaichev/CPLab5-6/">}}
+    {{<button text="Репозиторий с результатами выполнения лабораторных работ 5-6" link="https://github.com/DanilaIsaichev/CPLab5-6/">}}
 {{</buttons_column>}}
