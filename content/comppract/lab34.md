@@ -39,7 +39,7 @@ subject: "Компьютерный практикум"
 
 В ходе выполнения работ были получены навыки работы с транспилятором Babel. Была выполнена транспиляция файлов index.js, main.js, name.js.  
 
-## Ссылки на раепозитории:  
+## Ссылки на репозитории:
 {{<buttons_column>}}
     {{<button text="Репозиторий с результатами выполнения лабораторной работы 3" link="https://github.com/DanilaIsaichev/CPLab3-4/tree/main/Lab3">}}
     {{<button text="Репозиторий с результатами выполнения лабораторной работы 4" link="https://github.com/DanilaIsaichev/CPLab3-4/tree/main/Lab4">}}
