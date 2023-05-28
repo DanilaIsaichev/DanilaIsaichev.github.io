@@ -41,7 +41,7 @@
 </span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>PHP</span> <span style=color:#a6e22e>Test</span><span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>title</span><span style=color:#f92672>&gt;</span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;/</span><span style=color:#a6e22e>head</span><span style=color:#f92672>&gt;</span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>body</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>){ <span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> <span style=color:#66d9ef>if</span> ($_SERVER[<span style=color:#e6db74>&#39;REQUEST_METHOD&#39;</span>] <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;GET&#34;</span>) {<span style=color:#75715e>?&gt;</span><span style=color:#960050;background-color:#1e0010>
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;form action=&#34;index.php&#34; method=&#34;POST&#34; &gt;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      Name &lt;input id=&#34;name&#34; name=&#34;name&#34; value=&#34;Anonimous&#34; /&gt;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      &lt;br&gt;
@@ -53,8 +53,7 @@
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;/form&gt;
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    &lt;?php
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    }
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    if ($_SERVER[&#34;REQUEST_METHOD&#34;] == &#34;POST&#34;)
-</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    {
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>    if ($_SERVER[&#34;REQUEST_METHOD&#34;] == &#34;POST&#34;) {
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $name = $_POST[&#39;name&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $email = $_POST[&#39;email&#39;];
 </span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>      $pass = $_POST[&#39;pass&#39;];
