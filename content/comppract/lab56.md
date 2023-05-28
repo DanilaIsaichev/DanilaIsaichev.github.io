@@ -40,11 +40,16 @@ subject: "Компьютерный практикум"
 ![README](./lab5-6-screenshots/readme.png)
 
 ## Результат:
+  
+  
+  
 {{< rawhtml >}}
   <div id="lab56-result"></div>
   <script src="./lab5-6/main.js"></script>
 {{< /rawhtml >}}
-
+  
+  
+  
 ## Вывод:
 
 В ходе выполнения работ были получены сборки проекта с помощью webpack.
