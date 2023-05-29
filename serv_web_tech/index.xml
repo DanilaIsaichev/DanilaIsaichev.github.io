@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>serv_web_tech on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/serv_web_tech/</link><description>Recent content in serv_web_tech on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://danilaisaichev.github.io/serv_web_tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab1/</guid><description>Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса:
 Данила:
 %D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0 Исайчев:
-%D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2 Отправка запроса с помощью telnet GET запрос: Ответ на GET запрос:
+%D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2 Отправка запроса с помощью telnet GET запрос:
+Ответ на GET запрос:
 POST запрос:
-Ответ на POST запрос: Отправка запроса с помощью cURL GET запрос: Ответ на GET запрос:
+Ответ на POST запрос:
+Отправка запроса с помощью cURL GET запрос:
+Ответ на GET запрос:
 POST запрос:
-Ответ на POST запрос: Создание простого веб-сервера на основе Node.js Пример ответа сервера:
+Ответ на POST запрос:
+Создание простого веб-сервера на основе Node.js Пример ответа сервера:
 { &amp;#34;date&amp;#34;: &amp;#34;16.06.2021 18:07:23&amp;#34; }</description></item><item><title>Lab_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/lab2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab2/</guid><description>Тема 2. Использование серверных веб-технологий на платформе PHP 1. Развёртывание стека LAMP Часть I. Развёртывание PHP/FPM + NGINX Часть II 2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</description></item><item><title>ISR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr1/</guid><description>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
 Приложение реализовано с использованием Express, bodyParser, Mongoose.
 Реализованы следующие операции:
