@@ -18,7 +18,14 @@
 Ссылка на репозиторий</description></item><item><title>isr2</title><link>https://danilaisaichev.github.io/comppract/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr2/</guid><description/></item><item><title>vsrs</title><link>https://danilaisaichev.github.io/comppract/vsrs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsrs/</guid><description>Ссылка на папку в репозиторие Тема 1. Сборка проекта с помощью бандлера Webpack Добавление webpack и webpack-cli yarn add -D webpack webpack-cli Добавление библиотеки moment yarn add moment Сборка проекта yarn webpack . -o ./bundle.js Тема 2. Разработка серверной компоненты приложения удалённого доступа к базам данных и экспериментальная проверка корректности её работы Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.</description></item><item><title>isr3</title><link>https://danilaisaichev.github.io/comppract/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr3/</guid><description>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
 MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
 Схема может иметь следующий вид:
-{ name: String, type: String, amount: { number: Number, unit: String } } Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
+{
+name: String,
+type: String,
+amount: {
+number: Number,
+unit: String
+}
+} Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
 Приложение реализовано с использованием Express, bodyParser, Mongoose.
 Реализованы следующие операции:
 GET /products - получение списка продуктов</description></item></channel></rss>
