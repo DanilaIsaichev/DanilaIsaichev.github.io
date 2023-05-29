@@ -25,7 +25,8 @@ subject: "Серверные веб-техологии"
 
 ### Отправка запроса с помощью telnet
 
-GET запрос: 
+GET запрос:
+
 ![GET запрос](./lab-1-screenshots/telnet-get-req.png) 
 
 Ответ на GET запрос:
@@ -37,25 +38,25 @@ POST запрос:
 ![POST запрос](./lab-1-screenshots/telnet-post-req.png) 
 
 Ответ на POST запрос:
+
 ![Ответ на POST запрос](./lab-1-screenshots/telnet-post-res.png)  
 
-#### Отправка запроса с помощью cURL
+### Отправка запроса с помощью cURL
 
 GET запрос:
-![GET запрос](./lab-1-screenshots/curl-get-req.png) 
 
+![GET запрос](./lab-1-screenshots/curl-get-req.png) 
 
 Ответ на GET запрос:
 
 ![Ответ на GET запрос](./lab-1-screenshots/curl-get-res.png) 
 
-
 POST запрос:
 
 ![POST запрос](./lab-1-screenshots/curl-post-req.png) 
 
-
 Ответ на POST запрос:
+
 ![Ответ на POST запрос](./lab-1-screenshots/culr-post-res.png)  
 
 ### Создание простого веб-сервера на основе Node.js
