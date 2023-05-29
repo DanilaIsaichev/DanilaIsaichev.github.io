@@ -3,7 +3,7 @@ title: "VSR_Theme_3"
 weight: 9
 
 task_code: "VSR_Theme_3"
-task_title: "Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra"
+task_title: "ВСР Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra"
 subject: "Серверные веб-техологии"
 ---
 
