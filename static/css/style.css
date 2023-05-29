@@ -2,6 +2,10 @@ pre {
     overflow: auto;
 }
 
+h1 {
+    line-height: 1.5;
+}
+
 a:link {color: rgb(61,59,53);}
 
 a:visited {color: rgb(57,54,77);}
