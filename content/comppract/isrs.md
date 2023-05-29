@@ -11,7 +11,7 @@ subject: "Компьютерный практикум"
 
 {{<rawhtml>}}
     <video>
-     <source src="[URL](https://github.com/DanilaIsaichev/CPISR2/blob/main/isr2.mp4)">
+     <source src="https://github.com/DanilaIsaichev/CPISR2/blob/main/isr2.mp4">
     </video>
 {{</rawhtml>}}
 
