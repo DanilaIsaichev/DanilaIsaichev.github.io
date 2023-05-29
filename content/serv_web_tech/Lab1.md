@@ -57,7 +57,7 @@ POST запрос:
 
 Ответ на POST запрос:
 
-![Ответ на POST запрос](./lab-1-screenshots/culr-post-res.png)  
+![Ответ на POST запрос](./lab-1-screenshots/curl-post-res.png)  
 
 ### Создание простого веб-сервера на основе Node.js
 
