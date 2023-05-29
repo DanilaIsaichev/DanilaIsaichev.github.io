@@ -13,7 +13,7 @@ MongoDB не требует определения схемы документа
 
 Схема может иметь следующий вид:
 
-```json
+```
 {
     name: String,
     type: String,
@@ -155,3 +155,7 @@ app.get('/products', (req, res) => {
 
 app.listen();
 ```
+
+{{<buttons_column>}}
+    {{<button text="Ссылка на репозиторий" link="https://github.com/DanilaIsaichev/CPISR3">}}
+{{</buttons_column>}}
