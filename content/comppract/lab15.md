@@ -200,11 +200,11 @@ module.exports = m => {
 
 ## Результаты:
 
-![/](./screenshots/result1.png)
+![/](./lab15-screenshots/result1.png)
 
-![/add](./screenshots/result2.png)
+![/add](./lab15-screenshots/result2.png)
 
-![/addfrompage](./screenshots/result3.png)
+![/addfrompage](./lab15-screenshots/result3.png)
 
 ## Вывод:
 
