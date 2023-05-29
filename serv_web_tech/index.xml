@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>serv_web_tech on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/serv_web_tech/</link><description>Recent content in serv_web_tech on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://danilaisaichev.github.io/serv_web_tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab1/</guid><description>Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса:
+Данила:
+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0 Исайчев:
+%D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2 Отправка запроса с помощью telnet GET запрос: Ответ на GET запрос:
+POST запрос:
+Ответ на POST запрос: Отправка запроса с помощью cURL GET запрос: Ответ на GET запрос:
+POST запрос:
+Ответ на POST запрос: Создание простого веб-сервера на основе Node.js Пример ответа сервера:
+{ &amp;#34;date&amp;#34;: &amp;#34;16.06.2021 18:07:23&amp;#34; }</description></item><item><title>Lab_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/lab2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab2/</guid><description>Тема 2. Использование серверных веб-технологий на платформе PHP 1. Развёртывание стека LAMP Часть I. Развёртывание PHP/FPM + NGINX Часть II 2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</description></item><item><title>ISR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr1/</guid><description>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
+Приложение реализовано с использованием Express, bodyParser, Mongoose.
+Реализованы следующие операции:
+GET /products - получение списка продуктов
+POST /products/new - добавление нового продукта
+POST /products/update/:id - обновление информации о продукте по ID
+POST /products/delete/:id - удаление информации о продукте по ID
+При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.
+Сервер возвращает ответ - статус выполнения операции в формате JSON.</description></item><item><title>ISR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr2/</guid><description>Приложение реализует API для выполнения арифметических операций.
+Маршруты описаны в файле routes.yaml.
+Контроллер реализован в файле CalcController.php.
+Ответ сервера при выполнении запроса по маршруту /calc/add/2/3:
+{ &amp;#34;result&amp;#34;: 5 } Ответ сервера при выполнении запроса по маршруту /calc/substract/5/7:
+{ &amp;#34;result&amp;#34;: -2 } Ответ сервера при выполнении запроса по маршруту /calc/multiply/7/5:
+{ &amp;#34;result&amp;#34;: 35 } Ответ сервера при выполнении запроса по маршруту /calc/divide/5/7:
+{ &amp;#34;result&amp;#34;: 0.7142857142857143 }</description></item><item><title>ISR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr3/</guid><description>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
+Этапы разработки базы данных:
+создание базы данных; создание коллекций; добавление данных. MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
+Этапы создания базы данных в MongoDB Cloud:
+создание организации (organization); создание проекта (project); создание кластера (cluster) и базы данных с помощью MongoDB Atlas; добавление данных с помощью MongoDB Atlas, MongoDB Compass или веб-приложения.</description></item><item><title>ISR_Theme_4</title><link>https://danilaisaichev.github.io/serv_web_tech/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr4/</guid><description>Ghost.js можно установить с помощью Docker-контейнера.
+Для установки контейнера необходимо выполнить команду:
+docker pull ghost Для запуска Ghost необходимо выполнить команду:
+docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.
+Вариативные самостоятельные работы Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC REST API REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.</description></item><item><title>VSR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr1/</guid><description>REST API REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.
+Ограничения для построения REST-приложений по Филдингу:
+Модель клиент-сервер. Отсутствие состояния. Кэширование. Единообразие интерфейса. Слои. Код по требованию. Преимущества REST-приложений:
+надёжность; производительность; масштабируемость; прозрачность системы взаимодействия; простота интерфейсов; портативность компонентов; лёгкость внесения изменений; способностью эволюционировать, приспосабливаясь к новым требованиям. PRC PRC (Remote Procedure Call - удалённый вызов процедур) — класс технологий, позволяющих программам вызывать функции или процедуры в другом адресном пространстве (на удалённых узлах, либо в независимой сторонней системе на том же узле).</description></item><item><title>VSR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr2/</guid><description>PSR (PHP Standarts Recommendations) - это набор рекомендаций для PHP-разработчиков.
+PSR-0 – Стандарт автозагрузки; PSR-1 – Базовый стандарт оформления кода; PSR-2 – Рекомендации по оформлению кода; PSR-3 – Интерфейс протоколирования; PSR-4 – Улучшенная автозагрузка. PSR-0: Autoloading Standard описывает обязательные требования, которых необходимо придерживаться для взаимодействия с автозагрузчиком. Стандарт устарел и заменён PSR-4.
+PSR-4: Autoloading Standard описывает спецификацию автозагрузки классов из файлов. Он полностью совместим и может использоваться в дополнение к любому другому стандарту автозагрузки, включая PSR-0.</description></item><item><title>VSR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr3/</guid><description>MongoDB — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.
+Apache Cassandra — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.
+MongoDB Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах.</description></item></channel></rss>
