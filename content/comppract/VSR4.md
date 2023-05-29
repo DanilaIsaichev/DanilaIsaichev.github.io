@@ -3,7 +3,7 @@ title: "vsr4"
 weight: 15
 
 task_code: "vsr4"
-task_title: "Тема 4. Развёртывание веб-ресурса на платформе vscale.io с использованием Docker"
+task_title: "ВСР Тема 4. Развёртывание веб-ресурса на платформе vscale.io с использованием Docker"
 subject: "Компьютерный практикум"
 ---
 
