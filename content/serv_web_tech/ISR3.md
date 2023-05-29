@@ -3,7 +3,7 @@ title: "ISR_Theme_3"
 weight: 5
 
 task_code: "ISR_Theme_3"
-task_title: "Тема 3. Разработка базы данных на MongoDB"
+task_title: "ИСР Тема 3. Разработка базы данных на MongoDB"
 subject: "Серверные веб-техологии"
 ---
 
