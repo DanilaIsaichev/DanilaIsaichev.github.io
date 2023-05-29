@@ -3,7 +3,7 @@ title: "ISR_Theme_2"
 weight: 4
 
 task_code: "ISR_Theme_2"
-task_title: "Тема 2. Проектирование приложения на основе фреймворка Symphony"
+task_title: "ИСР Тема 2. Проектирование приложения на основе фреймворка Symphony"
 subject: "Серверные веб-техологии"
 ---
 
