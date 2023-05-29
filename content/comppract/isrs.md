@@ -10,7 +10,9 @@ subject: "Компьютерный практикум"
 ### Тема 2. Отправка HTTP-запроса серверу методом GET и POST с помощью приложения cURL с записью скринкаста совершаемых действий
 
 {{<rawhtml>}}
-    <video autoplay="true" loop="true" src="https://github.com/DanilaIsaichev/CPISR2/blob/main/isr2.mp4">
+    <video>
+     <source src="[URL](https://github.com/DanilaIsaichev/CPISR2/blob/main/isr2.mp4)">
+    </video>
 {{</rawhtml>}}
 
 ### Тема 3. Проектирование веб-базы данных и разработка приложения на основе фреймворка Express с реализацией маршрутизации и операций CRUD над простой БД с обработкой запросов REST
