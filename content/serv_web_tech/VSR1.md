@@ -3,7 +3,7 @@ title: "VSR_Theme_1"
 weight: 7
 
 task_code: "VSR_Theme_1"
-task_title: "Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC"
+task_title: "ВСР Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC"
 subject: "Серверные веб-техологии"
 ---
 
