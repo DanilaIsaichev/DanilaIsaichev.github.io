@@ -1,0 +1,41 @@
+<!doctype html><html lang=ru><head><link rel="shortcut icon" href=https://danilaisaichev.github.io/images/logo.png type=image/png><link href=https://danilaisaichev.github.io/css/style.css type=text/css rel=stylesheet><meta name=viewport content="width=device-width,initial-scale=1"></head><body><script type=text/javascript src=https://danilaisaichev.github.io/js/fonts.js></script>
+<wrapper><header><nav><a href=https://danilaisaichev.github.io/ class=button>Главная</a>
+<a href=https://danilaisaichev.github.io/prog class=button>Программирование</a>
+<a href=https://danilaisaichev.github.io/comppract class=button>Компьютерный практикум</a>
+<a href=https://danilaisaichev.github.io/web class=button>Веб-проектирование</a>
+<a href=https://danilaisaichev.github.io/serv_web_tech class=button>Серверные веб-технологии</a>
+<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>vsr2<p>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.</p><p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p><p>Реализованы следующие операции:</p><p><code>GET /products</code> - получение списка продуктов</p><p><code>POST /products/new</code> - добавление нового продукта</p><p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p><p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p><p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p><p>Сервер возвращает ответ - статус выполнения операции в формате JSON.</p><h2 id=проверка-работы>Проверка работы</h2><p>Добавление данных:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>curl -X <span style=color:#e6db74>&#39;POST&#39;</span> -d <span style=color:#e6db74>&#39;name=NewProduct&#39;</span> https://task2.danilaisaichev.repl.co/products/new
+</span></span></code></pre></div><p>Ответ сервера при добавлении данных:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;status&#34;</span>: <span style=color:#e6db74>&#34;success&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Получение данных:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>curl https://task2.danilaisaichev.repl.co/products
+</span></span></code></pre></div><p>Ответ сервера:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>[
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>32</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e4268f46a5bd73485414f0&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Apples&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>16.25</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42ad546a5bd73485414f1&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Bananas&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>24.5</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42b1046a5bd73485414f2&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Strawberries&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Berries&#34;</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>]
+</span></span></code></pre></div></main></body></html>

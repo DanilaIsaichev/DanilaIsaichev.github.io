@@ -71,4 +71,19 @@ unit: String
 } Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
 Приложение реализовано с использованием Express, bodyParser, Mongoose.
 Реализованы следующие операции:
-GET /products - получение списка продуктов</description></item></channel></rss>
+GET /products - получение списка продуктов</description></item><item><title>vsr1</title><link>https://danilaisaichev.github.io/comppract/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr1/</guid><description>Инициализация проекта: Добавление webpack и webpack-cli: Добавление moment: package.json: index.js: Сборка: README.md: Результат:</description></item><item><title>vsr2</title><link>https://danilaisaichev.github.io/comppract/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr2/</guid><description>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.
+Приложение реализовано с использованием Express, bodyParser, Mongoose.
+Реализованы следующие операции:
+GET /products - получение списка продуктов
+POST /products/new - добавление нового продукта
+POST /products/update/:id - обновление информации о продукте по ID
+POST /products/delete/:id - удаление информации о продукте по ID
+При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</description></item><item><title>vsr3</title><link>https://danilaisaichev.github.io/comppract/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr3/</guid><description>NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.
+Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:
+базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно); гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных; согласованность в конечном счёте — данные могут быть некоторое время рассогласованы, но приходят к согласованию через некоторое время.</description></item><item><title>vsr4</title><link>https://danilaisaichev.github.io/comppract/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr4/</guid><description>Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.
+После создания аккаунта необходимо создать сервер с готовым образом Docker:
+После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.
+Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.
+Для установки контейнера необходимо выполнить команду:
+docker pull ghost Для запуска Ghost необходимо выполнить команду:
+docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.</description></item></channel></rss>
