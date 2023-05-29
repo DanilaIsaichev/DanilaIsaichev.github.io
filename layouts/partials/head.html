@@ -5,6 +5,8 @@
         <title>Портфолио</title>
     {{ else if eq .Title "web" }}
         <title>Портфолио по веб-проектированию</title>
+    {{ else if eq .Title "serv_web_tech" }}
+        <title>Портфолио по серверным веб-технологиям</title>
     {{ else if eq .Title "prog" }}
         <title>Портфолио по программированию</title>
     {{ else if eq .Title "comppract" }}
@@ -21,7 +23,9 @@
     {{ if eq .Title "main" }}
         <meta name="description" content="Главная страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича"> 
     {{ else if eq .Title "web" }}
-        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Веб проектированию"> 
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Веб-проектированию"> 
+    {{ else if eq .Title "serv_web_tech" }}
+        <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Серверным веб-технологиям"> 
     {{ else if eq .Title "prog" }}
         <meta name="description" content="Страница сайта-портфолио студента ИИТиТО РГПУ им. А.И. Герцена Исайчева Данилы Олеговича с отчётами по Программированию"> 
     {{ else if eq .Title "comppract" }}
