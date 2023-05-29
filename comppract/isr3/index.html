@@ -1,0 +1,109 @@
+<!doctype html><html lang=ru><head><link rel="shortcut icon" href=https://danilaisaichev.github.io/images/logo.png type=image/png><link href=https://danilaisaichev.github.io/css/style.css type=text/css rel=stylesheet><meta name=viewport content="width=device-width,initial-scale=1"></head><body><script type=text/javascript src=https://danilaisaichev.github.io/js/fonts.js></script>
+<wrapper><header><nav><a href=https://danilaisaichev.github.io/ class=button>Главная</a>
+<a href=https://danilaisaichev.github.io/prog class=button>Программирование</a>
+<a href=https://danilaisaichev.github.io/comppract class=button>Компьютерный практикум</a>
+<a href=https://danilaisaichev.github.io/web class=button>Веб-проектирование</a>
+<a href=https://danilaisaichev.github.io/serv_web_tech class=button>Серверные веб-технологии</a>
+<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>isr3<p>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.</p><p>MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.</p><p>Схема может иметь следующий вид:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#960050;background-color:#1e0010>name:</span> <span style=color:#960050;background-color:#1e0010>String,</span>
+</span></span><span style=display:flex><span>    <span style=color:#960050;background-color:#1e0010>type:</span> <span style=color:#960050;background-color:#1e0010>String,</span>
+</span></span><span style=display:flex><span>    <span style=color:#960050;background-color:#1e0010>amount:</span> <span style=color:#960050;background-color:#1e0010>{</span>
+</span></span><span style=display:flex><span>        <span style=color:#960050;background-color:#1e0010>number:</span> <span style=color:#960050;background-color:#1e0010>Number,</span>
+</span></span><span style=display:flex><span>        <span style=color:#960050;background-color:#1e0010>unit:</span> <span style=color:#960050;background-color:#1e0010>String</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>}</span>
+</span></span></code></pre></div><p><img src=./isr-3-screenshots/1.png alt="ИСР тема 3"></p><p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.</p><p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p><p>Реализованы следующие операции:</p><p><code>GET /products</code> - получение списка продуктов</p><p><code>POST /products/new</code> - добавление нового продукта</p><p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p><p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p><p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p><p>Сервер возвращает ответ - статус выполнения операции в формате JSON. Пример ответа сервера (добавление данных):</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;status&#34;</span>: <span style=color:#e6db74>&#34;success&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Пример ответа сервера на GET-запрос:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>[
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>32</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e4268f46a5bd73485414f0&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Apples&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>16.25</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42ad546a5bd73485414f1&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Bananas&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>24.5</span>,
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>        },
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42b1046a5bd73485414f2&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Strawberries&#34;</span>,
+</span></span><span style=display:flex><span>        <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Berries&#34;</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>]
+</span></span></code></pre></div><p>Содержимое package.json:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;UnwieldyDoubleSets&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;version&#34;</span>: <span style=color:#e6db74>&#34;1.0.0&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;description&#34;</span>: <span style=color:#e6db74>&#34;&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;main&#34;</span>: <span style=color:#e6db74>&#34;index.js&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;scripts&#34;</span>: {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;test&#34;</span>: <span style=color:#e6db74>&#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;keywords&#34;</span>: [],
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;author&#34;</span>: <span style=color:#e6db74>&#34;&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;license&#34;</span>: <span style=color:#e6db74>&#34;ISC&#34;</span>,
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;dependencies&#34;</span>: {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;body-parser&#34;</span>: <span style=color:#e6db74>&#34;^1.19.0&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;express&#34;</span>: <span style=color:#e6db74>&#34;^4.17.1&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;mongoose&#34;</span>: <span style=color:#e6db74>&#34;^5.13.2&#34;</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Содержимое index.js:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>express</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>require</span>(<span style=color:#e6db74>&#39;express&#39;</span>);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>bodyParser</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>require</span>(<span style=color:#e6db74>&#39;body-parser&#39;</span>);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>mongoose</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>require</span>(<span style=color:#e6db74>&#39;mongoose&#39;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>app</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>express</span>();
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>urlencodedParser</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>bodyParser</span>.<span style=color:#a6e22e>urlencoded</span>({<span style=color:#a6e22e>extended</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>false</span>});
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>Schema</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mongoose</span>.<span style=color:#a6e22e>Schema</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>productScheme</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Schema</span>({
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>name</span><span style=color:#f92672>:</span> String,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>type</span><span style=color:#f92672>:</span> String,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>amount</span><span style=color:#f92672>:</span> {
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>number</span><span style=color:#f92672>:</span> Number,
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unit</span><span style=color:#f92672>:</span> String
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>});
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>mongoose</span>.<span style=color:#a6e22e>connect</span>(<span style=color:#e6db74>&#34;mongodb connection string&#34;</span>, { <span style=color:#a6e22e>useUnifiedTopology</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>, <span style=color:#a6e22e>useNewUrlParser</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span> });
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>Product</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mongoose</span>.<span style=color:#a6e22e>model</span>(<span style=color:#e6db74>&#39;products&#39;</span>, <span style=color:#a6e22e>productScheme</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>app</span>.<span style=color:#a6e22e>get</span>(<span style=color:#e6db74>&#39;/products&#39;</span>, (<span style=color:#a6e22e>req</span>, <span style=color:#a6e22e>res</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>void</span> <span style=color:#a6e22e>Product</span>.<span style=color:#a6e22e>find</span>({}, (<span style=color:#a6e22e>err</span>, <span style=color:#a6e22e>data</span>) =&gt; <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>send</span>(<span style=color:#a6e22e>data</span>));
+</span></span><span style=display:flex><span>})
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>post</span>(<span style=color:#e6db74>&#39;/products/new&#39;</span>, <span style=color:#a6e22e>urlencodedParser</span>, (<span style=color:#a6e22e>req</span>, <span style=color:#a6e22e>res</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>product</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Product</span>(<span style=color:#a6e22e>req</span>.<span style=color:#a6e22e>body</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>product</span>.<span style=color:#a6e22e>save</span>(<span style=color:#a6e22e>err</span> =&gt; {
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>send</span>({<span style=color:#e6db74>&#39;status&#39;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>?</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;success&#39;</span>});
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>})
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>post</span>(<span style=color:#e6db74>&#39;/products/update/:id&#39;</span>, <span style=color:#a6e22e>urlencodedParser</span>, (<span style=color:#a6e22e>req</span>, <span style=color:#a6e22e>res</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>id</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mongoose</span>.<span style=color:#a6e22e>Types</span>.<span style=color:#a6e22e>ObjectId</span>(<span style=color:#a6e22e>req</span>.<span style=color:#a6e22e>params</span>.<span style=color:#a6e22e>id</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Product</span>.<span style=color:#a6e22e>updateOne</span>({<span style=color:#e6db74>&#39;_id&#39;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>id</span>}, <span style=color:#a6e22e>req</span>.<span style=color:#a6e22e>body</span>, (<span style=color:#a6e22e>err</span>, <span style=color:#a6e22e>result</span>) =&gt; {
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>send</span>({<span style=color:#e6db74>&#39;status&#39;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>?</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;success&#39;</span>});
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>})
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>post</span>(<span style=color:#e6db74>&#39;/products/delete/:id&#39;</span>, <span style=color:#a6e22e>urlencodedParser</span>, (<span style=color:#a6e22e>req</span>, <span style=color:#a6e22e>res</span>) =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>id</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>mongoose</span>.<span style=color:#a6e22e>Types</span>.<span style=color:#a6e22e>ObjectId</span>(<span style=color:#a6e22e>req</span>.<span style=color:#a6e22e>params</span>.<span style=color:#a6e22e>id</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Product</span>.<span style=color:#a6e22e>deleteOne</span>({<span style=color:#e6db74>&#39;_id&#39;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>id</span>}, (<span style=color:#a6e22e>err</span>, <span style=color:#a6e22e>result</span>) =&gt; {
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>send</span>({<span style=color:#e6db74>&#39;status&#39;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>?</span> <span style=color:#a6e22e>err</span> <span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;success&#39;</span>});
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>});
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>app</span>.<span style=color:#a6e22e>listen</span>();
+</span></span></code></pre></div></main></body></html>
