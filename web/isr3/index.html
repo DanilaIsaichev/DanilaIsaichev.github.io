@@ -14,5 +14,4 @@
 </span></span><span style=display:flex><span>        <span style=color:#a6e22e>ul</span>.<span style=color:#a6e22e>appendChild</span>(<span style=color:#a6e22e>li</span>);
 </span></span><span style=display:flex><span>    });
 </span></span><span style=display:flex><span>}
-</span></span></code></pre></div><p>Результат:</p><p>{}
-Get Data</p></main></body></html>
+</span></span></code></pre></div><p>Результат:</p><button id=btn>Get Data</button><div id=data><ul id=users></ul></div><script>document.querySelector("#btn").onclick=async()=>{let e=await fetch("https://kodaktor.ru/j/users");data=await e.json(),data.users.forEach(e=>{let n=document.querySelector("#users"),t=document.createElement("li");t.appendChild(document.createTextNode(e.login)),n.appendChild(t)})}</script></main></body></html>
