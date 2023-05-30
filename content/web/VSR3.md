@@ -7,8 +7,6 @@ task_title: "ВСР Тема 3. Проектирование сценария д
 subject: "Веб проектирование"
 ---
 
-![Подбор палитры](/web/webp/vsr/images/task-3.png)
-
 {{< rawhtml >}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
