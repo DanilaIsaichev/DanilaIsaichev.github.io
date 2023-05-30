@@ -4,28 +4,23 @@
 <a href=https://danilaisaichev.github.io/comppract class=button>Компьютерный практикум</a>
 <a href=https://danilaisaichev.github.io/web class=button>Веб-проектирование</a>
 <a href=https://danilaisaichev.github.io/serv_web_tech class=button>Серверные веб-технологии</a>
-<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>Настройка подключения к виртуальной частной сети<h2 id=команды-для-настройки-сервера>Команды для настройки сервера:</h2><pre tabindex=0><code>sudo apt update &amp;&amp; sudo apt upgrade -y
- 
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
- 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
---dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
- 
-echo \
-  &#34;deb [arch=$(dpkg
---print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
-https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable&#34;
-| sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
- 
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-docker-compose-plugin
- 
-docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
-serveconfig
-</code></pre><hr><h2 id=результат>Результат:</h2><p><img src=/pit/vpn/VPN1.png alt=VPN1><br><img src=/pit/vpn/VPN2.png alt=VPN2><br><img src=/pit/vpn/VPN3.png alt=VPN3><br><img src=/pit/vpn/VPN4.png alt=VPN4></p></main></body></html>
+<a href=https://danilaisaichev.github.io/pit class=button>ПИТ</a></nav></header><main>Настройка подключения к виртуальной частной сети<h2 id=команды-для-настройки-сервера>Команды для настройки сервера:</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt update <span style=color:#f92672>&amp;&amp;</span> sudo apt upgrade -y
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt-get install <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    ca-certificates <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    curl <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    gnupg <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    lsb-release
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
+</span></span><span style=display:flex><span>--dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>echo <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>  <span style=color:#e6db74>&#34;deb [arch=</span><span style=color:#66d9ef>$(</span>dpkg
+</span></span><span style=display:flex><span>--print-architecture<span style=color:#66d9ef>)</span><span style=color:#e6db74> signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>https://download.docker.com/linux/ubuntu \
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  </span><span style=color:#66d9ef>$(</span>lsb_release -cs<span style=color:#66d9ef>)</span><span style=color:#e6db74> stable&#34;</span>
+</span></span><span style=display:flex><span>| sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo apt-get update
+</span></span><span style=display:flex><span>sudo apt-get install docker-ce docker-ce-cli containerd.io
+</span></span><span style=display:flex><span>docker-compose-plugin
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
+</span></span><span style=display:flex><span>serveconfig
+</span></span></code></pre></div><hr><h2 id=результат>Результат:</h2><p><img src=/pit/vpn/VPN1.png alt=VPN1><br><img src=/pit/vpn/VPN2.png alt=VPN2><br><img src=/pit/vpn/VPN3.png alt=VPN3><br><img src=/pit/vpn/VPN4.png alt=VPN4></p></main></body></html>
