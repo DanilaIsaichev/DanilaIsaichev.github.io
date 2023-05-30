@@ -64,3 +64,7 @@ subject: "Серверные веб-техологии"
   }
 ]
 ```
+
+{{<buttons_column>}}
+    {{<button text="Ссылка на репозиторий" link="https://github.com/DanilaIsaichev/SWTISR1">}}
+{{</buttons_column>}}
