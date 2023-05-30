@@ -11,7 +11,7 @@ subject: "Веб проектирование"
 
 Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.
 
-Код приложения (фрагмент script):
+### Код приложения (фрагмент script):
 
 ```js
 document.querySelector('#btn').onclick = async () => {
@@ -26,7 +26,7 @@ document.querySelector('#btn').onclick = async () => {
 }
 ```
 
-Результат:
+### Результат:
 
 {{< rawhtml >}}
 <button id="btn">Get Data</button>
