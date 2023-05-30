@@ -22,7 +22,7 @@ subject: "Веб проектирование"
 
 Пример чистой функции:
 
-```
+```js
 function multuply(a, b) {
     return a * b;
 }
@@ -32,7 +32,7 @@ function multuply(a, b) {
 
 Пример функции:
 
-```
+```js
 function slugify(str) {
     return str.toLowerCase().trim().split(' ').join('-');
 }
