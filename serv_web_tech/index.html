@@ -17,39 +17,39 @@
 </span></span></code></pre></div><h3 id=отправка-запроса-с-помощью-telnet>Отправка запроса с помощью telnet</h3><p>GET запрос:</p><p><img src=./lab-1-screenshots/telnet-get-req.png alt="GET запрос"></p><p>Ответ на GET запрос:</p><p><img src=./lab-1-screenshots/telnet-get-res.png alt="Ответ на GET запрос"></p><p>POST запрос:</p><p><img src=./lab-1-screenshots/telnet-post-req.png alt="POST запрос"></p><p>Ответ на POST запрос:</p><p><img src=./lab-1-screenshots/telnet-post-res.png alt="Ответ на POST запрос"></p><h3 id=отправка-запроса-с-помощью-curl>Отправка запроса с помощью cURL</h3><p>GET запрос:</p><p><img src=./lab-1-screenshots/curl-get-req.png alt="GET запрос"></p><p>Ответ на GET запрос:</p><p><img src=./lab-1-screenshots/curl-get-res.png alt="Ответ на GET запрос"></p><p>POST запрос:</p><p><img src=./lab-1-screenshots/curl-post-req.png alt="POST запрос"></p><p>Ответ на POST запрос:</p><p><img src=./lab-1-screenshots/curl-post-res.png alt="Ответ на POST запрос"></p><h2 id=создание-простого-веб-сервера-на-основе-nodejs>Создание простого веб-сервера на основе Node.js</h2><p>Пример ответа сервера:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
 </span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;date&#34;</span>: <span style=color:#e6db74>&#34;16.06.2021 18:07:23&#34;</span>
 </span></span><span style=display:flex><span>}
-</span></span></code></pre></div></div></div><div id=Lab_Theme_2 class=block-wrapper><div class=content><h1>ЛР Тема 2. Использование серверных веб-технологий на платформе PHP</h1><h2 id=1-развёртывание-стека-lamp>1. Развёртывание стека LAMP</h2><h3 id=часть-i-развёртывание-phpfpm--nginx>Часть I. Развёртывание PHP/FPM + NGINX</h3><p><img src=./lab-2-screenshots/2-2.png alt></p><p><img src=./lab-2-screenshots/2-3.png alt></p><h3 id=часть-ii>Часть II</h3><p><img src=./lab-2-screenshots/2-4.png alt="Развёртывание PHP/FPM + NGINX"></p><h2 id=2-разработка-на-php-с-помощью-gd2-графического-интерфейса-визуализации-данных-полученных-с-помощью-сетевого-интерфейса>2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</h2><p><img src=./lab-2-screenshots/2-5.png alt></p></div></div><div id=ISR_Theme_1 class=block-wrapper><div class=content><h1>ИСР Тема 1. Проектирование CRUD для серверного веб-приложения</h1><p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.</p><p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p><p>Реализованы следующие операции:</p><p><code>GET /products</code> - получение списка продуктов</p><p><code>POST /products/new</code> - добавление нового продукта</p><p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p><p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p><p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p><p>Сервер возвращает ответ - статус выполнения операции в формате JSON. Пример ответа сервера (добавление данных):</p><pre tabindex=0><code>{
-  &#34;status&#34;: &#34;success&#34;
-}
-</code></pre><p>Пример ответа сервера на GET-запрос:</p><pre tabindex=0><code>[
-  {
-    &#34;amount&#34;: {
-      &#34;number&#34;: 32,
-      &#34;unit&#34;: &#34;kg&#34;
-    },
-    &#34;_id&#34;: &#34;60e4268f46a5bd73485414f0&#34;,
-    &#34;name&#34;: &#34;Apples&#34;,
-    &#34;type&#34;: &#34;Fruits&#34;
-  },
-  {
-    &#34;amount&#34;: {
-      &#34;number&#34;: 16.25,
-      &#34;unit&#34;: &#34;kg&#34;
-    },
-    &#34;_id&#34;: &#34;60e42ad546a5bd73485414f1&#34;,
-    &#34;name&#34;: &#34;Bananas&#34;,
-    &#34;type&#34;: &#34;Fruits&#34;
-  },
-  {
-    &#34;amount&#34;: {
-      &#34;number&#34;: 24.5,
-      &#34;unit&#34;: &#34;kg&#34;
-    },
-    &#34;_id&#34;: &#34;60e42b1046a5bd73485414f2&#34;,
-    &#34;name&#34;: &#34;Strawberries&#34;,
-    &#34;type&#34;: &#34;Berries&#34;
-  }
-]
-</code></pre></div></div><div id=ISR_Theme_2 class=block-wrapper><div class=content><h1>ИСР Тема 2. Проектирование приложения на основе фреймворка Symphony</h1><p>Приложение реализует API для выполнения арифметических операций.</p><p>Маршруты описаны в файле <code>routes.yaml</code>.</p><p>Контроллер реализован в файле <code>CalcController.php</code>.</p><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/add/2/3</code>:</p><pre tabindex=0><code>{
+</span></span></code></pre></div></div></div><div id=Lab_Theme_2 class=block-wrapper><div class=content><h1>ЛР Тема 2. Использование серверных веб-технологий на платформе PHP</h1><h2 id=1-развёртывание-стека-lamp>1. Развёртывание стека LAMP</h2><h3 id=часть-i-развёртывание-phpfpm--nginx>Часть I. Развёртывание PHP/FPM + NGINX</h3><p><img src=./lab-2-screenshots/2-2.png alt></p><p><img src=./lab-2-screenshots/2-3.png alt></p><h3 id=часть-ii>Часть II</h3><p><img src=./lab-2-screenshots/2-4.png alt="Развёртывание PHP/FPM + NGINX"></p><h2 id=2-разработка-на-php-с-помощью-gd2-графического-интерфейса-визуализации-данных-полученных-с-помощью-сетевого-интерфейса>2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</h2><p><img src=./lab-2-screenshots/2-5.png alt></p></div></div><div id=ISR_Theme_1 class=block-wrapper><div class=content><h1>ИСР Тема 1. Проектирование CRUD для серверного веб-приложения</h1><p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.</p><p>Приложение реализовано с использованием Express, bodyParser, Mongoose.</p><p>Реализованы следующие операции:</p><p><code>GET /products</code> - получение списка продуктов</p><p><code>POST /products/new</code> - добавление нового продукта</p><p><code>POST /products/update/:id</code> - обновление информации о продукте по ID</p><p><code>POST /products/delete/:id</code> - удаление информации о продукте по ID</p><p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</p><p>Сервер возвращает ответ - статус выполнения операции в формате JSON. Пример ответа сервера (добавление данных):</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#f92672>&#34;status&#34;</span>: <span style=color:#e6db74>&#34;success&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Пример ответа сервера на GET-запрос:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json><span style=display:flex><span>[
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>32</span>,
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e4268f46a5bd73485414f0&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Apples&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>16.25</span>,
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42ad546a5bd73485414f1&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Bananas&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Fruits&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;amount&#34;</span>: {
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;number&#34;</span>: <span style=color:#ae81ff>24.5</span>,
+</span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;unit&#34;</span>: <span style=color:#e6db74>&#34;kg&#34;</span>
+</span></span><span style=display:flex><span>    },
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;_id&#34;</span>: <span style=color:#e6db74>&#34;60e42b1046a5bd73485414f2&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Strawberries&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;type&#34;</span>: <span style=color:#e6db74>&#34;Berries&#34;</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>]
+</span></span></code></pre></div></div></div><div id=ISR_Theme_2 class=block-wrapper><div class=content><h1>ИСР Тема 2. Проектирование приложения на основе фреймворка Symphony</h1><p>Приложение реализует API для выполнения арифметических операций.</p><p>Маршруты описаны в файле <code>routes.yaml</code>.</p><p>Контроллер реализован в файле <code>CalcController.php</code>.</p><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/add/2/3</code>:</p><pre tabindex=0><code>{
   &#34;result&#34;: 5
 }
 </code></pre><p>Ответ сервера при выполнении запроса по маршруту <code>/calc/substract/5/7</code>:</p><pre tabindex=0><code>{
