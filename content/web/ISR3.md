@@ -28,7 +28,7 @@ document.querySelector('#btn').onclick = async () => {
 
 Результат:
 
-{<rawhtml>}
+{{< rawhtml >}}
 <button id="btn">Get Data</button>
 <div id="data">
     <ul id="users"></ul>
@@ -45,4 +45,4 @@ document.querySelector('#btn').onclick = async () => {
         });
     }
 </script>
-{</rawhtml>}
+{{</ rawhtml >}}
