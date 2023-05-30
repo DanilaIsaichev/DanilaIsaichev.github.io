@@ -11,13 +11,13 @@ Ghost.js можно установить с помощью Docker-контейн
 
 Для установки контейнера необходимо выполнить команду:
 
-```
+```bash
 docker pull ghost
 ```
 
 Для запуска Ghost необходимо выполнить команду:
 
-```
+```bash
 docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 ```
 
