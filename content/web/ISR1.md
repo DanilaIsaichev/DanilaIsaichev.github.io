@@ -23,7 +23,7 @@ subject: "Веб проектирование"
 
 Git: необходимо указать имя и адрес электронной почты:
 
-```
+```bash
 git config --global user.email “mail@example.com”
 git config --global user.name “username”
 ```
