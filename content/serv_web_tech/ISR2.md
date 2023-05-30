@@ -44,3 +44,8 @@ subject: "Серверные веб-техологии"
   "result": 0.7142857142857143
 }
 ```
+
+{{<buttons_column>}}
+    {{<button text="Ссылка на репозиторий" link="https://github.com/DanilaIsaichev/SWTISR2">}}
+{{</buttons_column>}}
+
