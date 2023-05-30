@@ -40,6 +40,6 @@ subject: "Компьютерный практикум"
   
   
 {{< rawhtml >}}
-  <div id="lab56-result"></div>
-  <script src="./lab5-6/main.js"></script>
+  <div id="vsr1-result"></div>
+  <script src="./vsr1/main.js"></script>
 {{< /rawhtml >}}
