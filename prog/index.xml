@@ -1,2 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prog on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/prog/</link><description>Recent content in prog on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/prog/index.xml" rel="self" type="application/rss+xml"/><item><title>Третий семестр</title><link>https://danilaisaichev.github.io/prog/prog3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog3/</guid><description> Лабораторные работы за семестр
-Самостоятельные работы за семестр</description></item><item><title>Четвёртый семестр</title><link>https://danilaisaichev.github.io/prog/prog4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog4/</guid><description> Лабораторные работы 1-2 Лабораторная работы 3 Лабораторная работы 4 Лабораторные работы 5-6 Лабораторная работа 7 Лабораторная работа 8 Самостоятельные работы за семестр</description></item><item><title>Пятый семестр</title><link>https://danilaisaichev.github.io/prog/prog5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog5/</guid><description> Лабораторная работа 1 Лабораторная работа 2 Лабораторная работа 3 Лабораторная работа 4 Лабораторная работа 5 Лабораторная работа 6 Лабораторная работа 7 Лабораторная работа 8 Лабораторная работа 9 Самостоятельные работы за семестр</description></item><item><title>Шестой семестр</title><link>https://danilaisaichev.github.io/prog/prog6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog6/</guid><description> Лабораторные работы 1-2 Лабораторные работы 3-4 Лабораторная работа 5 Лабораторная работа 6 Самостоятельные работы за семестр</description></item><item><title>Седьмой семестр</title><link>https://danilaisaichev.github.io/prog/prog7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog7/</guid><description> Лабораторная работа 1 Лабораторная работа 2 Лабораторная работа 3 Лабораторная работа 4 Лабораторная работа 5 Лабораторная работа 6 Лабораторная работа 7 Лабораторная работа 8 Итоговая лабораторная работа</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>prog on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/prog/</link><description>Recent content in prog on Danila Isaichev's Portfolio</description><generator>Hugo</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/prog/index.xml" rel="self" type="application/rss+xml"/><item><title>Третий семестр</title><link>https://danilaisaichev.github.io/prog/prog3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog3/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/python-basic/sem3-ivt19-task1-DanilaIsaichev class="button" target="_blank">Лабораторные работы за семестр&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG3-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Четвёртый семестр</title><link>https://danilaisaichev.github.io/prog/prog4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog4/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab1-2 class="button" target="_blank">Лабораторные работы 1-2&lt;/a>
+ &lt;a href=https://danilaisaichev.github.io/prog/4-sem/%d0%98%d1%81%d0%b0%d0%b9%d1%87%d0%b5%d0%b2%d0%94%d0%9e_%d0%98%d0%92%d0%a2%282%29_%d0%bf%d0%b33_%d0%9f%d0%a0%d0%9e%d0%934_%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f_%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0_3.pdf class="button" target="_blank">Лабораторная работы 3&lt;/a>
+ &lt;a href=https://danilaisaichev.github.io/prog/ class="button" target="_blank">Лабораторная работы 4&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab5-6 class="button" target="_blank">Лабораторные работы 5-6&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab8 class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG4-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Пятый семестр</title><link>https://danilaisaichev.github.io/prog/prog5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog5/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/python-basic/sem5-lr1-DanilaIsaichev class="button" target="_blank">Лабораторная работа 1&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr2-DanilaIsaichev class="button" target="_blank">Лабораторная работа 2&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr3-DanilaIsaichev class="button" target="_blank">Лабораторная работа 3&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem3-lr4-DanilaIsaichev class="button" target="_blank">Лабораторная работа 4&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1jmtqsppMho0Ry0p2F72CFB5hwhdbj-hI?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG5Lab6singleton class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG5Lab7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr8-DanilaIsaichev class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1g9NzjkHp7PDWwVZnW_kmnFIMoSH8VPHi?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 9&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG5-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Шестой семестр</title><link>https://danilaisaichev.github.io/prog/prog6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog6/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG6lab1 class="button" target="_blank">Лабораторные работы 1-2&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG6lab3-4 class="button" target="_blank">Лабораторные работы 3-4&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1PrTSS7FU81U6FPtt0tV8QSUqpwRViJRY?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1NAcpXVVil0RX_VqL1syjjlY9OuPNg0Af#scrollTo&amp;#61;yrLGxUzz7MK_ class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG6-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Седьмой семестр</title><link>https://danilaisaichev.github.io/prog/prog7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog7/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-1 class="button" target="_blank">Лабораторная работа 1&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-2 class="button" target="_blank">Лабораторная работа 2&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1B_jI9TwtC_H3pWryX7iR0D0Up_Dy0TrT?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 3&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-4 class="button" target="_blank">Лабораторная работа 4&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-5-01.10.2022 class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-6 class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-8 class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-Final class="button" target="_blank">Итоговая лабораторная работа&lt;/a>
+
+&lt;/div></description></item></channel></rss>

@@ -1,18 +1,212 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/web/</link><description>Recent content in web on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/web/index.xml" rel="self" type="application/rss+xml"/><item><title>openedu</title><link>https://danilaisaichev.github.io/web/openedu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/openedu/</guid><description/></item><item><title>rubles_to_dollars</title><link>https://danilaisaichev.github.io/web/rubles_to_dollars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/rubles_to_dollars/</guid><description> Курс доллара к рублю Ссылка на борд</description></item><item><title>lab1</title><link>https://danilaisaichev.github.io/web/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/lab1/</guid><description>Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа)
-Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций
-XML-документ DTD Рассмотрите документ Статистика посещений страницы (https://kodaktor.ru/g/08092017_stats). Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ XML-документ DTD Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа xmlvalidation.com XML-документ DTD Валидация документа:</description></item><item><title>ISR1</title><link>https://danilaisaichev.github.io/web/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr1/</guid><description>Рабочее пространство разработчика может состоять из следующих компонентов:
-Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков ( https://www.google.com/intl/ru_ru/chrome/, https://www.chromium.org/ ) Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков Node.js (LTS и Current версии) Локальный веб-сервер XAMMP или аналогичный Система контроля версий Git (https://git-scm.com/) Редактор кода Visual Studio Code (https://code.visualstudio.com/) Утилита cURL Клиент telnet (для Windows - можно использовать PuTTY или стандартный клиент) SSH-клиент (для Windows - можно использовать PuTTY или PowerShell) Настройка Git: необходимо указать имя и адрес электронной почты:</description></item><item><title>ISR2</title><link>https://danilaisaichev.github.io/web/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr2/</guid><description>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.
-Менеджер пакетов npm входит в состав Node.js.
-Для установки Yarn необходимо выполнить команду:
-npm install yarn -g После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:
-yarn -v</description></item><item><title>ISR3</title><link>https://danilaisaichev.github.io/web/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr3/</guid><description>Данные JSON получены по адресу https://kodaktor.ru/j/users.
-Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.
-Код приложения (фрагмент script): document.querySelector(&amp;#39;#btn&amp;#39;).onclick = async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/users&amp;#39;); data = await response.json(); data.users.forEach(user =&amp;gt; { let ul = document.querySelector(&amp;#39;#users&amp;#39;); let li = document.createElement(&amp;#39;li&amp;#39;); li.appendChild(document.createTextNode(user.login)); ul.appendChild(li); }); } Результат: Get Data</description></item><item><title>ISR4</title><link>https://danilaisaichev.github.io/web/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr4/</guid><description>Настройка линтера eslint для Visual Studio Code:
-Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description></item><item><title>VSR1</title><link>https://danilaisaichev.github.io/web/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr1/</guid><description>Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).
-Схема документа - DTD (Document Type Definition).
-Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: https://validator.w3.org/.</description></item><item><title>VSR2</title><link>https://danilaisaichev.github.io/web/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr2/</guid><description>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).
-Принципы функционального программирования:
-чистые функции; иммутабельность; ссылочная прозрачность; функции как объекты первого класса; функции высшего порядка; рекурсия. Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.</description></item><item><title>VSR3</title><link>https://danilaisaichev.github.io/web/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr3/</guid><description>Подбор палитры Выбрать другие цвета Количество цветов: Сценарий реализован с использованием библиотеки chroma.js. Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода chroma.random(). Для создания шкалы используется метод chroma.scale(colors).</description></item><item><title>VSR4</title><link>https://danilaisaichev.github.io/web/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr4/</guid><description>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.
-Для работы ESLint необходимо установить Node.js и npm.
-Настройка линтера eslint для Visual Studio Code:
-Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/web/</link><description>Recent content in web on Danila Isaichev's Portfolio</description><generator>Hugo</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/web/index.xml" rel="self" type="application/rss+xml"/><item><title>openedu</title><link>https://danilaisaichev.github.io/web/openedu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/openedu/</guid><description>&lt;p>&lt;img src="https://danilaisaichev.github.io/web/openedu/openedu.PNG" alt="Результаты прохождения курса на OpenEdu">&lt;/p></description></item><item><title>rubles_to_dollars</title><link>https://danilaisaichev.github.io/web/rubles_to_dollars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/rubles_to_dollars/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://5oj2q.csb.app class="button" target="_blank">Курс доллара к рублю&lt;/a>
+ &lt;a href=https://codesandbox.io/s/musing-browser-5oj2q?file&amp;#61;/src/App.js class="button" target="_blank">Ссылка на борд&lt;/a>
+
+&lt;/div></description></item><item><title>lab1</title><link>https://danilaisaichev.github.io/web/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/lab1/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/competencies.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/competencies.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;ol start="3">
+&lt;li>Рассмотрите документ Статистика посещений страницы (&lt;a href="https://kodaktor.ru/g/08092017_stats)">https://kodaktor.ru/g/08092017_stats)&lt;/a>. Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/stats.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/stats.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;ol start="4">
+&lt;li>Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа &lt;a href="https://xmlvalidation.com">xmlvalidation.com&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/students.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/students.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;p>Валидация документа:&lt;/p></description></item><item><title>ISR1</title><link>https://danilaisaichev.github.io/web/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr1/</guid><description>&lt;p>Рабочее пространство разработчика может состоять из следующих компонентов:&lt;/p>
+&lt;ul>
+&lt;li>Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков ( &lt;a href="https://www.google.com/intl/ru_ru/chrome/">https://www.google.com/intl/ru_ru/chrome/&lt;/a>, &lt;a href="https://www.chromium.org/">https://www.chromium.org/&lt;/a> )&lt;/li>
+&lt;li>Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков&lt;/li>
+&lt;li>Node.js (LTS и Current версии)&lt;/li>
+&lt;li>Локальный веб-сервер XAMMP или аналогичный&lt;/li>
+&lt;li>Система контроля версий Git (&lt;a href="https://git-scm.com/">https://git-scm.com/&lt;/a>)&lt;/li>
+&lt;li>Редактор кода Visual Studio Code (&lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a>)&lt;/li>
+&lt;li>Утилита cURL&lt;/li>
+&lt;li>Клиент telnet (для Windows - можно использовать PuTTY или стандартный клиент)&lt;/li>
+&lt;li>SSH-клиент (для Windows - можно использовать PuTTY или PowerShell)&lt;/li>
+&lt;/ul>
+&lt;h4 id="настройка">Настройка&lt;/h4>
+&lt;p>Git: необходимо указать имя и адрес электронной почты:&lt;/p></description></item><item><title>ISR2</title><link>https://danilaisaichev.github.io/web/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr2/</guid><description>&lt;p>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.&lt;/p>
+&lt;p>Менеджер пакетов npm входит в состав Node.js.&lt;/p>
+&lt;p>Для установки Yarn необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install yarn -g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn -v
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>ISR3</title><link>https://danilaisaichev.github.io/web/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr3/</guid><description>&lt;p>Данные JSON получены по адресу &lt;a href="https://kodaktor.ru/j/users">https://kodaktor.ru/j/users&lt;/a>.&lt;/p>
+&lt;p>Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.&lt;/p>
+&lt;h3 id="код-приложения-фрагмент-script">Код приложения (фрагмент script):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;#btn&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">onclick&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">async&lt;/span> () =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">response&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">fetch&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;https://kodaktor.ru/j/users&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">response&lt;/span>.&lt;span style="color:#a6e22e">json&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span>.&lt;span style="color:#a6e22e">users&lt;/span>.&lt;span style="color:#a6e22e">forEach&lt;/span>(&lt;span style="color:#a6e22e">user&lt;/span> =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">ul&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;#users&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">li&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;li&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">li&lt;/span>.&lt;span style="color:#a6e22e">appendChild&lt;/span>(document.&lt;span style="color:#a6e22e">createTextNode&lt;/span>(&lt;span style="color:#a6e22e">user&lt;/span>.&lt;span style="color:#a6e22e">login&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ul&lt;/span>.&lt;span style="color:#a6e22e">appendChild&lt;/span>(&lt;span style="color:#a6e22e">li&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результат">Результат:&lt;/h3>
+
+&lt;button id="btn">Get Data&lt;/button>
+&lt;div id="data">
+ &lt;ul id="users">&lt;/ul>
+&lt;/div>
+&lt;script>
+ document.querySelector('#btn').onclick = async () => {
+ let response = await fetch('https://kodaktor.ru/j/users');
+ data = await response.json();
+ data.users.forEach(user => {
+ let ul = document.querySelector('#users');
+ let li = document.createElement('li');
+ li.appendChild(document.createTextNode(user.login));
+ ul.appendChild(li);
+ });
+ }
+&lt;/script></description></item><item><title>ISR4</title><link>https://danilaisaichev.github.io/web/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr4/</guid><description>&lt;p>Настройка линтера eslint для Visual Studio Code:&lt;/p>
+&lt;ol>
+&lt;li>Установка eslint&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Установка плагинов &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint-config-airbnb-base eslint-plugin-import
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Создание конфигурационного файла &lt;code>.eslintrc.yml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">extends&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#e6db74">&amp;#39;airbnb-base&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">node&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">browser&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Установка плагина ESLint&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-1.png" alt="Установка плагина ESLint">&lt;/p>
+&lt;p>Исправление кода с учётом рекомендаций линтера:&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-2.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-3.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p></description></item><item><title>VSR1</title><link>https://danilaisaichev.github.io/web/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr1/</guid><description>&lt;p>Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).&lt;/p>
+&lt;p>Схема документа - DTD (Document Type Definition).&lt;/p>
+&lt;p>Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: &lt;a href="https://validator.w3.org/">https://validator.w3.org/&lt;/a>.&lt;br>
+&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-1.png" alt="Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C">&lt;/p></description></item><item><title>VSR2</title><link>https://danilaisaichev.github.io/web/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr2/</guid><description>&lt;p>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).&lt;/p>
+&lt;p>Принципы функционального программирования:&lt;/p>
+&lt;ul>
+&lt;li>чистые функции;&lt;/li>
+&lt;li>иммутабельность;&lt;/li>
+&lt;li>ссылочная прозрачность;&lt;/li>
+&lt;li>функции как объекты первого класса;&lt;/li>
+&lt;li>функции высшего порядка;&lt;/li>
+&lt;li>рекурсия.&lt;/li>
+&lt;/ul>
+&lt;p>Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.&lt;/p></description></item><item><title>VSR3</title><link>https://danilaisaichev.github.io/web/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr3/</guid><description>&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+&lt;style>
+ * {
+ font-family: 'Roboto';
+ }
+ button {
+ display: block;
+ margin-bottom: 8px;
+ }
+ input {
+ margin-bottom: 8px;
+ }
+ #palette {
+ width: 100%;
+ height: 64px;
+ display: flex;
+ margin-bottom: 8px;
+ }
+ #palette div {
+ width: 100%;
+ height: 64px;
+ }
+ #color-str {
+ border: 1px solid #686868;
+ padding: 8px;
+ }
+&lt;/style>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js" integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ==" crossorigin="anonymous" referrerpolicy="no-referrer">&lt;/script>
+&lt;h1>Подбор палитры&lt;/h1>
+&lt;button id="random-colors">Выбрать другие цвета&lt;/button>
+&lt;label for="colors">Количество цветов:&lt;/label>
+&lt;input type="number" id="colors" min="2" max="15" value="6">
+&lt;div id="palette">&lt;/div>
+&lt;div id="color-str">&lt;/div>
+&lt;script>
+ let color1 = chroma.random();
+ let color2 = chroma.random();
+
+ document.querySelector('#random-colors').onclick = () => {
+ [color1, color2] = [chroma.random(), chroma.random()];
+ createPalette();
+ }
+
+ function createPalette() {
+ let palette = document.querySelector('#palette');
+ palette.innerHTML = '';
+ let colors = document.querySelector('#colors').value;
+ let scale = chroma.scale([color1, color2]).colors(colors);
+ scale.forEach(color => {
+ let color_block = document.createElement('div');
+ color_block.style.background = color;
+ palette.appendChild(color_block);
+ });
+ document.querySelector('#color-str').textContent = scale.join(', ');
+ }
+
+ document.querySelector('#colors').oninput = createPalette;
+
+ createPalette();
+&lt;/script>
+
+
+&lt;p>Сценарий реализован с использованием библиотеки &lt;code>chroma.js&lt;/code>.
+Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода &lt;code>chroma.random()&lt;/code>. Для создания шкалы используется метод &lt;code>chroma.scale(colors)&lt;/code>.&lt;/p></description></item><item><title>VSR4</title><link>https://danilaisaichev.github.io/web/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr4/</guid><description>&lt;p>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.&lt;/p>
+&lt;p>Для работы ESLint необходимо установить Node.js и npm.&lt;/p>
+&lt;p>Настройка линтера eslint для Visual Studio Code:&lt;/p>
+&lt;ol>
+&lt;li>Установка &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Установка плагинов &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint-config-airbnb-base eslint-plugin-import
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Создание конфигурационного файла &lt;code>.eslintrc.yml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">extends&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#e6db74">&amp;#39;airbnb-base&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">node&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">browser&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Установка плагина ESLint&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-4-1.png" alt="Установка плагина ESLint">&lt;/p>
+&lt;p>Исправление кода с учётом рекомендаций линтера:&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-4-2.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p></description></item></channel></rss>

@@ -1,105 +1,1000 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>main on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/</link><description>Recent content in main on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab1/</guid><description>Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса:
-Данила:
-%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0 Исайчев:
-%D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2 Отправка запроса с помощью telnet GET запрос:
-Ответ на GET запрос:
-POST запрос:
-Ответ на POST запрос:
-Отправка запроса с помощью cURL GET запрос:
-Ответ на GET запрос:
-POST запрос:
-Ответ на POST запрос:
-Создание простого веб-сервера на основе Node.js Пример ответа сервера:
-{ &amp;#34;date&amp;#34;: &amp;#34;16.06.2021 18:07:23&amp;#34; }</description></item><item><title>lab12</title><link>https://danilaisaichev.github.io/comppract/lab12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab12/</guid><description>Результатом выполнения лабораторных работ №1 и №2 является данный сайт</description></item><item><title>Let's encrypt</title><link>https://danilaisaichev.github.io/pit/letsencrypt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencrypt/</guid><description>Скринкаст:</description></item><item><title>openedu</title><link>https://danilaisaichev.github.io/web/openedu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/openedu/</guid><description/></item><item><title>Третий семестр</title><link>https://danilaisaichev.github.io/prog/prog3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog3/</guid><description> Лабораторные работы за семестр
-Самостоятельные работы за семестр</description></item><item><title>Четвёртый семестр</title><link>https://danilaisaichev.github.io/prog/prog4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog4/</guid><description> Лабораторные работы 1-2 Лабораторная работы 3 Лабораторная работы 4 Лабораторные работы 5-6 Лабораторная работа 7 Лабораторная работа 8 Самостоятельные работы за семестр</description></item><item><title>Lab_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/lab2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab2/</guid><description>1. Развёртывание стека LAMP Часть I. Развёртывание PHP/FPM + NGINX Часть II 2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса</description></item><item><title>lab34</title><link>https://danilaisaichev.github.io/comppract/lab34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab34/</guid><description>Цель: Транспиляция с помощью Babel, развёртывание проекта на JavaScript, включающего модули.
-Файл index.js до выполнения транспиляции: 16 |&amp;gt; Math.sqrt |&amp;gt; console.log Файл index.js после выполнения транспиляции: var _ref, _; _ref = (_ = 16, Math.sqrt(_)), console.log(_ref); Файл main.js до выполнения транспиляции: import moment from &amp;#39;moment&amp;#39;; import name from &amp;#39;./name&amp;#39;; console.log(name); console.log(moment.unix(&amp;#39;1500514362&amp;#39;).format(&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;)); Файл main.js после выполнения транспиляции: &amp;#39;use strict&amp;#39;; var _moment = require(&amp;#39;moment&amp;#39;); var _moment2 = _interopRequireDefault(_moment); var _name = require(&amp;#39;.</description></item><item><title>rubles_to_dollars</title><link>https://danilaisaichev.github.io/web/rubles_to_dollars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/rubles_to_dollars/</guid><description> Курс доллара к рублю Ссылка на борд</description></item><item><title>Пятый семестр</title><link>https://danilaisaichev.github.io/prog/prog5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog5/</guid><description> Лабораторная работа 1 Лабораторная работа 2 Лабораторная работа 3 Лабораторная работа 4 Лабораторная работа 5 Лабораторная работа 6 Лабораторная работа 7 Лабораторная работа 8 Лабораторная работа 9 Самостоятельные работы за семестр</description></item><item><title>Docker BPR (Build &amp; Push &amp; Run)</title><link>https://danilaisaichev.github.io/pit/dockerbpr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockerbpr/</guid><description> Ссылка на образ в Docker Hub</description></item><item><title>ISR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr1/</guid><description>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
-Приложение реализовано с использованием Express, bodyParser, Mongoose.
-Реализованы следующие операции:
-GET /products - получение списка продуктов
-POST /products/new - добавление нового продукта
-POST /products/update/:id - обновление информации о продукте по ID
-POST /products/delete/:id - удаление информации о продукте по ID
-При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.
-Сервер возвращает ответ - статус выполнения операции в формате JSON.</description></item><item><title>lab1</title><link>https://danilaisaichev.github.io/web/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/lab1/</guid><description>Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа)
-Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций
-XML-документ DTD Рассмотрите документ Статистика посещений страницы (https://kodaktor.ru/g/08092017_stats). Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ XML-документ DTD Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа xmlvalidation.com XML-документ DTD Валидация документа:</description></item><item><title>lab56</title><link>https://danilaisaichev.github.io/comppract/lab56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab56/</guid><description>Цель: Научиться выполнять сборку проекта с помощью webpack.
-Инициализация проекта: Добавление webpack и webpack-cli: Добавление moment: package.json: index.js: Сборка: README.md: Результат: Вывод: В ходе выполнения работ были получены сборки проекта с помощью webpack.
-Ссылка на репозиторий: Репозиторий с результатами выполнения лабораторных работ 5-6</description></item><item><title>Шестой семестр</title><link>https://danilaisaichev.github.io/prog/prog6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog6/</guid><description> Лабораторные работы 1-2 Лабораторные работы 3-4 Лабораторная работа 5 Лабораторная работа 6 Самостоятельные работы за семестр</description></item><item><title>Docker-Compose First Look</title><link>https://danilaisaichev.github.io/pit/dockercompose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockercompose/</guid><description>Скринкаст:</description></item><item><title>ISR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr2/</guid><description>Приложение реализует API для выполнения арифметических операций.
-Маршруты описаны в файле routes.yaml.
-Контроллер реализован в файле CalcController.php.
-Ответ сервера при выполнении запроса по маршруту /calc/add/2/3:
-{ &amp;#34;result&amp;#34;: 5 } Ответ сервера при выполнении запроса по маршруту /calc/substract/5/7:
-{ &amp;#34;result&amp;#34;: -2 } Ответ сервера при выполнении запроса по маршруту /calc/multiply/7/5:
-{ &amp;#34;result&amp;#34;: 35 } Ответ сервера при выполнении запроса по маршруту /calc/divide/5/7:
-{ &amp;#34;result&amp;#34;: 0.7142857142857143 } Ссылка на репозиторий</description></item><item><title>ISR1</title><link>https://danilaisaichev.github.io/web/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr1/</guid><description>Рабочее пространство разработчика может состоять из следующих компонентов:
-Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков ( https://www.google.com/intl/ru_ru/chrome/, https://www.chromium.org/ ) Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков Node.js (LTS и Current версии) Локальный веб-сервер XAMMP или аналогичный Система контроля версий Git (https://git-scm.com/) Редактор кода Visual Studio Code (https://code.visualstudio.com/) Утилита cURL Клиент telnet (для Windows - можно использовать PuTTY или стандартный клиент) SSH-клиент (для Windows - можно использовать PuTTY или PowerShell) Настройка Git: необходимо указать имя и адрес электронной почты:</description></item><item><title>lab78</title><link>https://danilaisaichev.github.io/comppract/lab78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab78/</guid><description>Цель: Научиться создавать изображения с помощью JavaScript Canvas API и:
-Создать страницу с логотипом, повёрнутым на 90 градусов против часовой стрелки, состоящим из: инициалов, записанных в стиле написания почтового индекса, и кривой Безье под ними.
-Создать страницу, на которой полученный логотип будет использован, как фоновый узор.
-Функция, отвечающая за создание Canvas&amp;rsquo;а: function makeCanvas(x, y) { const canvas = document.createElement(&amp;#39;canvas&amp;#39;), ctx = canvas.getContext(&amp;#39;2d&amp;#39;); canvas.setAttribute(&amp;#39;width&amp;#39;, x); canvas.setAttribute(&amp;#39;height&amp;#39;, y); return { canvas, ctx }; } Фрагмент кода, отвечающий за: создание нового Canvas’а;</description></item><item><title>Седьмой семестр</title><link>https://danilaisaichev.github.io/prog/prog7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog7/</guid><description> Лабораторная работа 1 Лабораторная работа 2 Лабораторная работа 3 Лабораторная работа 4 Лабораторная работа 5 Лабораторная работа 6 Лабораторная работа 7 Лабораторная работа 8 Итоговая лабораторная работа</description></item><item><title>ISR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr3/</guid><description>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
-Этапы разработки базы данных:
-создание базы данных; создание коллекций; добавление данных. MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
-Этапы создания базы данных в MongoDB Cloud:
-создание организации (organization); создание проекта (project); создание кластера (cluster) и базы данных с помощью MongoDB Atlas; добавление данных с помощью MongoDB Atlas, MongoDB Compass или веб-приложения.</description></item><item><title>ISR2</title><link>https://danilaisaichev.github.io/web/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr2/</guid><description>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.
-Менеджер пакетов npm входит в состав Node.js.
-Для установки Yarn необходимо выполнить команду:
-npm install yarn -g После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:
-yarn -v</description></item><item><title>lab910</title><link>https://danilaisaichev.github.io/comppract/lab910/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab910/</guid><description> Отчёт о выполнении лабораторных работ 9-10 POST запрос с помощью telnet Ответ на POST запрос с помощью telnet GET запрос с помощью telnet Ответ на GET запрос с помощью telnet POST запрос с помощью curl Ответ на POST запрос с помощью curl GET запрос с помощью curl Ответ на GET запрос с помощью curl</description></item><item><title>LetsEncrypt &amp; Nginx Proxy</title><link>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</guid><description> docker-compose Получение сертификата для whoami: Получение сертификата для whoami2: Результат для whoami: Результат для whoami2:</description></item><item><title>ISR_Theme_4</title><link>https://danilaisaichev.github.io/serv_web_tech/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr4/</guid><description>Ghost.js можно установить с помощью Docker-контейнера.
-Для установки контейнера необходимо выполнить команду:
-docker pull ghost Для запуска Ghost необходимо выполнить команду:
-docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.</description></item><item><title>ISR3</title><link>https://danilaisaichev.github.io/web/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr3/</guid><description>Данные JSON получены по адресу https://kodaktor.ru/j/users.
-Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.
-Код приложения (фрагмент script): document.querySelector(&amp;#39;#btn&amp;#39;).onclick = async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/users&amp;#39;); data = await response.json(); data.users.forEach(user =&amp;gt; { let ul = document.querySelector(&amp;#39;#users&amp;#39;); let li = document.createElement(&amp;#39;li&amp;#39;); li.appendChild(document.createTextNode(user.login)); ul.appendChild(li); }); } Результат: Get Data</description></item><item><title>lab1112</title><link>https://danilaisaichev.github.io/comppract/lab1112/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1112/</guid><description>Цель: Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.
-Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.
-1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1. Код формы, собирающей данные для кодирования (фрагмент index.php): &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;form action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34; &amp;gt; Name &amp;lt;input id=&amp;#34;name&amp;#34; name=&amp;#34;name&amp;#34; value=&amp;#34;Anonimous&amp;#34; /&amp;gt; &amp;lt;br&amp;gt; E-mail: &amp;lt;input id=&amp;#34;email&amp;#34; name=&amp;#34;email&amp;#34; type=&amp;#34;email&amp;#34;/&amp;gt; &amp;lt;br&amp;gt; Password &amp;lt;input id=&amp;#34;pass&amp;#34; name=&amp;#34;pass&amp;#34; type=&amp;#34;password&amp;#34; /&amp;gt; &amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Код, отвечающий за кодирование и вывод данных (фрагмент index.</description></item><item><title>Настройка подключения к виртуальной частной сети</title><link>https://danilaisaichev.github.io/pit/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/vpn/</guid><description>Команды для настройки сервера: sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y sudo apt-get install \ ca-certificates \ curl \ gnupg \ lsb-release curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo \ &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn serveconfig Результат:</description></item><item><title>ISR4</title><link>https://danilaisaichev.github.io/web/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr4/</guid><description>Настройка линтера eslint для Visual Studio Code:
-Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description></item><item><title>lab1314</title><link>https://danilaisaichev.github.io/comppract/lab1314/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1314/</guid><description>Отчёт по лабораторным работам 13 и 14 Цель: Создать журнал сообщений.
-Создать модифицированную версию журнала сообщений с формой на Bootstrap.
-Создать приложение «Книга отзывов» с использованием БД MySQL.
-1. Создание журнала сообщений. Код, отвечающий за запись данных в файл (фрагмент index.php): if ($_SERVER[&amp;#39;REQUEST_METHOD&amp;#39;]===&amp;#39;POST&amp;#39;) { $r = htmlentities($_POST[&amp;#39;message&amp;#39;]) ?? &amp;#39;Пустое сообщение&amp;#39;; $f = fopen(&amp;#39;log.txt&amp;#39;, &amp;#39;a&amp;#39;); fwrite($f, $r); fwrite($f, &amp;#34;\n&amp;#34;); fclose($f); $f = &amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;; $f .= &amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;; echo &amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;; } Код формы, собирающей данные (фрагмент index.</description></item><item><title>VSR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr1/</guid><description>REST API REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.
-Ограничения для построения REST-приложений по Филдингу:
-Модель клиент-сервер. Отсутствие состояния. Кэширование. Единообразие интерфейса. Слои. Код по требованию. Преимущества REST-приложений:
-надёжность; производительность; масштабируемость; прозрачность системы взаимодействия; простота интерфейсов; портативность компонентов; лёгкость внесения изменений; способностью эволюционировать, приспосабливаясь к новым требованиям. PRC PRC (Remote Procedure Call - удалённый вызов процедур) — класс технологий, позволяющих программам вызывать функции или процедуры в другом адресном пространстве (на удалённых узлах, либо в независимой сторонней системе на том же узле).</description></item><item><title>Список провайдеров oAuth</title><link>https://danilaisaichev.github.io/pit/oauth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/oauth/</guid><description> Название Ссылки на документацию и playground (если есть) Ссылки на модули и библиотеки Yandex https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html https://pkg.go.dev/golang.org/x/oauth2/yandex VK https://dev.vk.com/api/oauth-parameters https://pkg.go.dev/golang.org/x/oauth2/vk Mail.ru https://help.mail.ru/developers/oauth https://pkg.go.dev/golang.org/x/oauth2/mailru Google https://developers.google.cn/identity/protocols/oauth2 https://developers.google.com/oauthplayground/ https://github.com/googleapis/google-api-go-client https://pkg.go.dev/golang.org/x/oauth2/google Github https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps https://pkg.go.dev/golang.org/x/oauth2/github Odnoklassniki https://apiok.ru/ext/oauth/ https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik</description></item><item><title>lab15</title><link>https://danilaisaichev.github.io/comppract/lab15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab15/</guid><description>Цель: Создать Express-приложение, которое по маршруту /add (GET) добавляет в коллекцию users в этой базе данных документ со следующими полями:
-поле login состоит из слова herzen, знака @ и электронной почты, как она указана в Moodle (herzen@danila.isaichev@mail.ru);
-поле password содержит число, переданное через сообщение в Moodle перед началом занятия (16).
-Добавить маршрут /addfrompage, который работает аналогично предыдущему, но поле password содержит результат считывания содержимого со страницы http://kodaktor.ru/g/_unsafe/65e39.
-Осуществить вставку, перейдя по маршруту /add.</description></item><item><title>VSR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr2/</guid><description>PSR (PHP Standarts Recommendations) - это набор рекомендаций для PHP-разработчиков.
-PSR-0 – Стандарт автозагрузки; PSR-1 – Базовый стандарт оформления кода; PSR-2 – Рекомендации по оформлению кода; PSR-3 – Интерфейс протоколирования; PSR-4 – Улучшенная автозагрузка. PSR-0: Autoloading Standard описывает обязательные требования, которых необходимо придерживаться для взаимодействия с автозагрузчиком. Стандарт устарел и заменён PSR-4.
-PSR-4: Autoloading Standard описывает спецификацию автозагрузки классов из файлов. Он полностью совместим и может использоваться в дополнение к любому другому стандарту автозагрузки, включая PSR-0.</description></item><item><title>VSR1</title><link>https://danilaisaichev.github.io/web/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr1/</guid><description>Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).
-Схема документа - DTD (Document Type Definition).
-Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: https://validator.w3.org/.</description></item><item><title>Реализация дополнительной стратегии oAuth 2.0</title><link>https://danilaisaichev.github.io/pit/passportjs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/passportjs/</guid><description> Ссылка на репозиторий Скринкаст:</description></item><item><title>isr1</title><link>https://danilaisaichev.github.io/comppract/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr1/</guid><description>Создание проекта yarn init -y Добавление зависимостей yarn add -D babel-cli babel-preset-env Настройка Babel (файл .babelrc) {&amp;#34;presets&amp;#34;: [&amp;#34;env&amp;#34;]} Добавление библиотеки moment yarn add moment Команда транспиляции babel-node ./src/index.js Сборка проекта babel ./src -d ./lib Файлы main.js и name.js находятся в отношении нативной модульности.
-Исходные файлы расположены в директории src, транспилированные - в директории res.
-Ссылка на репозиторий</description></item><item><title>VSR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr3/</guid><description>MongoDB — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.
-Apache Cassandra — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.
-MongoDB Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах.</description></item><item><title>VSR2</title><link>https://danilaisaichev.github.io/web/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr2/</guid><description>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).
-Принципы функционального программирования:
-чистые функции; иммутабельность; ссылочная прозрачность; функции как объекты первого класса; функции высшего порядка; рекурсия. Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.</description></item><item><title>isr2</title><link>https://danilaisaichev.github.io/comppract/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr2/</guid><description/></item><item><title>VSR3</title><link>https://danilaisaichev.github.io/web/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr3/</guid><description>Подбор палитры Выбрать другие цвета Количество цветов: Сценарий реализован с использованием библиотеки chroma.js. Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода chroma.random(). Для создания шкалы используется метод chroma.scale(colors).</description></item><item><title>isr3</title><link>https://danilaisaichev.github.io/comppract/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr3/</guid><description>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
-MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
-Схема может иметь следующий вид:
-{
-name: String,
-type: String,
-amount: {
-number: Number,
-unit: String
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>main on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/</link><description>Recent content in main on Danila Isaichev's Portfolio</description><generator>Hugo</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab1/</guid><description>&lt;h2 id="моделирование-взаимодействия-клиент-сервер-с-помощью-программы-telnet-и-программы-curl">Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl&lt;/h2>
+&lt;p>Подготовка данных для отправки запроса:&lt;/p>
+&lt;p>Данила:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Исайчев:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>%D0%98%D1%81%D0%B0%D0%B9%D1%87%D0%B5%D0%B2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="отправка-запроса-с-помощью-telnet">Отправка запроса с помощью telnet&lt;/h3>
+&lt;p>GET запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/telnet-get-req.png" alt="GET запрос">&lt;/p>
+&lt;p>Ответ на GET запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/telnet-get-res.png" alt="Ответ на GET запрос">&lt;/p>
+&lt;p>POST запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/telnet-post-req.png" alt="POST запрос">&lt;/p>
+&lt;p>Ответ на POST запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/telnet-post-res.png" alt="Ответ на POST запрос">&lt;/p>
+&lt;h3 id="отправка-запроса-с-помощью-curl">Отправка запроса с помощью cURL&lt;/h3>
+&lt;p>GET запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/curl-get-req.png" alt="GET запрос">&lt;/p>
+&lt;p>Ответ на GET запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/curl-get-res.png" alt="Ответ на GET запрос">&lt;/p>
+&lt;p>POST запрос:&lt;/p>
+&lt;p>&lt;img src="./lab-1-screenshots/curl-post-req.png" alt="POST запрос">&lt;/p>
+&lt;p>Ответ на POST запрос:&lt;/p></description></item><item><title>lab12</title><link>https://danilaisaichev.github.io/comppract/lab12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab12/</guid><description>&lt;p>Результатом выполнения лабораторных работ №1 и №2 является данный сайт&lt;/p></description></item><item><title>Let's encrypt</title><link>https://danilaisaichev.github.io/pit/letsencrypt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencrypt/</guid><description>&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Jl9PHleO9kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item><item><title>openedu</title><link>https://danilaisaichev.github.io/web/openedu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/openedu/</guid><description>&lt;p>&lt;img src="https://danilaisaichev.github.io/web/openedu/openedu.PNG" alt="Результаты прохождения курса на OpenEdu">&lt;/p></description></item><item><title>Третий семестр</title><link>https://danilaisaichev.github.io/prog/prog3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog3/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/python-basic/sem3-ivt19-task1-DanilaIsaichev class="button" target="_blank">Лабораторные работы за семестр&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG3-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Четвёртый семестр</title><link>https://danilaisaichev.github.io/prog/prog4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog4/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab1-2 class="button" target="_blank">Лабораторные работы 1-2&lt;/a>
+ &lt;a href=https://danilaisaichev.github.io/prog/4-sem/%d0%98%d1%81%d0%b0%d0%b9%d1%87%d0%b5%d0%b2%d0%94%d0%9e_%d0%98%d0%92%d0%a2%282%29_%d0%bf%d0%b33_%d0%9f%d0%a0%d0%9e%d0%934_%d0%9b%d0%b0%d0%b1%d0%be%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%bd%d0%b0%d1%8f_%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0_3.pdf class="button" target="_blank">Лабораторная работы 3&lt;/a>
+ &lt;a href=https://danilaisaichev.github.io/prog/ class="button" target="_blank">Лабораторная работы 4&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab5-6 class="button" target="_blank">Лабораторные работы 5-6&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG4-Lab8 class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG4-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Lab_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/lab2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/lab2/</guid><description>&lt;h2 id="1-развёртывание-стека-lamp">1. Развёртывание стека LAMP&lt;/h2>
+&lt;h3 id="часть-i-развёртывание-phpfpm--nginx">Часть I. Развёртывание PHP/FPM + NGINX&lt;/h3>
+&lt;p>&lt;img src="./lab-2-screenshots/2-2.png" alt="">&lt;/p>
+&lt;p>&lt;img src="./lab-2-screenshots/2-3.png" alt="">&lt;/p>
+&lt;h3 id="часть-ii">Часть II&lt;/h3>
+&lt;p>&lt;img src="./lab-2-screenshots/2-4.png" alt="Развёртывание PHP/FPM + NGINX">&lt;/p>
+&lt;h2 id="2-разработка-на-php-с-помощью-gd2-графического-интерфейса-визуализации-данных-полученных-с-помощью-сетевого-интерфейса">2. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса&lt;/h2>
+&lt;p>&lt;img src="./lab-2-screenshots/2-5.png" alt="">&lt;/p></description></item><item><title>lab34</title><link>https://danilaisaichev.github.io/comppract/lab34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab34/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Транспиляция с помощью Babel, развёртывание проекта на JavaScript, включающего модули.&lt;/p>
+&lt;h2 id="файл-indexjs-до-выполнения-транспиляции">Файл index.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">16&lt;/span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> Math.&lt;span style="color:#a6e22e">sqrt&lt;/span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-indexjs-после-выполнения-транспиляции">Файл index.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_ref&lt;/span>, &lt;span style="color:#a6e22e">_&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">_ref&lt;/span> &lt;span style="color:#f92672">=&lt;/span> (&lt;span style="color:#a6e22e">_&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">16&lt;/span>, Math.&lt;span style="color:#a6e22e">sqrt&lt;/span>(&lt;span style="color:#a6e22e">_&lt;/span>)), &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_ref&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-mainjs-до-выполнения-транспиляции">Файл main.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#a6e22e">moment&lt;/span> &lt;span style="color:#a6e22e">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;moment&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#a6e22e">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;./name&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">name&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">moment&lt;/span>.&lt;span style="color:#a6e22e">unix&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;1500514362&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">format&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;&lt;/span>));
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-mainjs-после-выполнения-транспиляции">Файл main.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use strict&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_moment&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">require&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;moment&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_moment2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">_moment&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_name&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">require&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;./name&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_name2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">_name&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">obj&lt;/span>) { &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span>.&lt;span style="color:#a6e22e">__esModule&lt;/span> &lt;span style="color:#f92672">?&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> &lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#66d9ef">default&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> }; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_name2&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_moment2&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span>.&lt;span style="color:#a6e22e">unix&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;1500514362&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">format&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;&lt;/span>));
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-namejs-до-выполнения-транспиляции">Файл name.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#e6db74">&amp;#39;D. O. Isaichev&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-namejs-после-выполнения-транспиляции">Файл name.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use strict&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Object.&lt;span style="color:#a6e22e">defineProperty&lt;/span>(&lt;span style="color:#a6e22e">exports&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;__esModule&amp;#34;&lt;/span>, {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">exports&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;D. O. Isaichev&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения работ были получены навыки работы с транспилятором Babel. Была выполнена транспиляция файлов index.js, main.js, name.js.&lt;/p></description></item><item><title>rubles_to_dollars</title><link>https://danilaisaichev.github.io/web/rubles_to_dollars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/rubles_to_dollars/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://5oj2q.csb.app class="button" target="_blank">Курс доллара к рублю&lt;/a>
+ &lt;a href=https://codesandbox.io/s/musing-browser-5oj2q?file&amp;#61;/src/App.js class="button" target="_blank">Ссылка на борд&lt;/a>
+
+&lt;/div></description></item><item><title>Пятый семестр</title><link>https://danilaisaichev.github.io/prog/prog5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog5/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/python-basic/sem5-lr1-DanilaIsaichev class="button" target="_blank">Лабораторная работа 1&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr2-DanilaIsaichev class="button" target="_blank">Лабораторная работа 2&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr3-DanilaIsaichev class="button" target="_blank">Лабораторная работа 3&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem3-lr4-DanilaIsaichev class="button" target="_blank">Лабораторная работа 4&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1jmtqsppMho0Ry0p2F72CFB5hwhdbj-hI?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG5Lab6singleton class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG5Lab7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://github.com/python-basic/sem5-lr8-DanilaIsaichev class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1g9NzjkHp7PDWwVZnW_kmnFIMoSH8VPHi?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 9&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG5-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Docker BPR (Build &amp; Push &amp; Run)</title><link>https://danilaisaichev.github.io/pit/dockerbpr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockerbpr/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://hub.docker.com/r/danilaisaichev/weather class="button" target="_blank">Ссылка на образ в Docker Hub&lt;/a>
+
+&lt;/div></description></item><item><title>ISR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr1/</guid><description>&lt;p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.&lt;/p>
+&lt;p>Приложение реализовано с использованием Express, bodyParser, Mongoose.&lt;/p>
+&lt;p>Реализованы следующие операции:&lt;/p>
+&lt;p>&lt;code>GET /products&lt;/code> - получение списка продуктов&lt;/p>
+&lt;p>&lt;code>POST /products/new&lt;/code> - добавление нового продукта&lt;/p>
+&lt;p>&lt;code>POST /products/update/:id&lt;/code> - обновление информации о продукте по ID&lt;/p>
+&lt;p>&lt;code>POST /products/delete/:id&lt;/code> - удаление информации о продукте по ID&lt;/p>
+&lt;p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.&lt;/p>
+&lt;p>Сервер возвращает ответ - статус выполнения операции в формате JSON. Пример ответа сервера (добавление данных):&lt;/p></description></item><item><title>lab1</title><link>https://danilaisaichev.github.io/web/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/lab1/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/competencies.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/competencies.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;ol start="3">
+&lt;li>Рассмотрите документ Статистика посещений страницы (&lt;a href="https://kodaktor.ru/g/08092017_stats)">https://kodaktor.ru/g/08092017_stats)&lt;/a>. Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/stats.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/stats.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;ol start="4">
+&lt;li>Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа &lt;a href="https://xmlvalidation.com">xmlvalidation.com&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;div>
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/students.xml class="button" target="_blank">XML-документ&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/WEBLab1/blob/main/students.dtd class="button" target="_blank">DTD&lt;/a>
+
+&lt;/div>
+&lt;p>Валидация документа:&lt;/p></description></item><item><title>lab56</title><link>https://danilaisaichev.github.io/comppract/lab56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab56/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Научиться выполнять сборку проекта с помощью webpack.&lt;/p>
+&lt;h2 id="инициализация-проекта">Инициализация проекта:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-init.png" alt="yarn init">&lt;/p>
+&lt;h2 id="добавление-webpack-и-webpack-cli">Добавление webpack и webpack-cli:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-d.png" alt="yarn add webpack">&lt;/p>
+&lt;h2 id="добавление-moment">Добавление moment:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-moment.png" alt="yarn add moment">&lt;/p>
+&lt;h2 id="packagejson">package.json:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/package.json.png" alt="package.json">&lt;/p>
+&lt;h2 id="indexjs">index.js:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/index.js.png" alt="index.js">&lt;/p>
+&lt;h2 id="сборка">Сборка:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-webpack.png" alt="build">&lt;/p>
+&lt;h2 id="readmemd">README.md:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/readme.png" alt="README">&lt;/p>
+&lt;h2 id="результат">Результат:&lt;/h2>
+
+ &lt;div id="lab56-result">&lt;/div>
+ &lt;script src="./lab5-6/main.js">&lt;/script>
+
+
+&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения работ были получены сборки проекта с помощью webpack.&lt;/p>
+&lt;h2 id="ссылка-на-репозиторий">Ссылка на репозиторий:&lt;/h2>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab5-6/ class="button" target="_blank">Репозиторий с результатами выполнения лабораторных работ 5-6&lt;/a>
+
+&lt;/div></description></item><item><title>Шестой семестр</title><link>https://danilaisaichev.github.io/prog/prog6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog6/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG6lab1 class="button" target="_blank">Лабораторные работы 1-2&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/PROG6lab3-4 class="button" target="_blank">Лабораторные работы 3-4&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1PrTSS7FU81U6FPtt0tV8QSUqpwRViJRY?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1NAcpXVVil0RX_VqL1syjjlY9OuPNg0Af#scrollTo&amp;#61;yrLGxUzz7MK_ class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG6-ISR-VSR class="button" target="_blank">Самостоятельные работы за семестр&lt;/a>
+
+&lt;/div></description></item><item><title>Docker-Compose First Look</title><link>https://danilaisaichev.github.io/pit/dockercompose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockercompose/</guid><description>&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/q2JU1tYP6po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item><item><title>ISR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr2/</guid><description>&lt;p>Приложение реализует API для выполнения арифметических операций.&lt;/p>
+&lt;p>Маршруты описаны в файле &lt;code>routes.yaml&lt;/code>.&lt;/p>
+&lt;p>Контроллер реализован в файле &lt;code>CalcController.php&lt;/code>.&lt;/p>
+&lt;p>Ответ сервера при выполнении запроса по маршруту &lt;code>/calc/add/2/3&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;result&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ответ сервера при выполнении запроса по маршруту &lt;code>/calc/substract/5/7&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;result&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">-2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ответ сервера при выполнении запроса по маршруту &lt;code>/calc/multiply/7/5&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;result&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">35&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ответ сервера при выполнении запроса по маршруту &lt;code>/calc/divide/5/7&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;result&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">0.7142857142857143&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/SWTISR2 class="button" target="_blank">Ссылка на репозиторий&lt;/a>
+
+&lt;/div></description></item><item><title>ISR1</title><link>https://danilaisaichev.github.io/web/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr1/</guid><description>&lt;p>Рабочее пространство разработчика может состоять из следующих компонентов:&lt;/p>
+&lt;ul>
+&lt;li>Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков ( &lt;a href="https://www.google.com/intl/ru_ru/chrome/">https://www.google.com/intl/ru_ru/chrome/&lt;/a>, &lt;a href="https://www.chromium.org/">https://www.chromium.org/&lt;/a> )&lt;/li>
+&lt;li>Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков&lt;/li>
+&lt;li>Node.js (LTS и Current версии)&lt;/li>
+&lt;li>Локальный веб-сервер XAMMP или аналогичный&lt;/li>
+&lt;li>Система контроля версий Git (&lt;a href="https://git-scm.com/">https://git-scm.com/&lt;/a>)&lt;/li>
+&lt;li>Редактор кода Visual Studio Code (&lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a>)&lt;/li>
+&lt;li>Утилита cURL&lt;/li>
+&lt;li>Клиент telnet (для Windows - можно использовать PuTTY или стандартный клиент)&lt;/li>
+&lt;li>SSH-клиент (для Windows - можно использовать PuTTY или PowerShell)&lt;/li>
+&lt;/ul>
+&lt;h4 id="настройка">Настройка&lt;/h4>
+&lt;p>Git: необходимо указать имя и адрес электронной почты:&lt;/p></description></item><item><title>lab78</title><link>https://danilaisaichev.github.io/comppract/lab78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab78/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Научиться создавать изображения с помощью JavaScript Canvas API и:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Создать страницу с логотипом, повёрнутым на 90
+градусов против часовой стрелки, состоящим из:
+инициалов, записанных в стиле написания
+почтового индекса, и кривой Безье под ними.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать страницу, на которой полученный
+логотип будет использован, как фоновый узор.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="функция-отвечающая-за-создание-canvasа">Функция, отвечающая за создание Canvas&amp;rsquo;а:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">makeCanvas&lt;/span>(&lt;span style="color:#a6e22e">x&lt;/span>, &lt;span style="color:#a6e22e">y&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">canvas&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;canvas&amp;#39;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ctx&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">getContext&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;2d&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">setAttribute&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;width&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">x&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">setAttribute&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;height&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">y&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> { &lt;span style="color:#a6e22e">canvas&lt;/span>, &lt;span style="color:#a6e22e">ctx&lt;/span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="фрагмент-кода-отвечающий-за">Фрагмент кода, отвечающий за:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>создание нового Canvas’а;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>добавления его к body;&lt;/p></description></item><item><title>Седьмой семестр</title><link>https://danilaisaichev.github.io/prog/prog7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/prog/prog7/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-1 class="button" target="_blank">Лабораторная работа 1&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-2 class="button" target="_blank">Лабораторная работа 2&lt;/a>
+ &lt;a href=https://colab.research.google.com/drive/1B_jI9TwtC_H3pWryX7iR0D0Up_Dy0TrT?usp&amp;#61;sharing class="button" target="_blank">Лабораторная работа 3&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-4 class="button" target="_blank">Лабораторная работа 4&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-5-01.10.2022 class="button" target="_blank">Лабораторная работа 5&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-6 class="button" target="_blank">Лабораторная работа 6&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-7 class="button" target="_blank">Лабораторная работа 7&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-8 class="button" target="_blank">Лабораторная работа 8&lt;/a>
+ &lt;a href=https://github.com/DanilaIsaichev/PROG7-Lab-Final class="button" target="_blank">Итоговая лабораторная работа&lt;/a>
+
+&lt;/div></description></item><item><title>ISR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr3/</guid><description>&lt;p>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.&lt;/p>
+&lt;p>Этапы разработки базы данных:&lt;/p>
+&lt;ul>
+&lt;li>создание базы данных;&lt;/li>
+&lt;li>создание коллекций;&lt;/li>
+&lt;li>добавление данных.&lt;/li>
+&lt;/ul>
+&lt;p>MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.&lt;/p>
+&lt;p>Этапы создания базы данных в MongoDB Cloud:&lt;/p>
+&lt;ul>
+&lt;li>создание организации (organization);&lt;/li>
+&lt;li>создание проекта (project);&lt;/li>
+&lt;li>создание кластера (cluster) и базы данных с помощью MongoDB Atlas;&lt;/li>
+&lt;li>добавление данных с помощью MongoDB Atlas, MongoDB Compass или веб-приложения.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="./isr-3-screenshots/3-1.png" alt="ИСР тема 3">&lt;/p></description></item><item><title>ISR2</title><link>https://danilaisaichev.github.io/web/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr2/</guid><description>&lt;p>Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.&lt;/p>
+&lt;p>Менеджер пакетов npm входит в состав Node.js.&lt;/p>
+&lt;p>Для установки Yarn необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install yarn -g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn -v
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>lab910</title><link>https://danilaisaichev.github.io/comppract/lab910/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab910/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://danilaisaichev.github.io/comppract/Lab9/Labs9-10.pdf class="button" target="_blank">Отчёт о выполнении лабораторных работ 9-10&lt;/a>
+
+&lt;/div>
+&lt;h2 id="post-запрос-с-помощью-telnet">POST запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/POST1.png" alt="POST запрос с помощью telnet">&lt;/p>
+&lt;h2 id="ответ-на-post-запрос-с-помощью-telnet">Ответ на POST запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/POST2.png" alt="Ответ на POST запрос с помощью telnet">&lt;/p>
+&lt;h2 id="get-запрос-с-помощью-telnet">GET запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/GET1.png" alt="GET запрос с помощью telnet">&lt;/p>
+&lt;h2 id="ответ-на-get-запрос-с-помощью-telnet">Ответ на GET запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/GET2.png" alt="Ответ на GET запрос с помощью telnet">&lt;/p>
+&lt;h2 id="post-запрос-с-помощью-curl">POST запрос с помощью curl&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/curl/POST1.png" alt="POST запрос с помощью curl">&lt;/p>
+&lt;h2 id="ответ-на-post-запрос-с-помощью-curl">Ответ на POST запрос с помощью curl&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/curl/POST2.png" alt="Ответ на POST запрос с помощью curl">&lt;/p></description></item><item><title>LetsEncrypt &amp; Nginx Proxy</title><link>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/LetsEncrypt-Nginx-Proxy/blob/main/docker-compose.yml class="button" target="_blank">docker-compose&lt;/a>
+
+&lt;/div>
+&lt;h3 id="получение-сертификата-для-whoami">Получение сертификата для whoami:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami_sert_1.png" alt="Получение сертификата для whoami">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami_sert_2.png" alt="Получение сертификата для whoami">&lt;/p>
+&lt;h3 id="получение-сертификата-для-whoami2">Получение сертификата для whoami2:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami2_sert.png" alt="Получение сертификата для whoami2">&lt;/p>
+&lt;h3 id="результат-для-whoami">Результат для whoami:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami.png" alt="Результат для whoami">&lt;/p>
+&lt;h3 id="результат-для-whoami2">Результат для whoami2:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami2.png" alt="Результат для whoami2">&lt;/p></description></item><item><title>ISR_Theme_4</title><link>https://danilaisaichev.github.io/serv_web_tech/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/isr4/</guid><description>&lt;p>Ghost.js можно установить с помощью Docker-контейнера.&lt;/p>
+&lt;p>Для установки контейнера необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Для запуска Ghost необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker run -d --name some-ghost -e url&lt;span style="color:#f92672">=&lt;/span>http://localhost:3001 -p 3001:2368 ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого Ghost будет доступен по адресу &lt;code>server_ip:3001&lt;/code>.&lt;/p>
+&lt;p>&lt;img src="./isr-4-screenshots/4-1.png" alt="ИСР тема 4 задание 1">&lt;/p>
+&lt;p>&lt;img src="./isr-4-screenshots/4-2.png" alt="ИСР тема 4 задание 2">&lt;/p></description></item><item><title>ISR3</title><link>https://danilaisaichev.github.io/web/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr3/</guid><description>&lt;p>Данные JSON получены по адресу &lt;a href="https://kodaktor.ru/j/users">https://kodaktor.ru/j/users&lt;/a>.&lt;/p>
+&lt;p>Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.&lt;/p>
+&lt;h3 id="код-приложения-фрагмент-script">Код приложения (фрагмент script):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;#btn&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">onclick&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">async&lt;/span> () =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">response&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">fetch&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;https://kodaktor.ru/j/users&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">response&lt;/span>.&lt;span style="color:#a6e22e">json&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span>.&lt;span style="color:#a6e22e">users&lt;/span>.&lt;span style="color:#a6e22e">forEach&lt;/span>(&lt;span style="color:#a6e22e">user&lt;/span> =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">ul&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">querySelector&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;#users&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">li&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;li&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">li&lt;/span>.&lt;span style="color:#a6e22e">appendChild&lt;/span>(document.&lt;span style="color:#a6e22e">createTextNode&lt;/span>(&lt;span style="color:#a6e22e">user&lt;/span>.&lt;span style="color:#a6e22e">login&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ul&lt;/span>.&lt;span style="color:#a6e22e">appendChild&lt;/span>(&lt;span style="color:#a6e22e">li&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результат">Результат:&lt;/h3>
+
+&lt;button id="btn">Get Data&lt;/button>
+&lt;div id="data">
+ &lt;ul id="users">&lt;/ul>
+&lt;/div>
+&lt;script>
+ document.querySelector('#btn').onclick = async () => {
+ let response = await fetch('https://kodaktor.ru/j/users');
+ data = await response.json();
+ data.users.forEach(user => {
+ let ul = document.querySelector('#users');
+ let li = document.createElement('li');
+ li.appendChild(document.createTextNode(user.login));
+ ul.appendChild(li);
+ });
+ }
+&lt;/script></description></item><item><title>lab1112</title><link>https://danilaisaichev.github.io/comppract/lab1112/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1112/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-создание-приложения-получающего-данные-через-форму-и-кодирующего-их-в-md5-и-sha-1">1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1.&lt;/h2>
+&lt;h3 id="код-формы-собирающей-данные-для-кодирования-фрагмент-indexphp">Код формы, собирающей данные для кодирования (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Lab 11&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">form&lt;/span> &lt;span style="color:#a6e22e">action&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;index.php&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span> &amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Name &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;name&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;name&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Anonimous&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> E-mail: &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span>/&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Password &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pass&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pass&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;password&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">form&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-кодирование-и-вывод-данных-фрагмент-indexphp">Код, отвечающий за кодирование и вывод данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span> $password_md5 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">md5&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_sh1 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sha1&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#a6e22e">date&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>) &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;Приветствую, &lt;/span>&lt;span style="color:#e6db74">$name&lt;/span>&lt;span style="color:#e6db74">, с почтой (&lt;/span>&lt;span style="color:#e6db74">$email&lt;/span>&lt;span style="color:#e6db74">)! &amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Пароль: &amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;md5: &amp;#34;&lt;/span>, $password_md5 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sh1: &amp;#34;&lt;/span>, $password_sh1 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-приложения-indexphp">Код приложения (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GET&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;form action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34; &amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> Name &amp;lt;input id=&amp;#34;name&amp;#34; name=&amp;#34;name&amp;#34; value=&amp;#34;Anonimous&amp;#34; /&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> E-mail: &amp;lt;input id=&amp;#34;email&amp;#34; name=&amp;#34;email&amp;#34; type=&amp;#34;email&amp;#34;/&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> Password &amp;lt;input id=&amp;#34;pass&amp;#34; name=&amp;#34;pass&amp;#34; type=&amp;#34;password&amp;#34; /&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/form&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#34;REQUEST_METHOD&amp;#34;&lt;/span>] &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $name &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;name&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $email &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;email&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $pass &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;pass&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($name &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> $email &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> $pass &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_md5 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">md5&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_sh1 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sha1&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#a6e22e">date&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>) &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;Приветствую, &lt;/span>&lt;span style="color:#e6db74">$name&lt;/span>&lt;span style="color:#e6db74">, с почтой (&lt;/span>&lt;span style="color:#e6db74">$email&lt;/span>&lt;span style="color:#e6db74">)! &amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Пароль: &amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;md5: &amp;#34;&lt;/span>, $password_md5 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sh1: &amp;#34;&lt;/span>, $password_sh1 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Поля не были заполнены&amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результаты-md5-sh1">Результаты md5 sh1:&lt;/h3>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab11/ class="button" target="_blank">Репозиторий с результатами выполнения работы&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/CPLab11 class="button" target="_blank">Ссылка на Repl&lt;/a>
+
+&lt;/div>
+&lt;h2 id="2-создание-приложения-калькулятора-получающего-данные-через-форму-и-выводящего-результаты-вычислений-на-той-же-странице">2. Создание приложения-калькулятора, получающего данные через форму, и выводящего результаты вычислений на той же странице.&lt;/h2>
+&lt;h3 id="код-для-асинхронной-отправки-данных-фрагмент-indexphp">Код для асинхронной отправки данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://code.jquery.com/jquery-3.6.0.min.js&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">$&lt;/span>(document).&lt;span style="color:#a6e22e">ready&lt;/span>(&lt;span style="color:#66d9ef">function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#e6db74">`#calcform`&lt;/span>).&lt;span style="color:#a6e22e">on&lt;/span>(&lt;span style="color:#e6db74">`submit`&lt;/span>, &lt;span style="color:#66d9ef">function&lt;/span>(&lt;span style="color:#a6e22e">e&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">e&lt;/span>.&lt;span style="color:#a6e22e">preventDefault&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>.&lt;span style="color:#a6e22e">ajax&lt;/span>({
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">`/index.php`&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">`POST`&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#66d9ef">this&lt;/span>).&lt;span style="color:#a6e22e">serialize&lt;/span>(),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">success&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">function&lt;/span>(&lt;span style="color:#a6e22e">data&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#e6db74">`#result`&lt;/span>).&lt;span style="color:#a6e22e">html&lt;/span>(&lt;span style="color:#a6e22e">data&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-формы-получающей-данные-для-вычисления-фрагмент-indexphp">Код формы, получающей данные для вычисления (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">form&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;calcform&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;calcform&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">action&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;index.php&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;n1&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;number&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">placeholder&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;3&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span> &lt;span style="color:#a6e22e">pattern&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;1?[0-9]&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">select&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;op&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;operator&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&amp;gt;+&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&amp;gt;-&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&amp;gt;*&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&amp;gt;/&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&amp;gt;^&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">select&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;n2&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;number&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">placeholder&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;4&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span> &lt;span style="color:#a6e22e">pattern&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;1?[0-9]&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;result&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">form&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-вычисления-и-вывод-данных-фрагмент-indexphp">Код, отвечающий за вычисления и вывод данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>$a &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n1&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$o &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;op&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$b &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n2&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">switch&lt;/span> ($o) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">+&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> + &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">-&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> - &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">*&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> * &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">/&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> / &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">**&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> ^ &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-приложения-indexphp-1">Код приложения (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GET&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 12&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;script src=&amp;#34;https://code.jquery.com/jquery-3.6.0.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(document).ready(function() {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(`#calcform`).on(`submit`, function(e) {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> e.preventDefault();
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $.ajax({
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> url: `/index.php`,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> method: `POST`,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> data: $(this).serialize(),
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> success: function(data) {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(`#result`).html(data);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> }
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;form id=&amp;#34;calcform&amp;#34; name=&amp;#34;calcform&amp;#34; action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input name=&amp;#34;n1&amp;#34; type=&amp;#34;number&amp;#34; placeholder=&amp;#34;3&amp;#34; required pattern=&amp;#34;1?[0-9]&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;select name=&amp;#34;op&amp;#34; id=&amp;#34;operator&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;add&amp;#34;&amp;gt;+&amp;lt;/option&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;substract&amp;#34;&amp;gt;-&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;multiply&amp;#34;&amp;gt;*&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;divide&amp;#34;&amp;gt;/&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;exponentiate&amp;#34;&amp;gt;^&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/select&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input name=&amp;#34;n2&amp;#34; type=&amp;#34;number&amp;#34; placeholder=&amp;#34;4&amp;#34; required pattern=&amp;#34;1?[0-9]&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;div id=&amp;#34;result&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/form&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $a &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n1&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $o &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;op&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $b &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n2&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">switch&lt;/span> ($o) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">+&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> + &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">-&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> - &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">*&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> * &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">/&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> / &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">**&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> ^ &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="калькулятор">Калькулятор:&lt;/h3>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab12/ class="button" target="_blank">Репозиторий с результатами выполнения работы&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/CPLab12 class="button" target="_blank">Ссылка на Repl&lt;/a>
+
+&lt;/div>
+&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения лабораторной работы были получены навыки работы с языком программирования php и ajax.
+Были созданы два приложения:&lt;/p></description></item><item><title>Настройка подключения к виртуальной частной сети</title><link>https://danilaisaichev.github.io/pit/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/vpn/</guid><description>&lt;h2 id="команды-для-настройки-сервера">Команды для настройки сервера:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt upgrade -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> ca-certificates &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> curl &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> gnupg &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> lsb-release
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#e6db74">&amp;#34;deb [arch=&lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>dpkg
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--print-architecture&lt;span style="color:#66d9ef">)&lt;/span>&lt;span style="color:#e6db74"> signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">https://download.docker.com/linux/ubuntu \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>lsb_release -cs&lt;span style="color:#66d9ef">)&lt;/span>&lt;span style="color:#e6db74"> stable&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install docker-ce docker-ce-cli containerd.io
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker-compose-plugin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>serveconfig
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="результат">Результат:&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN1.png" alt="VPN1">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN2.png" alt="VPN2">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN3.png" alt="VPN3">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN4.png" alt="VPN4">&lt;/p></description></item><item><title>ISR4</title><link>https://danilaisaichev.github.io/web/isr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/isr4/</guid><description>&lt;p>Настройка линтера eslint для Visual Studio Code:&lt;/p>
+&lt;ol>
+&lt;li>Установка eslint&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Установка плагинов &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint-config-airbnb-base eslint-plugin-import
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Создание конфигурационного файла &lt;code>.eslintrc.yml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">extends&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#e6db74">&amp;#39;airbnb-base&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">node&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">browser&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Установка плагина ESLint&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-1.png" alt="Установка плагина ESLint">&lt;/p>
+&lt;p>Исправление кода с учётом рекомендаций линтера:&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-2.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/isr/images/task-4-3.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p></description></item><item><title>lab1314</title><link>https://danilaisaichev.github.io/comppract/lab1314/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1314/</guid><description>&lt;h1 id="отчёт-по-лабораторным-работам-13-и-14">Отчёт по лабораторным работам 13 и 14&lt;/h1>
+&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать журнал сообщений.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать модифицированную версию журнала сообщений с формой на Bootstrap.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать приложение «Книга отзывов» с использованием БД MySQL.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-создание-журнала-сообщений">1. Создание журнала сообщений.&lt;/h2>
+&lt;h3 id="код-отвечающий-за-запись-данных-в-файл-фрагмент-indexphp">Код, отвечающий за запись данных в файл (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>]&lt;span style="color:#f92672">===&lt;/span>&lt;span style="color:#e6db74">&amp;#39;POST&amp;#39;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $r &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">htmlentities&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;message&amp;#39;&lt;/span>]) &lt;span style="color:#f92672">??&lt;/span> &lt;span style="color:#e6db74">&amp;#39;Пустое сообщение&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, $r);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-формы-собирающей-данные-фрагмент-indexphp">Код формы, собирающей данные (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">label&lt;/span>&amp;gt;Сообщение&amp;lt;/&lt;span style="color:#f92672">label&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;message&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;message&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;required&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;text&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;Отправить сообщение&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-вывод-результата-работы-кода-из-listphp-фрагмент-indexphp">Код, отвечающий за вывод результата работы кода из list.php (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/form&amp;gt;&amp;lt;/div&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;h2&amp;gt;Список отзывов&amp;lt;/h2&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="главная-страница-indexphp">Главная страница (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">h1&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#a6e22e">Работа&lt;/span> &lt;span style="color:#a6e22e">с&lt;/span> &lt;span style="color:#a6e22e">логом&lt;/span>&lt;span style="color:#f92672">&amp;lt;/&lt;/span>&lt;span style="color:#a6e22e">h1&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h2&amp;gt;Форма для заполнения&amp;lt;/h2&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>]&lt;span style="color:#f92672">===&lt;/span>&lt;span style="color:#e6db74">&amp;#39;POST&amp;#39;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $r &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">htmlentities&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;message&amp;#39;&lt;/span>]) &lt;span style="color:#f92672">??&lt;/span> &lt;span style="color:#e6db74">&amp;#39;Пустое сообщение&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, $r);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> $f;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;div class=&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">right&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;form method=&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">post&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;lt;&amp;lt;&amp;lt;&lt;/span>&lt;span style="color:#e6db74">_END&lt;/span>&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;label&amp;gt;Сообщение&amp;lt;/label&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input id=&amp;#34;message&amp;#34; name=&amp;#34;message&amp;#34; required=&amp;#34;required&amp;#34; type=&amp;#34;text&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Отправить сообщение&amp;lt;/button&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&lt;/span>&lt;span style="color:#e6db74">_END&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/form&amp;gt;&amp;lt;/div&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;h2&amp;gt;Список отзывов&amp;lt;/h2&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#66d9ef">require_once&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;list.php&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-считывание-данных-из-logtxt-listphp">Код, отвечающий за считывание данных из log.txt (list.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;ul&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">wrap&lt;/span>($x){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;li&amp;gt;&amp;#39;&lt;/span>&lt;span style="color:#f92672">.&lt;/span>$x&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#e6db74">&amp;#39;&amp;lt;/li&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (($line &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fgets&lt;/span>($f)) &lt;span style="color:#f92672">!==&lt;/span> &lt;span style="color:#66d9ef">false&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#a6e22e">wrap&lt;/span>($line);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/ul&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> $list;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результаты-выполнения-работы">Результаты выполнения работы:&lt;/h3>
+&lt;p>&lt;img src="./lab13-14-screenshots/13.1%20result%201.png" alt="13.1 result 1">&lt;/p></description></item><item><title>VSR_Theme_1</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr1/</guid><description>&lt;h2 id="rest-api">REST API&lt;/h2>
+&lt;p>REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.&lt;/p>
+&lt;p>Ограничения для построения REST-приложений по Филдингу:&lt;/p>
+&lt;ol>
+&lt;li>Модель клиент-сервер.&lt;/li>
+&lt;li>Отсутствие состояния.&lt;/li>
+&lt;li>Кэширование.&lt;/li>
+&lt;li>Единообразие интерфейса.&lt;/li>
+&lt;li>Слои.&lt;/li>
+&lt;li>Код по требованию.&lt;/li>
+&lt;/ol>
+&lt;p>Преимущества REST-приложений:&lt;/p>
+&lt;ul>
+&lt;li>надёжность;&lt;/li>
+&lt;li>производительность;&lt;/li>
+&lt;li>масштабируемость;&lt;/li>
+&lt;li>прозрачность системы взаимодействия;&lt;/li>
+&lt;li>простота интерфейсов;&lt;/li>
+&lt;li>портативность компонентов;&lt;/li>
+&lt;li>лёгкость внесения изменений;&lt;/li>
+&lt;li>способностью эволюционировать, приспосабливаясь к новым требованиям.&lt;/li>
+&lt;/ul>
+&lt;h2 id="prc">PRC&lt;/h2>
+&lt;p>PRC (Remote Procedure Call - удалённый вызов процедур) — класс технологий, позволяющих программам вызывать функции или процедуры в другом адресном пространстве (на удалённых узлах, либо в независимой сторонней системе на том же узле).&lt;/p></description></item><item><title>Список провайдеров oAuth</title><link>https://danilaisaichev.github.io/pit/oauth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/oauth/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Название&lt;/th>
+ &lt;th>Ссылки на документацию и playground (если есть)&lt;/th>
+ &lt;th>Ссылки на модули и библиотеки&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Yandex&lt;/td>
+ &lt;td>&lt;a href="https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html">https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/yandex">https://pkg.go.dev/golang.org/x/oauth2/yandex&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>VK&lt;/td>
+ &lt;td>&lt;a href="https://dev.vk.com/api/oauth-parameters">https://dev.vk.com/api/oauth-parameters&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/vk">https://pkg.go.dev/golang.org/x/oauth2/vk&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Mail.ru&lt;/td>
+ &lt;td>&lt;a href="https://help.mail.ru/developers/oauth">https://help.mail.ru/developers/oauth&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/mailru">https://pkg.go.dev/golang.org/x/oauth2/mailru&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Google&lt;/td>
+ &lt;td>&lt;a href="https://developers.google.cn/identity/protocols/oauth2">https://developers.google.cn/identity/protocols/oauth2&lt;/a> &lt;a href="https://developers.google.com/oauthplayground/">https://developers.google.com/oauthplayground/&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://github.com/googleapis/google-api-go-client">https://github.com/googleapis/google-api-go-client&lt;/a> &lt;a href="https://pkg.go.dev/golang.org/x/oauth2/google">https://pkg.go.dev/golang.org/x/oauth2/google&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Github&lt;/td>
+ &lt;td>&lt;a href="https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps">https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/github">https://pkg.go.dev/golang.org/x/oauth2/github&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Odnoklassniki&lt;/td>
+ &lt;td>&lt;a href="https://apiok.ru/ext/oauth/">https://apiok.ru/ext/oauth/&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik">https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>lab15</title><link>https://danilaisaichev.github.io/comppract/lab15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab15/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать Express-приложение, которое по маршруту /add (GET) добавляет в коллекцию users в этой базе данных документ со следующими полями:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>поле login состоит из слова herzen, знака @ и электронной почты, как она указана в Moodle (&lt;a href="mailto:herzen@danila.isaichev">herzen@danila.isaichev&lt;/a>@mail.ru);&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>поле password содержит число, переданное через сообщение в Moodle перед началом занятия (16).&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Добавить маршрут /addfrompage, который работает аналогично предыдущему, но поле password содержит результат считывания содержимого со страницы &lt;a href="http://kodaktor.ru/g/_unsafe/65e39">http://kodaktor.ru/g/_unsafe/65e39&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Осуществить вставку, перейдя по маршруту /add.&lt;/p></description></item><item><title>VSR_Theme_2</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr2/</guid><description>&lt;p>PSR (PHP Standarts Recommendations) - это набор рекомендаций для PHP-разработчиков.&lt;/p>
+&lt;ul>
+&lt;li>PSR-0 – Стандарт автозагрузки;&lt;/li>
+&lt;li>PSR-1 – Базовый стандарт оформления кода;&lt;/li>
+&lt;li>PSR-2 – Рекомендации по оформлению кода;&lt;/li>
+&lt;li>PSR-3 – Интерфейс протоколирования;&lt;/li>
+&lt;li>PSR-4 – Улучшенная автозагрузка.&lt;/li>
+&lt;/ul>
+&lt;p>PSR-0: Autoloading Standard описывает обязательные требования, которых необходимо придерживаться для взаимодействия с автозагрузчиком. Стандарт устарел и заменён PSR-4.&lt;/p>
+&lt;p>PSR-4: Autoloading Standard описывает спецификацию автозагрузки классов из файлов. Он полностью совместим и может использоваться в дополнение к любому другому стандарту автозагрузки, включая PSR-0. Стандарт также описывает, где разместить файлы, которые будут автоматически загружены в соответствии со спецификацией. Данный стандарт используется по умолчанию в Composer.&lt;/p></description></item><item><title>VSR1</title><link>https://danilaisaichev.github.io/web/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr1/</guid><description>&lt;p>Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).&lt;/p>
+&lt;p>Схема документа - DTD (Document Type Definition).&lt;/p>
+&lt;p>Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: &lt;a href="https://validator.w3.org/">https://validator.w3.org/&lt;/a>.&lt;br>
+&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-1.png" alt="Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C">&lt;/p></description></item><item><title>Реализация дополнительной стратегии oAuth 2.0</title><link>https://danilaisaichev.github.io/pit/passportjs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/passportjs/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/PassportJS class="button" target="_blank">Ссылка на репозиторий&lt;/a>
+
+&lt;/div>
+&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/idl5v9bidTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item><item><title>isr1</title><link>https://danilaisaichev.github.io/comppract/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr1/</guid><description>&lt;h3 id="создание-проекта">Создание проекта&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn init -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="добавление-зависимостей">Добавление зависимостей&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn add -D babel-cli babel-preset-env
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="настройка-babel-файл-babelrc">Настройка Babel (файл .babelrc)&lt;/h3>
+&lt;pre tabindex="0">&lt;code>{&amp;#34;presets&amp;#34;: [&amp;#34;env&amp;#34;]}
+&lt;/code>&lt;/pre>&lt;h3 id="добавление-библиотеки-moment">Добавление библиотеки moment&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn add moment
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="команда-транспиляции">Команда транспиляции&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>babel-node ./src/index.js
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="сборка-проекта">Сборка проекта&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>babel ./src -d ./lib
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Файлы main.js и name.js находятся в отношении нативной модульности.&lt;/p>
+&lt;p>Исходные файлы расположены в директории src, транспилированные - в директории res.&lt;/p>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPISR1 class="button" target="_blank">Ссылка на репозиторий&lt;/a>
+
+&lt;/div></description></item><item><title>VSR_Theme_3</title><link>https://danilaisaichev.github.io/serv_web_tech/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/serv_web_tech/vsr3/</guid><description>&lt;p>&lt;strong>MongoDB&lt;/strong> — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.&lt;/p>
+&lt;p>&lt;strong>Apache Cassandra&lt;/strong> — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.&lt;/p>
+&lt;h2 id="mongodb">MongoDB&lt;/h2>
+&lt;p>Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах. Система масштабируется горизонтально, используя технику сегментирования объектов баз данных — распределение их частей по различным узлам кластера. Она может быть использована в качестве файлового хранилища с балансировкой нагрузки и репликацией данных. Может работать в соответствии с парадигмой MapReduce. Поддерживается JavaScript в запросах, функциях агрегации. Поддерживаются коллекции с фиксированным размером. Имеется поддержка транзакций, удовлетворяющих требованиям ACID.&lt;/p></description></item><item><title>VSR2</title><link>https://danilaisaichev.github.io/web/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr2/</guid><description>&lt;p>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).&lt;/p>
+&lt;p>Принципы функционального программирования:&lt;/p>
+&lt;ul>
+&lt;li>чистые функции;&lt;/li>
+&lt;li>иммутабельность;&lt;/li>
+&lt;li>ссылочная прозрачность;&lt;/li>
+&lt;li>функции как объекты первого класса;&lt;/li>
+&lt;li>функции высшего порядка;&lt;/li>
+&lt;li>рекурсия.&lt;/li>
+&lt;/ul>
+&lt;p>Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.&lt;/p></description></item><item><title>isr2</title><link>https://danilaisaichev.github.io/comppract/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr2/</guid><description>&lt;p>&lt;img src="./isr-2-screenshots/isr2.gif" alt="isr2">&lt;/p></description></item><item><title>VSR3</title><link>https://danilaisaichev.github.io/web/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr3/</guid><description>&lt;link rel="preconnect" href="https://fonts.googleapis.com">
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+&lt;style>
+ * {
+ font-family: 'Roboto';
+ }
+ button {
+ display: block;
+ margin-bottom: 8px;
+ }
+ input {
+ margin-bottom: 8px;
+ }
+ #palette {
+ width: 100%;
+ height: 64px;
+ display: flex;
+ margin-bottom: 8px;
+ }
+ #palette div {
+ width: 100%;
+ height: 64px;
+ }
+ #color-str {
+ border: 1px solid #686868;
+ padding: 8px;
+ }
+&lt;/style>
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js" integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ==" crossorigin="anonymous" referrerpolicy="no-referrer">&lt;/script>
+&lt;h1>Подбор палитры&lt;/h1>
+&lt;button id="random-colors">Выбрать другие цвета&lt;/button>
+&lt;label for="colors">Количество цветов:&lt;/label>
+&lt;input type="number" id="colors" min="2" max="15" value="6">
+&lt;div id="palette">&lt;/div>
+&lt;div id="color-str">&lt;/div>
+&lt;script>
+ let color1 = chroma.random();
+ let color2 = chroma.random();
+
+ document.querySelector('#random-colors').onclick = () => {
+ [color1, color2] = [chroma.random(), chroma.random()];
+ createPalette();
+ }
+
+ function createPalette() {
+ let palette = document.querySelector('#palette');
+ palette.innerHTML = '';
+ let colors = document.querySelector('#colors').value;
+ let scale = chroma.scale([color1, color2]).colors(colors);
+ scale.forEach(color => {
+ let color_block = document.createElement('div');
+ color_block.style.background = color;
+ palette.appendChild(color_block);
+ });
+ document.querySelector('#color-str').textContent = scale.join(', ');
+ }
+
+ document.querySelector('#colors').oninput = createPalette;
+
+ createPalette();
+&lt;/script>
+
+
+&lt;p>Сценарий реализован с использованием библиотеки &lt;code>chroma.js&lt;/code>.
+Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода &lt;code>chroma.random()&lt;/code>. Для создания шкалы используется метод &lt;code>chroma.scale(colors)&lt;/code>.&lt;/p></description></item><item><title>isr3</title><link>https://danilaisaichev.github.io/comppract/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr3/</guid><description>&lt;p>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.&lt;/p>
+&lt;p>MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.&lt;/p>
+&lt;p>Схема может иметь следующий вид:&lt;/p>
+&lt;pre tabindex="0">&lt;code>{
+ name: String,
+ type: String,
+ amount: {
+ number: Number,
+ unit: String
+ }
 }
-} Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
-Приложение реализовано с использованием Express, bodyParser, Mongoose.
-Реализованы следующие операции:
-GET /products - получение списка продуктов</description></item><item><title>VSR4</title><link>https://danilaisaichev.github.io/web/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr4/</guid><description>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.
-Для работы ESLint необходимо установить Node.js и npm.
-Настройка линтера eslint для Visual Studio Code:
-Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description></item><item><title>vsr1</title><link>https://danilaisaichev.github.io/comppract/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr1/</guid><description>Инициализация проекта: Добавление webpack и webpack-cli: Добавление moment: package.json: index.js: Сборка: README.md: Результат:</description></item><item><title>vsr2</title><link>https://danilaisaichev.github.io/comppract/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr2/</guid><description>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.
-Приложение реализовано с использованием Express, bodyParser, Mongoose.
-Реализованы следующие операции:
-GET /products - получение списка продуктов
-POST /products/new - добавление нового продукта
-POST /products/update/:id - обновление информации о продукте по ID
-POST /products/delete/:id - удаление информации о продукте по ID
-При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</description></item><item><title>vsr3</title><link>https://danilaisaichev.github.io/comppract/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr3/</guid><description>NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.
-Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:
-базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно); гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных; согласованность в конечном счёте — данные могут быть некоторое время рассогласованы, но приходят к согласованию через некоторое время.</description></item><item><title>vsr4</title><link>https://danilaisaichev.github.io/comppract/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr4/</guid><description>Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.
-После создания аккаунта необходимо создать сервер с готовым образом Docker:
-После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.
-Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.
-Для установки контейнера необходимо выполнить команду:
-docker pull ghost Для запуска Ghost необходимо выполнить команду:
-docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="./isr-3-screenshots/1.png" alt="ИСР тема 3">&lt;/p>
+&lt;p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.&lt;/p>
+&lt;p>Приложение реализовано с использованием Express, bodyParser, Mongoose.&lt;/p>
+&lt;p>Реализованы следующие операции:&lt;/p>
+&lt;p>&lt;code>GET /products&lt;/code> - получение списка продуктов&lt;/p></description></item><item><title>VSR4</title><link>https://danilaisaichev.github.io/web/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/web/vsr4/</guid><description>&lt;p>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.&lt;/p>
+&lt;p>Для работы ESLint необходимо установить Node.js и npm.&lt;/p>
+&lt;p>Настройка линтера eslint для Visual Studio Code:&lt;/p>
+&lt;ol>
+&lt;li>Установка &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Установка плагинов &lt;code>eslint&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>npm install -D eslint-config-airbnb-base eslint-plugin-import
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Создание конфигурационного файла &lt;code>.eslintrc.yml&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">extends&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#e6db74">&amp;#39;airbnb-base&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">node&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">browser&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Установка плагина ESLint&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-4-1.png" alt="Установка плагина ESLint">&lt;/p>
+&lt;p>Исправление кода с учётом рекомендаций линтера:&lt;/p>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/web/webp/vsr/images/task-4-2.png" alt="Исправление кода с учётом рекомендаций линтера">&lt;/p></description></item><item><title>vsr1</title><link>https://danilaisaichev.github.io/comppract/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr1/</guid><description>&lt;h2 id="инициализация-проекта">Инициализация проекта:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-init.png" alt="yarn init">&lt;/p>
+&lt;h2 id="добавление-webpack-и-webpack-cli">Добавление webpack и webpack-cli:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-d.png" alt="yarn add webpack">&lt;/p>
+&lt;h2 id="добавление-moment">Добавление moment:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-moment.png" alt="yarn add moment">&lt;/p>
+&lt;h2 id="packagejson">package.json:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/package.json.png" alt="package.json">&lt;/p>
+&lt;h2 id="indexjs">index.js:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/index.js.png" alt="index.js">&lt;/p>
+&lt;h2 id="сборка">Сборка:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-webpack.png" alt="build">&lt;/p>
+&lt;h2 id="readmemd">README.md:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/readme.png" alt="README">&lt;/p>
+&lt;h2 id="результат">Результат:&lt;/h2>
+
+ &lt;div id="vsr1-result">&lt;/div>
+ &lt;script src="./vsr1/main.js">&lt;/script></description></item><item><title>vsr2</title><link>https://danilaisaichev.github.io/comppract/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr2/</guid><description>&lt;p>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.&lt;/p>
+&lt;p>Приложение реализовано с использованием Express, bodyParser, Mongoose.&lt;/p>
+&lt;p>Реализованы следующие операции:&lt;/p>
+&lt;p>&lt;code>GET /products&lt;/code> - получение списка продуктов&lt;/p>
+&lt;p>&lt;code>POST /products/new&lt;/code> - добавление нового продукта&lt;/p>
+&lt;p>&lt;code>POST /products/update/:id&lt;/code> - обновление информации о продукте по ID&lt;/p>
+&lt;p>&lt;code>POST /products/delete/:id&lt;/code> - удаление информации о продукте по ID&lt;/p>
+&lt;p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.&lt;/p></description></item><item><title>vsr3</title><link>https://danilaisaichev.github.io/comppract/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr3/</guid><description>&lt;p>NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.&lt;/p>
+&lt;p>Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:&lt;/p>
+&lt;ul>
+&lt;li>базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно);&lt;/li>
+&lt;li>гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных;&lt;/li>
+&lt;li>согласованность в конечном счёте — данные могут быть некоторое время рассогласованы, но приходят к согласованию через некоторое время.&lt;/li>
+&lt;/ul>
+&lt;p>Типы NoSQL-систем:&lt;/p></description></item><item><title>vsr4</title><link>https://danilaisaichev.github.io/comppract/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr4/</guid><description>&lt;p>Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.&lt;/p>
+&lt;p>После создания аккаунта необходимо создать сервер с готовым образом Docker:&lt;/p>
+&lt;p>&lt;img src="./vsr-4-screenshots/1.png" alt="ВСР тема 4 1)">&lt;/p>
+&lt;p>После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.&lt;/p>
+&lt;p>Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.&lt;/p>
+&lt;p>Для установки контейнера необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Для запуска Ghost необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker run -d --name some-ghost -e url&lt;span style="color:#f92672">=&lt;/span>http://localhost:3001 -p 3001:2368 ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого Ghost будет доступен по адресу &lt;code>server_ip:3001&lt;/code>.&lt;/p></description></item></channel></rss>

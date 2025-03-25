@@ -1,46 +1,522 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comppract on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/comppract/</link><description>Recent content in comppract on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/comppract/index.xml" rel="self" type="application/rss+xml"/><item><title>lab12</title><link>https://danilaisaichev.github.io/comppract/lab12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab12/</guid><description>Результатом выполнения лабораторных работ №1 и №2 является данный сайт</description></item><item><title>lab34</title><link>https://danilaisaichev.github.io/comppract/lab34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab34/</guid><description>Цель: Транспиляция с помощью Babel, развёртывание проекта на JavaScript, включающего модули.
-Файл index.js до выполнения транспиляции: 16 |&amp;gt; Math.sqrt |&amp;gt; console.log Файл index.js после выполнения транспиляции: var _ref, _; _ref = (_ = 16, Math.sqrt(_)), console.log(_ref); Файл main.js до выполнения транспиляции: import moment from &amp;#39;moment&amp;#39;; import name from &amp;#39;./name&amp;#39;; console.log(name); console.log(moment.unix(&amp;#39;1500514362&amp;#39;).format(&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;)); Файл main.js после выполнения транспиляции: &amp;#39;use strict&amp;#39;; var _moment = require(&amp;#39;moment&amp;#39;); var _moment2 = _interopRequireDefault(_moment); var _name = require(&amp;#39;.</description></item><item><title>lab56</title><link>https://danilaisaichev.github.io/comppract/lab56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab56/</guid><description>Цель: Научиться выполнять сборку проекта с помощью webpack.
-Инициализация проекта: Добавление webpack и webpack-cli: Добавление moment: package.json: index.js: Сборка: README.md: Результат: Вывод: В ходе выполнения работ были получены сборки проекта с помощью webpack.
-Ссылка на репозиторий: Репозиторий с результатами выполнения лабораторных работ 5-6</description></item><item><title>lab78</title><link>https://danilaisaichev.github.io/comppract/lab78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab78/</guid><description>Цель: Научиться создавать изображения с помощью JavaScript Canvas API и:
-Создать страницу с логотипом, повёрнутым на 90 градусов против часовой стрелки, состоящим из: инициалов, записанных в стиле написания почтового индекса, и кривой Безье под ними.
-Создать страницу, на которой полученный логотип будет использован, как фоновый узор.
-Функция, отвечающая за создание Canvas&amp;rsquo;а: function makeCanvas(x, y) { const canvas = document.createElement(&amp;#39;canvas&amp;#39;), ctx = canvas.getContext(&amp;#39;2d&amp;#39;); canvas.setAttribute(&amp;#39;width&amp;#39;, x); canvas.setAttribute(&amp;#39;height&amp;#39;, y); return { canvas, ctx }; } Фрагмент кода, отвечающий за: создание нового Canvas’а;</description></item><item><title>lab910</title><link>https://danilaisaichev.github.io/comppract/lab910/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab910/</guid><description> Отчёт о выполнении лабораторных работ 9-10 POST запрос с помощью telnet Ответ на POST запрос с помощью telnet GET запрос с помощью telnet Ответ на GET запрос с помощью telnet POST запрос с помощью curl Ответ на POST запрос с помощью curl GET запрос с помощью curl Ответ на GET запрос с помощью curl</description></item><item><title>lab1112</title><link>https://danilaisaichev.github.io/comppract/lab1112/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1112/</guid><description>Цель: Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.
-Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.
-1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1. Код формы, собирающей данные для кодирования (фрагмент index.php): &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;form action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34; &amp;gt; Name &amp;lt;input id=&amp;#34;name&amp;#34; name=&amp;#34;name&amp;#34; value=&amp;#34;Anonimous&amp;#34; /&amp;gt; &amp;lt;br&amp;gt; E-mail: &amp;lt;input id=&amp;#34;email&amp;#34; name=&amp;#34;email&amp;#34; type=&amp;#34;email&amp;#34;/&amp;gt; &amp;lt;br&amp;gt; Password &amp;lt;input id=&amp;#34;pass&amp;#34; name=&amp;#34;pass&amp;#34; type=&amp;#34;password&amp;#34; /&amp;gt; &amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Код, отвечающий за кодирование и вывод данных (фрагмент index.</description></item><item><title>lab1314</title><link>https://danilaisaichev.github.io/comppract/lab1314/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1314/</guid><description>Отчёт по лабораторным работам 13 и 14 Цель: Создать журнал сообщений.
-Создать модифицированную версию журнала сообщений с формой на Bootstrap.
-Создать приложение «Книга отзывов» с использованием БД MySQL.
-1. Создание журнала сообщений. Код, отвечающий за запись данных в файл (фрагмент index.php): if ($_SERVER[&amp;#39;REQUEST_METHOD&amp;#39;]===&amp;#39;POST&amp;#39;) { $r = htmlentities($_POST[&amp;#39;message&amp;#39;]) ?? &amp;#39;Пустое сообщение&amp;#39;; $f = fopen(&amp;#39;log.txt&amp;#39;, &amp;#39;a&amp;#39;); fwrite($f, $r); fwrite($f, &amp;#34;\n&amp;#34;); fclose($f); $f = &amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;; $f .= &amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;; echo &amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;; } Код формы, собирающей данные (фрагмент index.</description></item><item><title>lab15</title><link>https://danilaisaichev.github.io/comppract/lab15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab15/</guid><description>Цель: Создать Express-приложение, которое по маршруту /add (GET) добавляет в коллекцию users в этой базе данных документ со следующими полями:
-поле login состоит из слова herzen, знака @ и электронной почты, как она указана в Moodle (herzen@danila.isaichev@mail.ru);
-поле password содержит число, переданное через сообщение в Moodle перед началом занятия (16).
-Добавить маршрут /addfrompage, который работает аналогично предыдущему, но поле password содержит результат считывания содержимого со страницы http://kodaktor.ru/g/_unsafe/65e39.
-Осуществить вставку, перейдя по маршруту /add.</description></item><item><title>isr1</title><link>https://danilaisaichev.github.io/comppract/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr1/</guid><description>Создание проекта yarn init -y Добавление зависимостей yarn add -D babel-cli babel-preset-env Настройка Babel (файл .babelrc) {&amp;#34;presets&amp;#34;: [&amp;#34;env&amp;#34;]} Добавление библиотеки moment yarn add moment Команда транспиляции babel-node ./src/index.js Сборка проекта babel ./src -d ./lib Файлы main.js и name.js находятся в отношении нативной модульности.
-Исходные файлы расположены в директории src, транспилированные - в директории res.
-Ссылка на репозиторий</description></item><item><title>isr2</title><link>https://danilaisaichev.github.io/comppract/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr2/</guid><description/></item><item><title>isr3</title><link>https://danilaisaichev.github.io/comppract/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr3/</guid><description>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
-MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
-Схема может иметь следующий вид:
-{
-name: String,
-type: String,
-amount: {
-number: Number,
-unit: String
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comppract on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/comppract/</link><description>Recent content in comppract on Danila Isaichev's Portfolio</description><generator>Hugo</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/comppract/index.xml" rel="self" type="application/rss+xml"/><item><title>lab12</title><link>https://danilaisaichev.github.io/comppract/lab12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab12/</guid><description>&lt;p>Результатом выполнения лабораторных работ №1 и №2 является данный сайт&lt;/p></description></item><item><title>lab34</title><link>https://danilaisaichev.github.io/comppract/lab34/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab34/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Транспиляция с помощью Babel, развёртывание проекта на JavaScript, включающего модули.&lt;/p>
+&lt;h2 id="файл-indexjs-до-выполнения-транспиляции">Файл index.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">16&lt;/span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> Math.&lt;span style="color:#a6e22e">sqrt&lt;/span> &lt;span style="color:#f92672">|&amp;gt;&lt;/span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-indexjs-после-выполнения-транспиляции">Файл index.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_ref&lt;/span>, &lt;span style="color:#a6e22e">_&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">_ref&lt;/span> &lt;span style="color:#f92672">=&lt;/span> (&lt;span style="color:#a6e22e">_&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">16&lt;/span>, Math.&lt;span style="color:#a6e22e">sqrt&lt;/span>(&lt;span style="color:#a6e22e">_&lt;/span>)), &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_ref&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-mainjs-до-выполнения-транспиляции">Файл main.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#a6e22e">moment&lt;/span> &lt;span style="color:#a6e22e">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;moment&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">import&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span> &lt;span style="color:#a6e22e">from&lt;/span> &lt;span style="color:#e6db74">&amp;#39;./name&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">name&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">moment&lt;/span>.&lt;span style="color:#a6e22e">unix&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;1500514362&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">format&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;&lt;/span>));
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-mainjs-после-выполнения-транспиляции">Файл main.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use strict&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_moment&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">require&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;moment&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_moment2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">_moment&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_name&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">require&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;./name&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">_name2&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">_name&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">_interopRequireDefault&lt;/span>(&lt;span style="color:#a6e22e">obj&lt;/span>) { &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span>.&lt;span style="color:#a6e22e">__esModule&lt;/span> &lt;span style="color:#f92672">?&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> &lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#66d9ef">default&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#a6e22e">obj&lt;/span> }; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_name2&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#a6e22e">_moment2&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span>.&lt;span style="color:#a6e22e">unix&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;1500514362&amp;#39;&lt;/span>).&lt;span style="color:#a6e22e">format&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;DD.MM.YYYY HH:mm:ss&amp;#39;&lt;/span>));
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-namejs-до-выполнения-транспиляции">Файл name.js до выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#e6db74">&amp;#39;D. O. Isaichev&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="файл-namejs-после-выполнения-транспиляции">Файл name.js после выполнения транспиляции:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;use strict&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Object.&lt;span style="color:#a6e22e">defineProperty&lt;/span>(&lt;span style="color:#a6e22e">exports&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;__esModule&amp;#34;&lt;/span>, {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">exports&lt;/span>.&lt;span style="color:#66d9ef">default&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;D. O. Isaichev&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения работ были получены навыки работы с транспилятором Babel. Была выполнена транспиляция файлов index.js, main.js, name.js.&lt;/p></description></item><item><title>lab56</title><link>https://danilaisaichev.github.io/comppract/lab56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab56/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Научиться выполнять сборку проекта с помощью webpack.&lt;/p>
+&lt;h2 id="инициализация-проекта">Инициализация проекта:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-init.png" alt="yarn init">&lt;/p>
+&lt;h2 id="добавление-webpack-и-webpack-cli">Добавление webpack и webpack-cli:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-d.png" alt="yarn add webpack">&lt;/p>
+&lt;h2 id="добавление-moment">Добавление moment:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-moment.png" alt="yarn add moment">&lt;/p>
+&lt;h2 id="packagejson">package.json:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/package.json.png" alt="package.json">&lt;/p>
+&lt;h2 id="indexjs">index.js:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/index.js.png" alt="index.js">&lt;/p>
+&lt;h2 id="сборка">Сборка:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-webpack.png" alt="build">&lt;/p>
+&lt;h2 id="readmemd">README.md:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/readme.png" alt="README">&lt;/p>
+&lt;h2 id="результат">Результат:&lt;/h2>
+
+ &lt;div id="lab56-result">&lt;/div>
+ &lt;script src="./lab5-6/main.js">&lt;/script>
+
+
+&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения работ были получены сборки проекта с помощью webpack.&lt;/p>
+&lt;h2 id="ссылка-на-репозиторий">Ссылка на репозиторий:&lt;/h2>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab5-6/ class="button" target="_blank">Репозиторий с результатами выполнения лабораторных работ 5-6&lt;/a>
+
+&lt;/div></description></item><item><title>lab78</title><link>https://danilaisaichev.github.io/comppract/lab78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab78/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;p>Научиться создавать изображения с помощью JavaScript Canvas API и:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Создать страницу с логотипом, повёрнутым на 90
+градусов против часовой стрелки, состоящим из:
+инициалов, записанных в стиле написания
+почтового индекса, и кривой Безье под ними.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать страницу, на которой полученный
+логотип будет использован, как фоновый узор.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="функция-отвечающая-за-создание-canvasа">Функция, отвечающая за создание Canvas&amp;rsquo;а:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">makeCanvas&lt;/span>(&lt;span style="color:#a6e22e">x&lt;/span>, &lt;span style="color:#a6e22e">y&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">canvas&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;canvas&amp;#39;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ctx&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">getContext&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;2d&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">setAttribute&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;width&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">x&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">canvas&lt;/span>.&lt;span style="color:#a6e22e">setAttribute&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;height&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">y&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> { &lt;span style="color:#a6e22e">canvas&lt;/span>, &lt;span style="color:#a6e22e">ctx&lt;/span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="фрагмент-кода-отвечающий-за">Фрагмент кода, отвечающий за:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>создание нового Canvas’а;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>добавления его к body;&lt;/p></description></item><item><title>lab910</title><link>https://danilaisaichev.github.io/comppract/lab910/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab910/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://danilaisaichev.github.io/comppract/Lab9/Labs9-10.pdf class="button" target="_blank">Отчёт о выполнении лабораторных работ 9-10&lt;/a>
+
+&lt;/div>
+&lt;h2 id="post-запрос-с-помощью-telnet">POST запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/POST1.png" alt="POST запрос с помощью telnet">&lt;/p>
+&lt;h2 id="ответ-на-post-запрос-с-помощью-telnet">Ответ на POST запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/POST2.png" alt="Ответ на POST запрос с помощью telnet">&lt;/p>
+&lt;h2 id="get-запрос-с-помощью-telnet">GET запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/GET1.png" alt="GET запрос с помощью telnet">&lt;/p>
+&lt;h2 id="ответ-на-get-запрос-с-помощью-telnet">Ответ на GET запрос с помощью telnet&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/telnet/GET2.png" alt="Ответ на GET запрос с помощью telnet">&lt;/p>
+&lt;h2 id="post-запрос-с-помощью-curl">POST запрос с помощью curl&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/curl/POST1.png" alt="POST запрос с помощью curl">&lt;/p>
+&lt;h2 id="ответ-на-post-запрос-с-помощью-curl">Ответ на POST запрос с помощью curl&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/comppract/Lab9/curl/POST2.png" alt="Ответ на POST запрос с помощью curl">&lt;/p></description></item><item><title>lab1112</title><link>https://danilaisaichev.github.io/comppract/lab1112/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1112/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать приложение, получающее данные через форму, и кодирующее их в MD5 и SHA-1.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать приложение-калькулятор, получающее данные через форму, и выводящее результаты вычислений на той же странице.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-создание-приложения-получающего-данные-через-форму-и-кодирующего-их-в-md5-и-sha-1">1. Создание приложения, получающего данные через форму, и кодирующего их в MD5 и SHA-1.&lt;/h2>
+&lt;h3 id="код-формы-собирающей-данные-для-кодирования-фрагмент-indexphp">Код формы, собирающей данные для кодирования (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Lab 11&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">form&lt;/span> &lt;span style="color:#a6e22e">action&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;index.php&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span> &amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Name &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;name&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;name&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Anonimous&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> E-mail: &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;email&amp;#34;&lt;/span>/&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Password &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pass&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;pass&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;password&amp;#34;&lt;/span> /&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">br&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">form&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-кодирование-и-вывод-данных-фрагмент-indexphp">Код, отвечающий за кодирование и вывод данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span> $password_md5 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">md5&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_sh1 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sha1&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#a6e22e">date&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>) &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;Приветствую, &lt;/span>&lt;span style="color:#e6db74">$name&lt;/span>&lt;span style="color:#e6db74">, с почтой (&lt;/span>&lt;span style="color:#e6db74">$email&lt;/span>&lt;span style="color:#e6db74">)! &amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Пароль: &amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;md5: &amp;#34;&lt;/span>, $password_md5 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sh1: &amp;#34;&lt;/span>, $password_sh1 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-приложения-indexphp">Код приложения (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GET&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;form action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34; &amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> Name &amp;lt;input id=&amp;#34;name&amp;#34; name=&amp;#34;name&amp;#34; value=&amp;#34;Anonimous&amp;#34; /&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> E-mail: &amp;lt;input id=&amp;#34;email&amp;#34; name=&amp;#34;email&amp;#34; type=&amp;#34;email&amp;#34;/&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> Password &amp;lt;input id=&amp;#34;pass&amp;#34; name=&amp;#34;pass&amp;#34; type=&amp;#34;password&amp;#34; /&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;br&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/form&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#34;REQUEST_METHOD&amp;#34;&lt;/span>] &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $name &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;name&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $email &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;email&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $pass &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;pass&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($name &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> $email &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> $pass &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">Null&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_md5 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">md5&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $password_sh1 &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">sha1&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;password&amp;#39;&lt;/span>]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 11&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#a6e22e">date&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>) &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;Приветствую, &lt;/span>&lt;span style="color:#e6db74">$name&lt;/span>&lt;span style="color:#e6db74">, с почтой (&lt;/span>&lt;span style="color:#e6db74">$email&lt;/span>&lt;span style="color:#e6db74">)! &amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Пароль: &amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;md5: &amp;#34;&lt;/span>, $password_md5 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;sh1: &amp;#34;&lt;/span>, $password_sh1 &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;p&amp;gt;&amp;#39;&lt;/span> &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Поля не были заполнены&amp;#34;&lt;/span>, $pass &lt;span style="color:#f92672">.&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/p&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результаты-md5-sh1">Результаты md5 sh1:&lt;/h3>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab11/ class="button" target="_blank">Репозиторий с результатами выполнения работы&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/CPLab11 class="button" target="_blank">Ссылка на Repl&lt;/a>
+
+&lt;/div>
+&lt;h2 id="2-создание-приложения-калькулятора-получающего-данные-через-форму-и-выводящего-результаты-вычислений-на-той-же-странице">2. Создание приложения-калькулятора, получающего данные через форму, и выводящего результаты вычислений на той же странице.&lt;/h2>
+&lt;h3 id="код-для-асинхронной-отправки-данных-фрагмент-indexphp">Код для асинхронной отправки данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://code.jquery.com/jquery-3.6.0.min.js&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">$&lt;/span>(document).&lt;span style="color:#a6e22e">ready&lt;/span>(&lt;span style="color:#66d9ef">function&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#e6db74">`#calcform`&lt;/span>).&lt;span style="color:#a6e22e">on&lt;/span>(&lt;span style="color:#e6db74">`submit`&lt;/span>, &lt;span style="color:#66d9ef">function&lt;/span>(&lt;span style="color:#a6e22e">e&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">e&lt;/span>.&lt;span style="color:#a6e22e">preventDefault&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>.&lt;span style="color:#a6e22e">ajax&lt;/span>({
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">url&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">`/index.php`&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">`POST`&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">data&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#66d9ef">this&lt;/span>).&lt;span style="color:#a6e22e">serialize&lt;/span>(),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">success&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">function&lt;/span>(&lt;span style="color:#a6e22e">data&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">$&lt;/span>(&lt;span style="color:#e6db74">`#result`&lt;/span>).&lt;span style="color:#a6e22e">html&lt;/span>(&lt;span style="color:#a6e22e">data&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> });
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-формы-получающей-данные-для-вычисления-фрагмент-indexphp">Код формы, получающей данные для вычисления (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">form&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;calcform&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;calcform&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">action&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;index.php&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">method&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;n1&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;number&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">placeholder&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;3&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span> &lt;span style="color:#a6e22e">pattern&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;1?[0-9]&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">select&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;op&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;operator&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&amp;gt;+&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&amp;gt;-&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&amp;gt;*&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&amp;gt;/&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">option&lt;/span> &lt;span style="color:#a6e22e">value&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&amp;gt;^&amp;lt;/&lt;span style="color:#f92672">option&lt;/span>&amp;gt; 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;/&lt;span style="color:#f92672">select&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;n2&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;number&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">placeholder&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;4&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span> &lt;span style="color:#a6e22e">pattern&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;1?[0-9]&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;result&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">form&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-вычисления-и-вывод-данных-фрагмент-indexphp">Код, отвечающий за вычисления и вывод данных (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>$a &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n1&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$o &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;op&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$b &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n2&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">switch&lt;/span> ($o) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">+&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> + &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">-&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> - &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">*&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> * &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">/&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> / &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">**&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> ^ &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-приложения-indexphp-1">Код приложения (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;GET&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;html&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;title&amp;gt;Lab 12&amp;lt;/title&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;script src=&amp;#34;https://code.jquery.com/jquery-3.6.0.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(document).ready(function() {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(`#calcform`).on(`submit`, function(e) {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> e.preventDefault();
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $.ajax({
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> url: `/index.php`,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> method: `POST`,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> data: $(this).serialize(),
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> success: function(data) {
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> $(`#result`).html(data);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> }
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> });
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/head&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;form id=&amp;#34;calcform&amp;#34; name=&amp;#34;calcform&amp;#34; action=&amp;#34;index.php&amp;#34; method=&amp;#34;POST&amp;#34;&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input name=&amp;#34;n1&amp;#34; type=&amp;#34;number&amp;#34; placeholder=&amp;#34;3&amp;#34; required pattern=&amp;#34;1?[0-9]&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;select name=&amp;#34;op&amp;#34; id=&amp;#34;operator&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;add&amp;#34;&amp;gt;+&amp;lt;/option&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;substract&amp;#34;&amp;gt;-&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;multiply&amp;#34;&amp;gt;*&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;divide&amp;#34;&amp;gt;/&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;option value=&amp;#34;exponentiate&amp;#34;&amp;gt;^&amp;lt;/option&amp;gt; 
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/select&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input name=&amp;#34;n2&amp;#34; type=&amp;#34;number&amp;#34; placeholder=&amp;#34;4&amp;#34; required pattern=&amp;#34;1?[0-9]&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input type=&amp;#34;submit&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;div id=&amp;#34;result&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/form&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/body&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;lt;/html&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>] &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#e6db74">&amp;#34;POST&amp;#34;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $a &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n1&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $o &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;op&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $b &lt;span style="color:#f92672">=&lt;/span> $_POST[&lt;span style="color:#e6db74">&amp;#39;n2&amp;#39;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">switch&lt;/span> ($o) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;add&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">+&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> + &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;substract&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">-&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> - &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;multiply&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">*&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> * &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;divide&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">/&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> / &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;exponentiate&amp;#34;&lt;/span>&lt;span style="color:#f92672">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $res &lt;span style="color:#f92672">=&lt;/span> $a &lt;span style="color:#f92672">**&lt;/span> $b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;p&amp;gt;&lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$a&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> ^ &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$b&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74"> = &lt;/span>&lt;span style="color:#e6db74">{&lt;/span>$res&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;lt;/p&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="калькулятор">Калькулятор:&lt;/h3>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPLab12/ class="button" target="_blank">Репозиторий с результатами выполнения работы&lt;/a>
+ &lt;a href=https://replit.com/@DanilaIsaichev/CPLab12 class="button" target="_blank">Ссылка на Repl&lt;/a>
+
+&lt;/div>
+&lt;h2 id="вывод">Вывод:&lt;/h2>
+&lt;p>В ходе выполнения лабораторной работы были получены навыки работы с языком программирования php и ajax.
+Были созданы два приложения:&lt;/p></description></item><item><title>lab1314</title><link>https://danilaisaichev.github.io/comppract/lab1314/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab1314/</guid><description>&lt;h1 id="отчёт-по-лабораторным-работам-13-и-14">Отчёт по лабораторным работам 13 и 14&lt;/h1>
+&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать журнал сообщений.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать модифицированную версию журнала сообщений с формой на Bootstrap.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Создать приложение «Книга отзывов» с использованием БД MySQL.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-создание-журнала-сообщений">1. Создание журнала сообщений.&lt;/h2>
+&lt;h3 id="код-отвечающий-за-запись-данных-в-файл-фрагмент-indexphp">Код, отвечающий за запись данных в файл (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>]&lt;span style="color:#f92672">===&lt;/span>&lt;span style="color:#e6db74">&amp;#39;POST&amp;#39;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $r &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">htmlentities&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;message&amp;#39;&lt;/span>]) &lt;span style="color:#f92672">??&lt;/span> &lt;span style="color:#e6db74">&amp;#39;Пустое сообщение&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, $r);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-формы-собирающей-данные-фрагмент-indexphp">Код формы, собирающей данные (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">label&lt;/span>&amp;gt;Сообщение&amp;lt;/&lt;span style="color:#f92672">label&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">input&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;message&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;message&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">required&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;required&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;text&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;submit&amp;#34;&lt;/span>&amp;gt;Отправить сообщение&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-вывод-результата-работы-кода-из-listphp-фрагмент-indexphp">Код, отвечающий за вывод результата работы кода из list.php (фрагмент index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/form&amp;gt;&amp;lt;/div&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;h2&amp;gt;Список отзывов&amp;lt;/h2&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="главная-страница-indexphp">Главная страница (index.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">h1&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#a6e22e">Работа&lt;/span> &lt;span style="color:#a6e22e">с&lt;/span> &lt;span style="color:#a6e22e">логом&lt;/span>&lt;span style="color:#f92672">&amp;lt;/&lt;/span>&lt;span style="color:#a6e22e">h1&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h2&amp;gt;Форма для заполнения&amp;lt;/h2&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> ($_SERVER[&lt;span style="color:#e6db74">&amp;#39;REQUEST_METHOD&amp;#39;&lt;/span>]&lt;span style="color:#f92672">===&lt;/span>&lt;span style="color:#e6db74">&amp;#39;POST&amp;#39;&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $r &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">htmlentities&lt;/span>($_POST[&lt;span style="color:#e6db74">&amp;#39;message&amp;#39;&lt;/span>]) &lt;span style="color:#f92672">??&lt;/span> &lt;span style="color:#e6db74">&amp;#39;Пустое сообщение&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, $r);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fwrite&lt;/span>($f, &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;style&amp;gt;.right {width: 60%; margin-left: 35%; zoom: 80%}&amp;lt;/style&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;div class=&amp;#34;right&amp;gt;&amp;lt;h2&amp;gt;Добавить ещё один отзыв&amp;lt;/h2&amp;gt;&amp;lt;/div&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;h3 style=&amp;#34;color:green&amp;#34;&amp;gt;Данные успешно добавлены&amp;lt;/h3&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> $f;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;div class=&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">right&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;form method=&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">post&lt;/span>&lt;span style="color:#ae81ff">\&amp;#34;&lt;/span>&lt;span style="color:#e6db74">&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;lt;&amp;lt;&amp;lt;&lt;/span>&lt;span style="color:#e6db74">_END&lt;/span>&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;label&amp;gt;Сообщение&amp;lt;/label&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;input id=&amp;#34;message&amp;#34; name=&amp;#34;message&amp;#34; required=&amp;#34;required&amp;#34; type=&amp;#34;text&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;button type=&amp;#34;submit&amp;#34;&amp;gt;Отправить сообщение&amp;lt;/button&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/div&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&lt;/span>&lt;span style="color:#e6db74">_END&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/form&amp;gt;&amp;lt;/div&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&amp;lt;h2&amp;gt;Список отзывов&amp;lt;/h2&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">echo&lt;/span> &lt;span style="color:#66d9ef">require_once&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;list.php&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="код-отвечающий-за-считывание-данных-из-logtxt-listphp">Код, отвечающий за считывание данных из log.txt (list.php):&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;?&lt;/span>&lt;span style="color:#a6e22e">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $f &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fopen&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;log.txt&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;r&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;ul&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">wrap&lt;/span>($x){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;li&amp;gt;&amp;#39;&lt;/span>&lt;span style="color:#f92672">.&lt;/span>$x&lt;span style="color:#f92672">.&lt;/span>&lt;span style="color:#e6db74">&amp;#39;&amp;lt;/li&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (($line &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">fgets&lt;/span>($f)) &lt;span style="color:#f92672">!==&lt;/span> &lt;span style="color:#66d9ef">false&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#a6e22e">wrap&lt;/span>($line);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fclose&lt;/span>($f);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> $list &lt;span style="color:#f92672">.=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;lt;/ul&amp;gt;&amp;#39;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> $list;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">?&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="результаты-выполнения-работы">Результаты выполнения работы:&lt;/h3>
+&lt;p>&lt;img src="./lab13-14-screenshots/13.1%20result%201.png" alt="13.1 result 1">&lt;/p></description></item><item><title>lab15</title><link>https://danilaisaichev.github.io/comppract/lab15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/lab15/</guid><description>&lt;h2 id="цель">Цель:&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Создать Express-приложение, которое по маршруту /add (GET) добавляет в коллекцию users в этой базе данных документ со следующими полями:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>поле login состоит из слова herzen, знака @ и электронной почты, как она указана в Moodle (&lt;a href="mailto:herzen@danila.isaichev">herzen@danila.isaichev&lt;/a>@mail.ru);&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>поле password содержит число, переданное через сообщение в Moodle перед началом занятия (16).&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Добавить маршрут /addfrompage, который работает аналогично предыдущему, но поле password содержит результат считывания содержимого со страницы &lt;a href="http://kodaktor.ru/g/_unsafe/65e39">http://kodaktor.ru/g/_unsafe/65e39&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Осуществить вставку, перейдя по маршруту /add.&lt;/p></description></item><item><title>isr1</title><link>https://danilaisaichev.github.io/comppract/isr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr1/</guid><description>&lt;h3 id="создание-проекта">Создание проекта&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn init -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="добавление-зависимостей">Добавление зависимостей&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn add -D babel-cli babel-preset-env
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="настройка-babel-файл-babelrc">Настройка Babel (файл .babelrc)&lt;/h3>
+&lt;pre tabindex="0">&lt;code>{&amp;#34;presets&amp;#34;: [&amp;#34;env&amp;#34;]}
+&lt;/code>&lt;/pre>&lt;h3 id="добавление-библиотеки-moment">Добавление библиотеки moment&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>yarn add moment
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="команда-транспиляции">Команда транспиляции&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>babel-node ./src/index.js
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="сборка-проекта">Сборка проекта&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>babel ./src -d ./lib
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Файлы main.js и name.js находятся в отношении нативной модульности.&lt;/p>
+&lt;p>Исходные файлы расположены в директории src, транспилированные - в директории res.&lt;/p>
+&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/CPISR1 class="button" target="_blank">Ссылка на репозиторий&lt;/a>
+
+&lt;/div></description></item><item><title>isr2</title><link>https://danilaisaichev.github.io/comppract/isr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr2/</guid><description>&lt;p>&lt;img src="./isr-2-screenshots/isr2.gif" alt="isr2">&lt;/p></description></item><item><title>isr3</title><link>https://danilaisaichev.github.io/comppract/isr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/isr3/</guid><description>&lt;p>Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.&lt;/p>
+&lt;p>MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.&lt;/p>
+&lt;p>Схема может иметь следующий вид:&lt;/p>
+&lt;pre tabindex="0">&lt;code>{
+ name: String,
+ type: String,
+ amount: {
+ number: Number,
+ unit: String
+ }
 }
-} Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
-Приложение реализовано с использованием Express, bodyParser, Mongoose.
-Реализованы следующие операции:
-GET /products - получение списка продуктов</description></item><item><title>vsr1</title><link>https://danilaisaichev.github.io/comppract/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr1/</guid><description>Инициализация проекта: Добавление webpack и webpack-cli: Добавление moment: package.json: index.js: Сборка: README.md: Результат:</description></item><item><title>vsr2</title><link>https://danilaisaichev.github.io/comppract/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr2/</guid><description>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.
-Приложение реализовано с использованием Express, bodyParser, Mongoose.
-Реализованы следующие операции:
-GET /products - получение списка продуктов
-POST /products/new - добавление нового продукта
-POST /products/update/:id - обновление информации о продукте по ID
-POST /products/delete/:id - удаление информации о продукте по ID
-При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</description></item><item><title>vsr3</title><link>https://danilaisaichev.github.io/comppract/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr3/</guid><description>NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.
-Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:
-базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно); гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных; согласованность в конечном счёте — данные могут быть некоторое время рассогласованы, но приходят к согласованию через некоторое время.</description></item><item><title>vsr4</title><link>https://danilaisaichev.github.io/comppract/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr4/</guid><description>Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.
-После создания аккаунта необходимо создать сервер с готовым образом Docker:
-После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.
-Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.
-Для установки контейнера необходимо выполнить команду:
-docker pull ghost Для запуска Ghost необходимо выполнить команду:
-docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="./isr-3-screenshots/1.png" alt="ИСР тема 3">&lt;/p>
+&lt;p>Реализован REST API для выполнения операций CRUD в базе данных MongoDB.&lt;/p>
+&lt;p>Приложение реализовано с использованием Express, bodyParser, Mongoose.&lt;/p>
+&lt;p>Реализованы следующие операции:&lt;/p>
+&lt;p>&lt;code>GET /products&lt;/code> - получение списка продуктов&lt;/p></description></item><item><title>vsr1</title><link>https://danilaisaichev.github.io/comppract/vsr1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr1/</guid><description>&lt;h2 id="инициализация-проекта">Инициализация проекта:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-init.png" alt="yarn init">&lt;/p>
+&lt;h2 id="добавление-webpack-и-webpack-cli">Добавление webpack и webpack-cli:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-d.png" alt="yarn add webpack">&lt;/p>
+&lt;h2 id="добавление-moment">Добавление moment:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-add-moment.png" alt="yarn add moment">&lt;/p>
+&lt;h2 id="packagejson">package.json:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/package.json.png" alt="package.json">&lt;/p>
+&lt;h2 id="indexjs">index.js:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/index.js.png" alt="index.js">&lt;/p>
+&lt;h2 id="сборка">Сборка:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/yarn-webpack.png" alt="build">&lt;/p>
+&lt;h2 id="readmemd">README.md:&lt;/h2>
+&lt;p>&lt;img src="./lab5-6-screenshots/readme.png" alt="README">&lt;/p>
+&lt;h2 id="результат">Результат:&lt;/h2>
+
+ &lt;div id="vsr1-result">&lt;/div>
+ &lt;script src="./vsr1/main.js">&lt;/script></description></item><item><title>vsr2</title><link>https://danilaisaichev.github.io/comppract/vsr2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr2/</guid><description>&lt;p>Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.&lt;/p>
+&lt;p>Приложение реализовано с использованием Express, bodyParser, Mongoose.&lt;/p>
+&lt;p>Реализованы следующие операции:&lt;/p>
+&lt;p>&lt;code>GET /products&lt;/code> - получение списка продуктов&lt;/p>
+&lt;p>&lt;code>POST /products/new&lt;/code> - добавление нового продукта&lt;/p>
+&lt;p>&lt;code>POST /products/update/:id&lt;/code> - обновление информации о продукте по ID&lt;/p>
+&lt;p>&lt;code>POST /products/delete/:id&lt;/code> - удаление информации о продукте по ID&lt;/p>
+&lt;p>При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.&lt;/p></description></item><item><title>vsr3</title><link>https://danilaisaichev.github.io/comppract/vsr3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr3/</guid><description>&lt;p>NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.&lt;/p>
+&lt;p>Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:&lt;/p>
+&lt;ul>
+&lt;li>базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно);&lt;/li>
+&lt;li>гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных;&lt;/li>
+&lt;li>согласованность в конечном счёте — данные могут быть некоторое время рассогласованы, но приходят к согласованию через некоторое время.&lt;/li>
+&lt;/ul>
+&lt;p>Типы NoSQL-систем:&lt;/p></description></item><item><title>vsr4</title><link>https://danilaisaichev.github.io/comppract/vsr4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/comppract/vsr4/</guid><description>&lt;p>Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.&lt;/p>
+&lt;p>После создания аккаунта необходимо создать сервер с готовым образом Docker:&lt;/p>
+&lt;p>&lt;img src="./vsr-4-screenshots/1.png" alt="ВСР тема 4 1)">&lt;/p>
+&lt;p>После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.&lt;/p>
+&lt;p>Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.&lt;/p>
+&lt;p>Для установки контейнера необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker pull ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Для запуска Ghost необходимо выполнить команду:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker run -d --name some-ghost -e url&lt;span style="color:#f92672">=&lt;/span>http://localhost:3001 -p 3001:2368 ghost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>После этого Ghost будет доступен по адресу &lt;code>server_ip:3001&lt;/code>.&lt;/p></description></item></channel></rss>

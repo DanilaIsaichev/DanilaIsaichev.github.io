@@ -1,1 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pit on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/pit/</link><description>Recent content in pit on Danila Isaichev's Portfolio</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/pit/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's encrypt</title><link>https://danilaisaichev.github.io/pit/letsencrypt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencrypt/</guid><description>Скринкаст:</description></item><item><title>Docker BPR (Build &amp; Push &amp; Run)</title><link>https://danilaisaichev.github.io/pit/dockerbpr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockerbpr/</guid><description> Ссылка на образ в Docker Hub</description></item><item><title>Docker-Compose First Look</title><link>https://danilaisaichev.github.io/pit/dockercompose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockercompose/</guid><description>Скринкаст:</description></item><item><title>LetsEncrypt &amp; Nginx Proxy</title><link>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</guid><description> docker-compose Получение сертификата для whoami: Получение сертификата для whoami2: Результат для whoami: Результат для whoami2:</description></item><item><title>Настройка подключения к виртуальной частной сети</title><link>https://danilaisaichev.github.io/pit/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/vpn/</guid><description>Команды для настройки сервера: sudo apt update &amp;amp;&amp;amp; sudo apt upgrade -y sudo apt-get install \ ca-certificates \ curl \ gnupg \ lsb-release curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg echo \ &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn serveconfig Результат:</description></item><item><title>Список провайдеров oAuth</title><link>https://danilaisaichev.github.io/pit/oauth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/oauth/</guid><description> Название Ссылки на документацию и playground (если есть) Ссылки на модули и библиотеки Yandex https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html https://pkg.go.dev/golang.org/x/oauth2/yandex VK https://dev.vk.com/api/oauth-parameters https://pkg.go.dev/golang.org/x/oauth2/vk Mail.ru https://help.mail.ru/developers/oauth https://pkg.go.dev/golang.org/x/oauth2/mailru Google https://developers.google.cn/identity/protocols/oauth2 https://developers.google.com/oauthplayground/ https://github.com/googleapis/google-api-go-client https://pkg.go.dev/golang.org/x/oauth2/google Github https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps https://pkg.go.dev/golang.org/x/oauth2/github Odnoklassniki https://apiok.ru/ext/oauth/ https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik</description></item><item><title>Реализация дополнительной стратегии oAuth 2.0</title><link>https://danilaisaichev.github.io/pit/passportjs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/passportjs/</guid><description> Ссылка на репозиторий Скринкаст:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pit on Danila Isaichev's Portfolio</title><link>https://danilaisaichev.github.io/pit/</link><description>Recent content in pit on Danila Isaichev's Portfolio</description><generator>Hugo</generator><language>ru</language><atom:link href="https://danilaisaichev.github.io/pit/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's encrypt</title><link>https://danilaisaichev.github.io/pit/letsencrypt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencrypt/</guid><description>&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Jl9PHleO9kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item><item><title>Docker BPR (Build &amp; Push &amp; Run)</title><link>https://danilaisaichev.github.io/pit/dockerbpr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockerbpr/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://hub.docker.com/r/danilaisaichev/weather class="button" target="_blank">Ссылка на образ в Docker Hub&lt;/a>
+
+&lt;/div></description></item><item><title>Docker-Compose First Look</title><link>https://danilaisaichev.github.io/pit/dockercompose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/dockercompose/</guid><description>&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/q2JU1tYP6po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item><item><title>LetsEncrypt &amp; Nginx Proxy</title><link>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/letsencryptnginxproxy/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/LetsEncrypt-Nginx-Proxy/blob/main/docker-compose.yml class="button" target="_blank">docker-compose&lt;/a>
+
+&lt;/div>
+&lt;h3 id="получение-сертификата-для-whoami">Получение сертификата для whoami:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami_sert_1.png" alt="Получение сертификата для whoami">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami_sert_2.png" alt="Получение сертификата для whoami">&lt;/p>
+&lt;h3 id="получение-сертификата-для-whoami2">Получение сертификата для whoami2:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami2_sert.png" alt="Получение сертификата для whoami2">&lt;/p>
+&lt;h3 id="результат-для-whoami">Результат для whoami:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami.png" alt="Результат для whoami">&lt;/p>
+&lt;h3 id="результат-для-whoami2">Результат для whoami2:&lt;/h3>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/letsencrypt&amp;amp;nginxproxy/whoami2.png" alt="Результат для whoami2">&lt;/p></description></item><item><title>Настройка подключения к виртуальной частной сети</title><link>https://danilaisaichev.github.io/pit/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/vpn/</guid><description>&lt;h2 id="команды-для-настройки-сервера">Команды для настройки сервера:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt upgrade -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get install &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> ca-certificates &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> curl &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> gnupg &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> lsb-release
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#e6db74">&amp;#34;deb [arch=&lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>dpkg
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--print-architecture&lt;span style="color:#66d9ef">)&lt;/span>&lt;span style="color:#e6db74"> signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">https://download.docker.com/linux/ubuntu \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>lsb_release -cs&lt;span style="color:#66d9ef">)&lt;/span>&lt;span style="color:#e6db74"> stable&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install docker-ce docker-ce-cli containerd.io
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker-compose-plugin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker run -t -i -p 8080:8080 --volumes-from $CID umputun/dockvpn
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>serveconfig
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="результат">Результат:&lt;/h2>
+&lt;p>&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN1.png" alt="VPN1">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN2.png" alt="VPN2">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN3.png" alt="VPN3">&lt;br>
+&lt;img src="https://danilaisaichev.github.io/pit/vpn/VPN4.png" alt="VPN4">&lt;/p></description></item><item><title>Список провайдеров oAuth</title><link>https://danilaisaichev.github.io/pit/oauth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/oauth/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Название&lt;/th>
+ &lt;th>Ссылки на документацию и playground (если есть)&lt;/th>
+ &lt;th>Ссылки на модули и библиотеки&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Yandex&lt;/td>
+ &lt;td>&lt;a href="https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html">https://yandex.ru/dev/id/doc/dg/oauth/concepts/about.html&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/yandex">https://pkg.go.dev/golang.org/x/oauth2/yandex&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>VK&lt;/td>
+ &lt;td>&lt;a href="https://dev.vk.com/api/oauth-parameters">https://dev.vk.com/api/oauth-parameters&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/vk">https://pkg.go.dev/golang.org/x/oauth2/vk&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Mail.ru&lt;/td>
+ &lt;td>&lt;a href="https://help.mail.ru/developers/oauth">https://help.mail.ru/developers/oauth&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/mailru">https://pkg.go.dev/golang.org/x/oauth2/mailru&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Google&lt;/td>
+ &lt;td>&lt;a href="https://developers.google.cn/identity/protocols/oauth2">https://developers.google.cn/identity/protocols/oauth2&lt;/a> &lt;a href="https://developers.google.com/oauthplayground/">https://developers.google.com/oauthplayground/&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://github.com/googleapis/google-api-go-client">https://github.com/googleapis/google-api-go-client&lt;/a> &lt;a href="https://pkg.go.dev/golang.org/x/oauth2/google">https://pkg.go.dev/golang.org/x/oauth2/google&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Github&lt;/td>
+ &lt;td>&lt;a href="https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps">https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/github">https://pkg.go.dev/golang.org/x/oauth2/github&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Odnoklassniki&lt;/td>
+ &lt;td>&lt;a href="https://apiok.ru/ext/oauth/">https://apiok.ru/ext/oauth/&lt;/a>&lt;/td>
+ &lt;td>&lt;a href="https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik">https://pkg.go.dev/golang.org/x/oauth2/odnoklassnik&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Реализация дополнительной стратегии oAuth 2.0</title><link>https://danilaisaichev.github.io/pit/passportjs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danilaisaichev.github.io/pit/passportjs/</guid><description>&lt;div class="flex-column">
+ 
+ &lt;a href=https://github.com/DanilaIsaichev/PassportJS class="button" target="_blank">Ссылка на репозиторий&lt;/a>
+
+&lt;/div>
+&lt;h3 id="скринкаст">Скринкаст:&lt;/h3>
+&lt;div>
+ 
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/idl5v9bidTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+
+&lt;/div></description></item></channel></rss>
