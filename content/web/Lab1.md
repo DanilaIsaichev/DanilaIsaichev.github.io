@@ -23,7 +23,7 @@ subject: "Веб проектирование"
     {{<button text="DTD" link="https://github.com/DanilaIsaichev/WEBLab1/blob/main/stats.dtd">}}
 {{</buttons_row>}}
 
-4. Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа [xmlvalidation.com](xmlvalidation.com)
+4. Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа [xmlvalidation.com](https://xmlvalidation.com)
 
 {{<buttons_row>}}
     {{<button text="XML-документ" link="https://github.com/DanilaIsaichev/WEBLab1/blob/main/students.xml">}}
